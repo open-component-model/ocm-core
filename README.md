@@ -4,11 +4,26 @@
 
 ## About this project
 
-Core Golang Library of the Open Component Model
+This project provides the core Go library containing an API for interacting with the
+[Open Component Model (OCM)](https://github.com/open-component-model/ocm-spec) elements and mechanisms.
 
-## Requirements and Setup
+The library currently supports the following [repository mappings](https://github.com/open-component-model/ocm/tree/main/docs/ocm/interoperability.md):
 
-*Insert a short description what is required to get your project running...*
+- **OCI**: Use the repository prefix path of an OCI repository to implement an OCM
+  repository.
+- **CTF (Common Transport Format)**: Use a file-based binding to represent any set of
+  component versions as filesystem content (directory, tar, tgz).
+- **Component Archive**: Compose the content of a component version on the
+  filesystem.
+
+For the usage of the library to access OCM repositories, handle configuration and credentials see the [examples section](https://github.com/open-component-model/ocm/tree/main/examples/lib/README.md).
+
+Additionally, OCM provides a generic solution for how to:
+
+- Sign component versions in any supported OCM repository implementation.
+- Verify signatures based on public keys or verified certificates.
+- Transport component versions, per reference or as values to any of the
+  repository implementations.
 
 ## Support, Feedback, Contributing
 
