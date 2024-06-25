@@ -7,11 +7,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/ocm/plugin/descriptor"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/common"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/ocm/plugin/descriptor"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/common"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

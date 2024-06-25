@@ -6,8 +6,8 @@ import (
 
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ctf/index"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ctf/index"
+	"ocm.software/ocm-core/api/utils/accessobj"
 )
 
 type StateHandler struct{}

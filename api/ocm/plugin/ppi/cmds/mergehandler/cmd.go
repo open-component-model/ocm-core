@@ -3,8 +3,8 @@ package mergehandler
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/mergehandler/execute"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/mergehandler/execute"
 )
 
 const Name = "valuemergehandler"

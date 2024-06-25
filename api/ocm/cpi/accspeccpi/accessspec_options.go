@@ -1,8 +1,8 @@
 package accspeccpi
 
 import (
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets/flagsetscheme"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets/flagsetscheme"
 )
 
 type AccessSpecTypeOption = flagsetscheme.TypeOption

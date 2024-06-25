@@ -4,8 +4,8 @@ import (
 	"github.com/mandelsoft/vfs/pkg/vfs"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/file"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/blobaccess/file"
 )
 
 // ForTemporaryFile wraps a temporary file into a BlobAccess, which does not need a close.

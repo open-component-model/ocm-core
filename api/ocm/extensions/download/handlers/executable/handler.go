@@ -6,12 +6,12 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/download"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/utils/compression"
-	"github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/download"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/utils/compression"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 type Handler struct{}

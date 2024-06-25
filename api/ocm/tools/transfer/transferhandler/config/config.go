@@ -1,9 +1,9 @@
 package scriptoption
 
 import (
-	cfgcpi "github.com/open-component-model/ocm/api/config/cpi"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler/standard"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	cfgcpi "ocm.software/ocm-core/api/config/cpi"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler/standard"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

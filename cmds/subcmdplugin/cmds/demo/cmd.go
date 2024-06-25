@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	// bind OCM configuration.
-	_ "github.com/open-component-model/ocm/api/ocm/plugin/ppi/config"
+	_ "ocm.software/ocm-core/api/ocm/plugin/ppi/config"
 
 	"github.com/spf13/cobra"
 )

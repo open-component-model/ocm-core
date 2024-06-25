@@ -7,13 +7,13 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
+	. "ocm.software/ocm-core/api/helper/builder"
 
 	"helm.sh/helm/v3/pkg/chart/loader"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/helm"
-	helm2 "github.com/open-component-model/ocm/api/tech/helm"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/helm"
+	helm2 "ocm.software/ocm-core/api/tech/helm"
 )
 
 var _ = Describe("Method", func() {

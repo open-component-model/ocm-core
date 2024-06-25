@@ -3,11 +3,11 @@ package repooption
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/utils/listformat"
-	"github.com/open-component-model/ocm/api/utils/runtime"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/utils/listformat"
+	"ocm.software/ocm-core/api/utils/runtime"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
 )
 
 func From(o options.OptionSetProvider) *Option {

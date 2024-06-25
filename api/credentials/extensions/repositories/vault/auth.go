@@ -10,8 +10,8 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"golang.org/x/exp/maps"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/vault/identity"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/vault/identity"
 )
 
 type AuthMethod interface {

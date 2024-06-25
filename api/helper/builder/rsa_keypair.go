@@ -3,10 +3,10 @@ package builder
 import (
 	"github.com/mandelsoft/filepath/pkg/filepath"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/signingattr"
-	"github.com/open-component-model/ocm/api/tech/signing/handlers/rsa"
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/signingattr"
+	"ocm.software/ocm-core/api/tech/signing/handlers/rsa"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 // TODO: switch to context local setting.

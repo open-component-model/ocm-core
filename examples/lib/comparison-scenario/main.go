@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/open-component-model/ocm/examples/lib/helper"
-	"github.com/open-component-model/ocm/api/utils/template"
+	"ocm.software/ocm-core/examples/lib/helper"
+	"ocm.software/ocm-core/api/utils/template"
 )
 
 const (

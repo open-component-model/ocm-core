@@ -1,8 +1,8 @@
 package routingslip
 
 import (
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip/internal"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip/internal"
 )
 
 type (

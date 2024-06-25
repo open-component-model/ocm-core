@@ -8,15 +8,15 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/oci/artdesc"
-	"github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/oci/cpi/support"
-	"github.com/open-component-model/ocm/api/oci/extensions/actions/oci-repository-prepare"
-	"github.com/open-component-model/ocm/api/tech/docker/resolve"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/oci/artdesc"
+	"ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/oci/cpi/support"
+	"ocm.software/ocm-core/api/oci/extensions/actions/oci-repository-prepare"
+	"ocm.software/ocm-core/api/tech/docker/resolve"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/logging"
 )
 
 type NamespaceContainer struct {

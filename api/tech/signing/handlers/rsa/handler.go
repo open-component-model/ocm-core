@@ -10,9 +10,9 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
 )
 
 // Algorithm defines the type for the RSA PKCS #1 v1.5 signature algorithm.

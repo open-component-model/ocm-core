@@ -6,11 +6,11 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/examples/lib/helper"
-	"github.com/open-component-model/ocm/api/config/cpi"
-	"github.com/open-component-model/ocm/api/credentials"
-	ociidentity "github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	"github.com/open-component-model/ocm/api/oci"
+	"ocm.software/ocm-core/examples/lib/helper"
+	"ocm.software/ocm-core/api/config/cpi"
+	"ocm.software/ocm-core/api/credentials"
+	ociidentity "ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	"ocm.software/ocm-core/api/oci"
 )
 
 // we already have our new acme.org config object type,

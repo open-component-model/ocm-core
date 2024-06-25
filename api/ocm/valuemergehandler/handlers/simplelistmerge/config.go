@@ -1,7 +1,7 @@
 package simplelistmerge
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/hpi"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/hpi"
 )
 
 func NewConfig(fields ...string) *Config {

@@ -12,9 +12,9 @@ import (
 	"github.com/mandelsoft/vfs/pkg/osfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/descriptor"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/info"
-	"github.com/open-component-model/ocm/pkg/filelock"
+	"ocm.software/ocm-core/api/ocm/plugin/descriptor"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/info"
+	"ocm.software/ocm-core/pkg/filelock"
 )
 
 type PluginDir = *pluginDirImpl

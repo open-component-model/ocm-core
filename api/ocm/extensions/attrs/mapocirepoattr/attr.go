@@ -9,10 +9,10 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"golang.org/x/exp/maps"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/oci/grammar"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/oci/grammar"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

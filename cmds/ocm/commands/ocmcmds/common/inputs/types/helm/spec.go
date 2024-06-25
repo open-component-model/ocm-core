@@ -4,11 +4,11 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/ociartifact"
-	"github.com/open-component-model/ocm/api/utils/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/helm"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/ociartifact"
+	"ocm.software/ocm-core/api/utils/blobaccess"
+	"ocm.software/ocm-core/api/utils/blobaccess/helm"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
 )
 
 type Spec struct {

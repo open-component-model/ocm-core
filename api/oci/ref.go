@@ -7,7 +7,7 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/oci/grammar"
+	"ocm.software/ocm-core/api/oci/grammar"
 )
 
 // to find a suitable secret for images on Docker Hub, we need its two domains to do matching.

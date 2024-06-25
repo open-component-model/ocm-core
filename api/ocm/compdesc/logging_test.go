@@ -11,8 +11,8 @@ import (
 	"github.com/mandelsoft/logging"
 	"github.com/tonglil/buflogr"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 var _ = Describe("logging", func() {

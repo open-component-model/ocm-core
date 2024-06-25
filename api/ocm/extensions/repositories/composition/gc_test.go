@@ -8,10 +8,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm"
-	me "github.com/open-component-model/ocm/api/ocm/extensions/repositories/composition"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm"
+	me "ocm.software/ocm-core/api/ocm/extensions/repositories/composition"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 var _ = Describe("repository", func() {

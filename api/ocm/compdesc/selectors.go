@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"runtime"
 
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/ocm/extraid"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/selector"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/ocm/extraid"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/selector"
 )
 
 type IdentityBasedSelector interface {

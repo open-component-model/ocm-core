@@ -3,14 +3,14 @@ package toicmds
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/toicmds/config"
-	_package "github.com/open-component-model/ocm/cmds/ocm/commands/toicmds/package"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/toicmds/verbs/bootstrap"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/toicmds/verbs/describe"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
-	topicocmrefs "github.com/open-component-model/ocm/cmds/ocm/topics/ocm/refs"
-	topicbootstrap "github.com/open-component-model/ocm/cmds/ocm/topics/toi/bootstrapping"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/cmds/ocm/commands/toicmds/config"
+	_package "ocm.software/ocm-core/cmds/ocm/commands/toicmds/package"
+	"ocm.software/ocm-core/cmds/ocm/commands/toicmds/verbs/bootstrap"
+	"ocm.software/ocm-core/cmds/ocm/commands/toicmds/verbs/describe"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
+	topicocmrefs "ocm.software/ocm-core/cmds/ocm/topics/ocm/refs"
+	topicbootstrap "ocm.software/ocm-core/cmds/ocm/topics/toi/bootstrapping"
 )
 
 // NewCommand creates a new command.

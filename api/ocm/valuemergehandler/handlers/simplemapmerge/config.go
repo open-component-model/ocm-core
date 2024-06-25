@@ -1,9 +1,9 @@
 package simplemapmerge
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/handlers/defaultmerge"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/hpi"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/handlers/defaultmerge"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/hpi"
+	"ocm.software/ocm-core/api/utils"
 )
 
 type Mode = defaultmerge.Mode

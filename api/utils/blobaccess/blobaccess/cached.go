@@ -5,8 +5,8 @@ import (
 
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/file"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/blobaccess/file"
 )
 
 func ForCachedBlobAccess(blob BlobAccess, fss ...vfs.FileSystem) (BlobAccess, error) {

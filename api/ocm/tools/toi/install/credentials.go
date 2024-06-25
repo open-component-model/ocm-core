@@ -5,16 +5,16 @@ import (
 	"github.com/mandelsoft/spiff/features"
 	"github.com/mandelsoft/spiff/spiffing"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	globalconfig "github.com/open-component-model/ocm/api/config/extensions/config"
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/credentials/config"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/directcreds"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/memory"
-	memorycfg "github.com/open-component-model/ocm/api/credentials/extensions/repositories/memory/config"
-	"github.com/open-component-model/ocm/api/ocm/tools/toi"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/common/common"
+	globalconfig "ocm.software/ocm-core/api/config/extensions/config"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/credentials/config"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/directcreds"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/memory"
+	memorycfg "ocm.software/ocm-core/api/credentials/extensions/repositories/memory/config"
+	"ocm.software/ocm-core/api/ocm/tools/toi"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type (

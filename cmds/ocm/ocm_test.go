@@ -6,10 +6,10 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/cmds/ocm/testhelper"
+	. "ocm.software/ocm-core/cmds/ocm/testhelper"
 
-	"github.com/open-component-model/ocm/api/oci/extensions/attrs/cacheattr"
-	"github.com/open-component-model/ocm/api/utils/accessio"
+	"ocm.software/ocm-core/api/oci/extensions/attrs/cacheattr"
+	"ocm.software/ocm-core/api/utils/accessio"
 )
 
 var _ = Describe("OCM command line test Environment", func() {

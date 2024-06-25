@@ -1,7 +1,7 @@
 package componentmapping
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/compdesc"
 )
 
 // ComponentDescriptorFileName is the filename of the component descriptor in a tar file used to store

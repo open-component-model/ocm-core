@@ -1,10 +1,10 @@
 package add
 
 import (
-	"github.com/open-component-model/ocm/api/clictx"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common"
+	"ocm.software/ocm-core/api/clictx"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common"
 )
 
 type ResourceSpecificationsProvider struct {

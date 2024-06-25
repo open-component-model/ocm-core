@@ -3,12 +3,12 @@ package install
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	utils "github.com/open-component-model/ocm/api/ocm/ocmutils"
-	"github.com/open-component-model/ocm/api/ocm/tools/toi"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	utils "ocm.software/ocm-core/api/ocm/ocmutils"
+	"ocm.software/ocm-core/api/ocm/tools/toi"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 func Execute(p common.Printer, d Driver, name string, rid metav1.Identity, credsrc blobaccess.DataSource, paramsrc blobaccess.DataSource, octx ocm.Context, cv ocm.ComponentVersionAccess, resolver ocm.ComponentVersionResolver) (*OperationResult, error) {

@@ -10,8 +10,8 @@ import (
 
 	"github.com/onsi/gomega/types"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 func Close(c io.Closer, msg ...interface{}) {

@@ -3,8 +3,8 @@ package comment
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip/spi"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip/spi"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // Type is the access type for a blob in an OCI repository.

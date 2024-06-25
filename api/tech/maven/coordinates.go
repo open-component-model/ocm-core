@@ -13,7 +13,7 @@ import (
 	"github.com/mandelsoft/goutils/generics"
 	"github.com/mandelsoft/goutils/optionutils"
 
-	ocmmime "github.com/open-component-model/ocm/api/utils/mime"
+	ocmmime "ocm.software/ocm-core/api/utils/mime"
 )
 
 type CoordinateOption = optionutils.Option[*Coordinates]

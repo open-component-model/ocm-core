@@ -1,7 +1,7 @@
 package cpi
 
 import (
-	"github.com/open-component-model/ocm/api/credentials/internal"
+	"ocm.software/ocm-core/api/credentials/internal"
 )
 
 const (

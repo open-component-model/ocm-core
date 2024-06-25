@@ -5,10 +5,10 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	npmCredentials "github.com/open-component-model/ocm/api/credentials/builtin/npm/identity"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/common/common"
+	npmCredentials "ocm.software/ocm-core/api/credentials/builtin/npm/identity"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/utils"
 )
 
 const PROVIDER = "ocm.software/credentialprovider/" + Type

@@ -8,16 +8,16 @@ import (
 	"github.com/mandelsoft/goutils/set"
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/ocm/plugin"
-	"github.com/open-component-model/ocm/api/ocm/plugin/common"
-	utils2 "github.com/open-component-model/ocm/api/utils"
-	handler "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/handlers/pluginhdlr"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/names"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/output"
-	"github.com/open-component-model/ocm/cmds/ocm/common/processing"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/ocm/plugin"
+	"ocm.software/ocm-core/api/ocm/plugin/common"
+	utils2 "ocm.software/ocm-core/api/utils"
+	handler "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/handlers/pluginhdlr"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/names"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/output"
+	"ocm.software/ocm-core/cmds/ocm/common/processing"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 var (

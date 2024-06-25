@@ -6,17 +6,17 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
-	. "github.com/open-component-model/ocm/api/helper/env"
-	. "github.com/open-component-model/ocm/api/ocm/plugin/testutils"
+	. "ocm.software/ocm-core/api/helper/builder"
+	. "ocm.software/ocm-core/api/helper/env"
+	. "ocm.software/ocm-core/api/ocm/plugin/testutils"
 
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/plugincacheattr"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/composition"
-	"github.com/open-component-model/ocm/api/ocm/plugin/registration"
-	"github.com/open-component-model/ocm/api/tech/signing/handlers/rsa"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/plugincacheattr"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/composition"
+	"ocm.software/ocm-core/api/ocm/plugin/registration"
+	"ocm.software/ocm-core/api/tech/signing/handlers/rsa"
 )
 
 const (

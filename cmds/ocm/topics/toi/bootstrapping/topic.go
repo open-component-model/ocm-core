@@ -3,10 +3,10 @@ package bootstapping
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/ocm/tools/toi"
-	"github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/ocm/tools/toi"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 func New(ctx clictx.Context, name string) *cobra.Command {

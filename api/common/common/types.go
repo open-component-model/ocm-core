@@ -7,7 +7,7 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/utils/semverutils"
+	"ocm.software/ocm-core/api/utils/semverutils"
 )
 
 // VersionedElement describes an element that has a name and a version.

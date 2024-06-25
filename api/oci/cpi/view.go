@@ -7,11 +7,11 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/oci/artdesc"
-	"github.com/open-component-model/ocm/api/oci/internal"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/refmgmt/resource"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/oci/artdesc"
+	"ocm.software/ocm-core/api/oci/internal"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/refmgmt/resource"
 )
 
 var ErrClosed = resource.ErrClosed

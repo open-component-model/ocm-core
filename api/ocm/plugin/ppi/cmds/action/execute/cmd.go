@@ -7,13 +7,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/datacontext/action"
-	"github.com/open-component-model/ocm/api/datacontext/action/api"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/common"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flag"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/datacontext/action"
+	"ocm.software/ocm-core/api/datacontext/action/api"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/common"
+	"ocm.software/ocm-core/api/utils/cobrautils/flag"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

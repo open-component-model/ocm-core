@@ -7,11 +7,11 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/cpi/accspeccpi"
-	"github.com/open-component-model/ocm/api/ocm/internal"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/hasher/sha256"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/cpi/accspeccpi"
+	"ocm.software/ocm-core/api/ocm/internal"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/hasher/sha256"
 )
 
 type DigestHandler struct {

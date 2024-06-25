@@ -5,7 +5,7 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/handlers/defaultmerge"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/handlers/defaultmerge"
 )
 
 func AsValue(v interface{}) (*Value, error) {

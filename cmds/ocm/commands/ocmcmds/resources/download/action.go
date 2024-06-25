@@ -9,16 +9,16 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	common2 "github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm"
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/download"
-	"github.com/open-component-model/ocm/api/utils/out"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/common/options/destoption"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/handlers/elemhdlr"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/resources/common"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
-	"github.com/open-component-model/ocm/cmds/ocm/common/output"
+	common2 "ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/download"
+	"ocm.software/ocm-core/api/utils/out"
+	"ocm.software/ocm-core/cmds/ocm/commands/common/options/destoption"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/handlers/elemhdlr"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/resources/common"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
+	"ocm.software/ocm-core/cmds/ocm/common/output"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

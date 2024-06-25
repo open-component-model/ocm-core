@@ -7,9 +7,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials"
-	local "github.com/open-component-model/ocm/api/credentials/extensions/repositories/aliases"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials"
+	local "ocm.software/ocm-core/api/credentials/extensions/repositories/aliases"
 )
 
 var DefaultContext = credentials.New()

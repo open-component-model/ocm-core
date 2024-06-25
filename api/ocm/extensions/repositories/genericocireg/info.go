@@ -3,12 +3,12 @@ package genericocireg
 import (
 	"encoding/json"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/oci/ociutils"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/genericocireg/componentmapping"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/oci/ociutils"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/genericocireg/componentmapping"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 func init() {

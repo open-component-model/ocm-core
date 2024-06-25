@@ -8,13 +8,13 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	ociidentity "github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ocireg"
-	"github.com/open-component-model/ocm/api/ocm/cpi/accspeccpi"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/credentials"
+	ociidentity "ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/ocm/cpi/accspeccpi"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // Type is the access type for a blob in an OCI repository.

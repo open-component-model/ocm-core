@@ -10,8 +10,8 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/utils/compression"
-	"github.com/open-component-model/ocm/api/utils/tarutils"
+	"ocm.software/ocm-core/api/utils/compression"
+	"ocm.software/ocm-core/api/utils/tarutils"
 )
 
 const KIND_FILEFORMAT = "file format"

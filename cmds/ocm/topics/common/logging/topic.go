@@ -7,10 +7,10 @@ import (
 	"github.com/mandelsoft/logging"
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/datacontext"
-	logcfg "github.com/open-component-model/ocm/api/datacontext/config/logging"
-	utils2 "github.com/open-component-model/ocm/api/utils/listformat"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/datacontext"
+	logcfg "ocm.software/ocm-core/api/datacontext/config/logging"
+	utils2 "ocm.software/ocm-core/api/utils/listformat"
 )
 
 func New(ctx clictx.Context) *cobra.Command {

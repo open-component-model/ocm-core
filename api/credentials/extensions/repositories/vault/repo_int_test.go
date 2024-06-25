@@ -16,12 +16,12 @@ import (
 	"github.com/hashicorp/vault-client-go"
 	"github.com/hashicorp/vault-client-go/schema"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials"
-	me "github.com/open-component-model/ocm/api/credentials/extensions/repositories/vault"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/vault/identity"
-	"github.com/open-component-model/ocm/api/credentials/identity/hostpath"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials"
+	me "ocm.software/ocm-core/api/credentials/extensions/repositories/vault"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/vault/identity"
+	"ocm.software/ocm-core/api/credentials/identity/hostpath"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type vaultMode string

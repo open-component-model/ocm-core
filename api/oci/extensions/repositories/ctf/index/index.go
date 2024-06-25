@@ -8,7 +8,7 @@ import (
 	"github.com/opencontainers/go-digest"
 	"github.com/opencontainers/image-spec/specs-go"
 
-	"github.com/open-component-model/ocm/api/oci/cpi"
+	"ocm.software/ocm-core/api/oci/cpi"
 )
 
 type RepositoryIndex struct {

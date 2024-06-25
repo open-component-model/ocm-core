@@ -3,12 +3,12 @@ package ocicmds
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/artifacts"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/ctf"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/tags"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
-	topicocirefs "github.com/open-component-model/ocm/cmds/ocm/topics/oci/refs"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocicmds/artifacts"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocicmds/ctf"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocicmds/tags"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
+	topicocirefs "ocm.software/ocm-core/cmds/ocm/topics/oci/refs"
 )
 
 // NewCommand creates a new command.

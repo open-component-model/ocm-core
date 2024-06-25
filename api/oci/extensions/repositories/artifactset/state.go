@@ -3,8 +3,8 @@ package artifactset
 import (
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
+	"ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/utils/accessobj"
 )
 
 // NewStateHandler implements the factory interface for the artifact set

@@ -1,7 +1,7 @@
 package wget
 
 import (
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
 )
 
 // DataAccessForWget returns a DataAccess for the given URL.

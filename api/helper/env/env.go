@@ -20,13 +20,13 @@ import (
 	"github.com/mandelsoft/vfs/pkg/readonlyfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/vfsattr"
-	"github.com/open-component-model/ocm/api/oci"
-	ocm "github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/accessio"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/datacontext/attrs/vfsattr"
+	"ocm.software/ocm-core/api/oci"
+	ocm "ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/accessio"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

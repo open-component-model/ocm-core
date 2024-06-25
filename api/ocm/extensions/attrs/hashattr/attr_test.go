@@ -7,12 +7,12 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/hashattr"
-	"github.com/open-component-model/ocm/api/tech/signing/hasher/sha512"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/hashattr"
+	"ocm.software/ocm-core/api/tech/signing/hasher/sha512"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const NAME = "test"

@@ -16,16 +16,16 @@ import (
 	"github.com/mandelsoft/vfs/pkg/vfs"
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/plugindirattr"
-	"github.com/open-component-model/ocm/api/ocm/extensions/download"
-	"github.com/open-component-model/ocm/api/ocm/extraid"
-	"github.com/open-component-model/ocm/api/ocm/plugin/descriptor"
-	utils2 "github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/semverutils"
-	"github.com/open-component-model/ocm/pkg/filelock"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/plugindirattr"
+	"ocm.software/ocm-core/api/ocm/extensions/download"
+	"ocm.software/ocm-core/api/ocm/extraid"
+	"ocm.software/ocm-core/api/ocm/plugin/descriptor"
+	utils2 "ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/semverutils"
+	"ocm.software/ocm-core/pkg/filelock"
 )
 
 type PluginInfo struct {

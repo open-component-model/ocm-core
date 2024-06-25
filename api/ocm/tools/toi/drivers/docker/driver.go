@@ -25,9 +25,9 @@ import (
 	"github.com/mandelsoft/goutils/set"
 	"github.com/mitchellh/copystructure"
 
-	"github.com/open-component-model/ocm/api/ocm/tools/toi"
-	"github.com/open-component-model/ocm/api/ocm/tools/toi/install"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/ocm/tools/toi"
+	"ocm.software/ocm-core/api/ocm/tools/toi/install"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 const (

@@ -13,8 +13,8 @@ import (
 	"github.com/spf13/pflag"
 	"gopkg.in/yaml.v3"
 
-	utils2 "github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	utils2 "ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type Values map[string]interface{}

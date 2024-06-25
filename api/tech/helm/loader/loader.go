@@ -6,11 +6,11 @@ import (
 	"helm.sh/helm/v3/pkg/chart"
 	"helm.sh/helm/v3/pkg/chart/loader"
 
-	"github.com/open-component-model/ocm/api/tech/helm"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/file"
-	"github.com/open-component-model/ocm/api/utils/iotools"
+	"ocm.software/ocm-core/api/tech/helm"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/blobaccess/file"
+	"ocm.software/ocm-core/api/utils/iotools"
 )
 
 type Loader interface {

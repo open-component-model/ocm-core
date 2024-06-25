@@ -6,9 +6,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/utils/mime"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/types/file"
+	"ocm.software/ocm-core/api/utils/mime"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/types/file"
 )
 
 var _ = Describe("Blob Inputs", func() {

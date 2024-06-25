@@ -1,8 +1,8 @@
 package container_registry
 
 import (
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	gardenercfgcpi "github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig/cpi"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	gardenercfgcpi "ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig/cpi"
 )
 
 type credentials struct {

@@ -9,17 +9,17 @@ import (
 	"github.com/mandelsoft/vfs/pkg/vfs"
 	helmregistry "helm.sh/helm/v3/pkg/registry"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/oci/artdesc"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/artifactset"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	registry "github.com/open-component-model/ocm/api/ocm/extensions/download"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/oci/artdesc"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/artifactset"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	registry "ocm.software/ocm-core/api/ocm/extensions/download"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 const TYPE = resourcetypes.HELM_CHART

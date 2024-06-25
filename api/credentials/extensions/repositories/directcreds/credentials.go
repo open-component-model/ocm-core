@@ -1,8 +1,8 @@
 package directcreds
 
 import (
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials/cpi"
 )
 
 func NewCredentials(props common.Properties) cpi.CredentialsSpec {

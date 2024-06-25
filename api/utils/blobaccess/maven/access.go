@@ -3,8 +3,8 @@ package maven
 import (
 	"github.com/mandelsoft/goutils/optionutils"
 
-	"github.com/open-component-model/ocm/api/tech/maven"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/tech/maven"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
 )
 
 func DataAccess(repo *maven.Repository, groupId, artifactId, version string, opts ...Option) (bpi.DataAccess, error) {

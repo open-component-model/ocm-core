@@ -3,10 +3,10 @@ package credentials
 import (
 	"context"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/directcreds"
-	"github.com/open-component-model/ocm/api/credentials/internal"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/directcreds"
+	"ocm.software/ocm-core/api/credentials/internal"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

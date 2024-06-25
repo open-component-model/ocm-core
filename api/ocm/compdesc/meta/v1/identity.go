@@ -7,8 +7,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc/equivalent"
-	"github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/ocm/compdesc/equivalent"
+	"ocm.software/ocm-core/api/utils/logging"
 )
 
 // Identity describes the identity of an object.

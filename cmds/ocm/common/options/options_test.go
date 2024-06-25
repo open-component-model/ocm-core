@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
 )
 
 type TestOption struct {

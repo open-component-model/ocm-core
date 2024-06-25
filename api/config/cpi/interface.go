@@ -3,8 +3,8 @@ package cpi
 // This is the Context Provider Interface for credential providers
 
 import (
-	"github.com/open-component-model/ocm/api/config/internal"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/config/internal"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const KIND_CONFIGTYPE = internal.KIND_CONFIGTYPE

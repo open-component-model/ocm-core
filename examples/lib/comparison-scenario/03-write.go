@@ -7,13 +7,13 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/examples/lib/helper"
-	ociidentity "github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/signingattr"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ocireg"
-	"github.com/open-component-model/ocm/api/tech/signing/handlers/rsa"
+	"ocm.software/ocm-core/examples/lib/helper"
+	ociidentity "ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/signingattr"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/tech/signing/handlers/rsa"
 )
 
 const KEYFILE = "/tmp/comparison.pub"

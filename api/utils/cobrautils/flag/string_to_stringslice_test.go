@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flag"
+	"ocm.software/ocm-core/api/utils/cobrautils/flag"
 )
 
 // MySSM is My String Slice Map

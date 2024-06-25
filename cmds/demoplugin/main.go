@@ -3,13 +3,13 @@ package main
 import (
 	"os"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds"
-	"github.com/open-component-model/ocm/api/version"
-	"github.com/open-component-model/ocm/cmds/demoplugin/accessmethods"
-	"github.com/open-component-model/ocm/cmds/demoplugin/config"
-	"github.com/open-component-model/ocm/cmds/demoplugin/uploaders"
-	"github.com/open-component-model/ocm/cmds/demoplugin/valuesets"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds"
+	"ocm.software/ocm-core/api/version"
+	"ocm.software/ocm-core/cmds/demoplugin/accessmethods"
+	"ocm.software/ocm-core/cmds/demoplugin/config"
+	"ocm.software/ocm-core/cmds/demoplugin/uploaders"
+	"ocm.software/ocm-core/cmds/demoplugin/valuesets"
 )
 
 func main() {

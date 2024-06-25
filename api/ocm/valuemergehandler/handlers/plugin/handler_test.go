@@ -6,14 +6,14 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
-	. "github.com/open-component-model/ocm/api/ocm/plugin/testutils"
+	. "ocm.software/ocm-core/api/helper/builder"
+	. "ocm.software/ocm-core/api/ocm/plugin/testutils"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/plugin/registration"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/handlers/defaultmerge"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/hpi"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/plugin/registration"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/handlers/defaultmerge"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/hpi"
 )
 
 const (

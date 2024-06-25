@@ -13,14 +13,14 @@ import (
 	"github.com/mandelsoft/vfs/pkg/projectionfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/virtual"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/file"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localblob"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/virtual"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/blobaccess/file"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

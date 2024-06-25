@@ -6,14 +6,14 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ctf"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/common/options/formatoption"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/names"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ctf"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/cmds/ocm/commands/common/options/formatoption"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocicmds/names"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 var (

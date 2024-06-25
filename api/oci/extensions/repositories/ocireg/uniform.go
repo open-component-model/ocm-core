@@ -3,8 +3,8 @@ package ocireg
 import (
 	regex "github.com/mandelsoft/goutils/regexutils"
 
-	"github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/oci/grammar"
+	"ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/oci/grammar"
 )
 
 func init() {

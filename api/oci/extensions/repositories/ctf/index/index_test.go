@@ -3,7 +3,7 @@ package index_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/oci/extensions/repositories/ctf/index"
+	. "ocm.software/ocm-core/api/oci/extensions/repositories/ctf/index"
 )
 
 var _ = Describe("index", func() {

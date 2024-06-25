@@ -1,9 +1,9 @@
 package plugin
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip/spi"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip/spi"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type Entry struct {

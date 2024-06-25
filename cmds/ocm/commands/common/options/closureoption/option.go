@@ -6,14 +6,14 @@ import (
 	"github.com/modern-go/reflect2"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler/standard"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flag"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
-	"github.com/open-component-model/ocm/cmds/ocm/common/output"
-	"github.com/open-component-model/ocm/cmds/ocm/common/processing"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler/standard"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/cobrautils/flag"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
+	"ocm.software/ocm-core/cmds/ocm/common/output"
+	"ocm.software/ocm-core/cmds/ocm/common/processing"
 )
 
 func From(o options.OptionSetProvider) *Option {

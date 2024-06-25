@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // DescriptionExtender provides an additional descrition for a type object

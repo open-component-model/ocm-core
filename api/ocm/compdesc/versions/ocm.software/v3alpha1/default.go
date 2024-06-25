@@ -1,8 +1,8 @@
 package v3alpha1
 
 import (
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // Default applies defaults to a component.

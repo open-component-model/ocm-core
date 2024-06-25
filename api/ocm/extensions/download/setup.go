@@ -1,8 +1,8 @@
 package download
 
 import (
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm/cpi"
 )
 
 func init() {

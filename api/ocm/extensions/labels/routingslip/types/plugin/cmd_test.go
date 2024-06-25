@@ -4,18 +4,18 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/env"
-	. "github.com/open-component-model/ocm/api/ocm/plugin/testutils"
+	. "ocm.software/ocm-core/api/helper/env"
+	. "ocm.software/ocm-core/api/ocm/plugin/testutils"
 
 	"github.com/mandelsoft/goutils/sliceutils"
 	"github.com/mandelsoft/goutils/transformer"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/options"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/plugincacheattr"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip"
-	"github.com/open-component-model/ocm/api/ocm/plugin/registration"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/options"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/plugincacheattr"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip"
+	"ocm.software/ocm-core/api/ocm/plugin/registration"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
 )
 
 const (

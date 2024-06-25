@@ -3,11 +3,11 @@ package oci
 import (
 	"fmt"
 
-	ociidentity "github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/oci/artdesc"
-	"github.com/open-component-model/ocm/api/oci/grammar"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	ociidentity "ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/oci/artdesc"
+	"ocm.software/ocm-core/api/oci/grammar"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 func AsTags(tag string) []string {

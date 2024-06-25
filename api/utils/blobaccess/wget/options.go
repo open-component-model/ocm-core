@@ -7,10 +7,10 @@ import (
 	"github.com/mandelsoft/goutils/optionutils"
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/credentials/builtin/wget/identity"
-	"github.com/open-component-model/ocm/api/utils"
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/credentials/builtin/wget/identity"
+	"ocm.software/ocm-core/api/utils"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 type Option = optionutils.Option[*Options]

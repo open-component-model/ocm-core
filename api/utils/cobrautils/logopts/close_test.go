@@ -12,10 +12,10 @@ import (
 	"github.com/mandelsoft/vfs/pkg/osfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/vfsattr"
-	"github.com/open-component-model/ocm/api/ocm"
-	logging2 "github.com/open-component-model/ocm/api/utils/cobrautils/logopts/logging"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/datacontext/attrs/vfsattr"
+	"ocm.software/ocm-core/api/ocm"
+	logging2 "ocm.software/ocm-core/api/utils/cobrautils/logopts/logging"
 )
 
 var _ = Describe("log file", func() {

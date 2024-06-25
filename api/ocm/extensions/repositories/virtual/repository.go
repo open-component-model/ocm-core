@@ -1,9 +1,9 @@
 package virtual
 
 import (
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/cpi/repocpi"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi/repocpi"
 )
 
 type RepositoryImpl struct {

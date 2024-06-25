@@ -3,11 +3,11 @@ package testhelper
 import (
 	"github.com/mandelsoft/goutils/testutils"
 
-	"github.com/open-component-model/ocm/api/helper/builder"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/digester/digesters/blob"
-	"github.com/open-component-model/ocm/api/tech/signing/hasher/sha256"
-	"github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/helper/builder"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/digester/digesters/blob"
+	"ocm.software/ocm-core/api/tech/signing/hasher/sha256"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 func TextResourceDigestSpec(d string) *metav1.DigestSpec {

@@ -1,8 +1,8 @@
 package valuemergehandler
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/hpi"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/hpi"
 )
 
 func Merge(ctx cpi.Context, m *Specification, hint hpi.Hint, local Value, inbound *Value) (bool, error) {

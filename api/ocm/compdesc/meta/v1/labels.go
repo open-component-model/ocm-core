@@ -8,9 +8,9 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc/equivalent"
-	"github.com/open-component-model/ocm/api/utils/listformat"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/compdesc/equivalent"
+	"ocm.software/ocm-core/api/utils/listformat"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

@@ -6,10 +6,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/clictx/config"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ocireg"
-	ocmocireg "github.com/open-component-model/ocm/api/ocm/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/clictx/config"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ocireg"
+	ocmocireg "ocm.software/ocm-core/api/ocm/extensions/repositories/ocireg"
 )
 
 var DefaultContext = clictx.New()

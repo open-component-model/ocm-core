@@ -3,10 +3,10 @@ package transfer
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler/standard"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler/standard"
 )
 
 func TransferComponents(printer common.Printer, closure TransportClosure, repo ocm.Repository, prefix string, all bool, tgt ocm.Repository, handler TransferHandler) error {

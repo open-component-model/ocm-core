@@ -3,11 +3,11 @@ package references
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/names"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/references/add"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/references/get"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/names"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/references/add"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/references/get"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 var Names = names.References

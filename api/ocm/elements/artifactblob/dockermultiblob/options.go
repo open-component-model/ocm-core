@@ -3,10 +3,10 @@ package dockermultiblob
 import (
 	"github.com/mandelsoft/goutils/optionutils"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/elements/artifactblob/api"
-	base "github.com/open-component-model/ocm/api/utils/blobaccess/dockermulti"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/elements/artifactblob/api"
+	base "ocm.software/ocm-core/api/utils/blobaccess/dockermulti"
 )
 
 type Option = optionutils.Option[*Options]

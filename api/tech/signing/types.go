@@ -8,8 +8,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
 )
 
 type SigningContext interface {

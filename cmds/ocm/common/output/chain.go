@@ -1,7 +1,7 @@
 package output
 
 import (
-	"github.com/open-component-model/ocm/cmds/ocm/common/processing"
+	"ocm.software/ocm-core/cmds/ocm/common/processing"
 )
 
 type ChainFunction func(opts *Options) processing.ProcessChain

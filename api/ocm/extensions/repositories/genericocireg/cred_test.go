@@ -7,12 +7,12 @@ import (
 
 	"github.com/mandelsoft/goutils/finalizer"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials"
-	ociidentity "github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials"
+	ociidentity "ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ocireg"
 )
 
 var _ = Describe("consumer id handling", func() {

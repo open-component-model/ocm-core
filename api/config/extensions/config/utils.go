@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/open-component-model/ocm/api/config/cpi"
+	"ocm.software/ocm-core/api/config/cpi"
 )
 
 type Aggregator struct {

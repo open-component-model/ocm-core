@@ -3,10 +3,10 @@ package testhelper
 import (
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/helper/builder"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ctf"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
+	"ocm.software/ocm-core/api/helper/builder"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ctf"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
 )
 
 func FakeOCIRepo(env *builder.Builder, path string, host string) string {

@@ -4,7 +4,7 @@ import (
 	// special case to resolve dependency cycles.
 	"github.com/mandelsoft/goutils/errors"
 
-	hpi "github.com/open-component-model/ocm/api/ocm/valuemergehandler/internal"
+	hpi "ocm.software/ocm-core/api/ocm/valuemergehandler/internal"
 )
 
 type Mode string

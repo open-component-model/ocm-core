@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/utils"
 )
 
 var Type = normalization{}

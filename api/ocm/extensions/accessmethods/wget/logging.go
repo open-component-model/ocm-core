@@ -3,8 +3,8 @@ package wget
 import (
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 var REALM = ocmlog.DefineSubRealm("access method for wget", "accessmethod/wget")

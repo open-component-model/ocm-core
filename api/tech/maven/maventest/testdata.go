@@ -1,7 +1,7 @@
 package maventest
 
 import (
-	"github.com/open-component-model/ocm/api/helper/env"
+	"ocm.software/ocm-core/api/helper/env"
 )
 
 func TestData(dest ...string) env.Option {

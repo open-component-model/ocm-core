@@ -3,9 +3,9 @@ package s3
 import (
 	. "github.com/mandelsoft/goutils/exception"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/cpi/accspeccpi"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi/accspeccpi"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const TypeV2 = Type + runtime.VersionSeparator + "v2"

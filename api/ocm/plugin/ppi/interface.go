@@ -6,13 +6,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/config/cpi"
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/datacontext/action"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/options"
-	"github.com/open-component-model/ocm/api/ocm/plugin/descriptor"
-	"github.com/open-component-model/ocm/api/ocm/plugin/internal"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/config/cpi"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/datacontext/action"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/options"
+	"ocm.software/ocm-core/api/ocm/plugin/descriptor"
+	"ocm.software/ocm-core/api/ocm/plugin/internal"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type (

@@ -5,10 +5,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	me "github.com/open-component-model/ocm/api/ocm/valuemergehandler/handlers/maplistmerge"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/handlers/simplemapmerge"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/hpi"
+	"ocm.software/ocm-core/api/ocm"
+	me "ocm.software/ocm-core/api/ocm/valuemergehandler/handlers/maplistmerge"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/handlers/simplemapmerge"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/hpi"
 )
 
 type (

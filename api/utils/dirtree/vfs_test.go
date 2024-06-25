@@ -10,8 +10,8 @@ import (
 
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/api/helper/env"
-	"github.com/open-component-model/ocm/api/utils/dirtree"
+	"ocm.software/ocm-core/api/helper/env"
+	"ocm.software/ocm-core/api/utils/dirtree"
 )
 
 var _ = Describe("file system", func() {

@@ -6,19 +6,19 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	common2 "github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/common/options/failonerroroption"
-	ocmcommon "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/lookupoption"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/repooption"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/versionconstraintsoption"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/names"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/routingslips/common"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/output"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	common2 "ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/cmds/ocm/commands/common/options/failonerroroption"
+	ocmcommon "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/lookupoption"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/repooption"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/versionconstraintsoption"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/names"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/routingslips/common"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/output"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 var (

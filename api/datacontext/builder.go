@@ -3,8 +3,8 @@ package datacontext
 import (
 	"context"
 
-	"github.com/open-component-model/ocm/api/datacontext/action/api"
-	"github.com/open-component-model/ocm/api/datacontext/action/handlers"
+	"ocm.software/ocm-core/api/datacontext/action/api"
+	"ocm.software/ocm-core/api/datacontext/action/handlers"
 )
 
 type Builder struct {

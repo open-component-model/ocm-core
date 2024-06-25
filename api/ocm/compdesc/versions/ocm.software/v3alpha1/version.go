@@ -3,10 +3,10 @@ package v3alpha1
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/compdesc/versions/ocm.software/v3alpha1/jsonscheme"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/compdesc/versions/ocm.software/v3alpha1/jsonscheme"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

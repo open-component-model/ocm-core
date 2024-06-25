@@ -6,7 +6,7 @@ import (
 
 	"github.com/mandelsoft/goutils/set"
 
-	"github.com/open-component-model/ocm/api/ocm/ocmutils/registry"
+	"ocm.software/ocm-core/api/ocm/ocmutils/registry"
 )
 
 var (

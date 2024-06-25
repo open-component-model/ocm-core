@@ -3,13 +3,13 @@ package hash
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm/tools/signing"
-	signingcmd "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/cmds/signing"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/hashoption"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/lookupoption"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/repooption"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm/tools/signing"
+	signingcmd "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/cmds/signing"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/hashoption"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/lookupoption"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/repooption"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
 )
 
 func From(o options.OptionSetProvider) *Option {

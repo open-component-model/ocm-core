@@ -6,7 +6,7 @@ import (
 
 	"github.com/mandelsoft/goutils/testutils"
 
-	"github.com/open-component-model/ocm/api/ocm"
+	"ocm.software/ocm-core/api/ocm"
 )
 
 var _ = Describe("decode fallback", func() {

@@ -1,7 +1,7 @@
 package toi
 
 import (
-	logging2 "github.com/open-component-model/ocm/api/utils/logging"
+	logging2 "ocm.software/ocm-core/api/utils/logging"
 )
 
 var REALM = logging2.DefineSubRealm("TOI logging", "toi")

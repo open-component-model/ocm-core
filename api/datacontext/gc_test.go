@@ -9,8 +9,8 @@ import (
 
 	"github.com/mandelsoft/goutils/general"
 
-	me "github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/utils/runtimefinalizer"
+	me "ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/utils/runtimefinalizer"
 )
 
 var _ = Describe("area test", func() {

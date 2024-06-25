@@ -13,9 +13,9 @@ import (
 	glog "gopkg.in/op/go-logging.v1"
 	"gopkg.in/yaml.v3"
 
-	"github.com/open-component-model/ocm/api/utils"
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type SubstitutionTarget interface {

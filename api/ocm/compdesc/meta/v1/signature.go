@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc/equivalent"
-	"github.com/open-component-model/ocm/api/tech/signing"
+	"ocm.software/ocm-core/api/ocm/compdesc/equivalent"
+	"ocm.software/ocm-core/api/tech/signing"
 )
 
 const (

@@ -3,8 +3,8 @@ package identity
 import (
 	"path"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/utils"
 )
 
 func SimpleCredentials(user, passwd string) cpi.Credentials {

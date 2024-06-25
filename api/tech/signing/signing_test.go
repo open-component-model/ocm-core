@@ -6,10 +6,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/handlers/rsa"
-	"github.com/open-component-model/ocm/api/tech/signing/hasher/sha256"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/handlers/rsa"
+	"ocm.software/ocm-core/api/tech/signing/hasher/sha256"
 )
 
 var registry = signing.DefaultRegistry()

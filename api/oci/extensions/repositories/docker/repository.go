@@ -7,7 +7,7 @@ import (
 	dockertypes "github.com/docker/docker/api/types/image"
 	"github.com/docker/docker/client"
 
-	"github.com/open-component-model/ocm/api/oci/cpi"
+	"ocm.software/ocm-core/api/oci/cpi"
 )
 
 type RepositoryImpl struct {

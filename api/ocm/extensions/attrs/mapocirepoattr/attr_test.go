@@ -4,8 +4,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	me "github.com/open-component-model/ocm/api/ocm/extensions/attrs/mapocirepoattr"
+	"ocm.software/ocm-core/api/datacontext"
+	me "ocm.software/ocm-core/api/ocm/extensions/attrs/mapocirepoattr"
 )
 
 var _ = Describe("attribute", func() {

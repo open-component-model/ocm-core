@@ -6,7 +6,7 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
 )
 
 func VerifyCert(intermediate signutils.GenericCertificateChain, root signutils.GenericCertificatePool, name string, cert *x509.Certificate) error {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/utils/iotools"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/utils/iotools"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 var (

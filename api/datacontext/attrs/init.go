@@ -1,8 +1,8 @@
 package attrs
 
 import (
-	_ "github.com/open-component-model/ocm/api/datacontext/attrs/logforward"
-	_ "github.com/open-component-model/ocm/api/datacontext/attrs/rootcertsattr"
-	_ "github.com/open-component-model/ocm/api/datacontext/attrs/tmpcache"
-	_ "github.com/open-component-model/ocm/api/datacontext/attrs/vfsattr"
+	_ "ocm.software/ocm-core/api/datacontext/attrs/logforward"
+	_ "ocm.software/ocm-core/api/datacontext/attrs/rootcertsattr"
+	_ "ocm.software/ocm-core/api/datacontext/attrs/tmpcache"
+	_ "ocm.software/ocm-core/api/datacontext/attrs/vfsattr"
 )

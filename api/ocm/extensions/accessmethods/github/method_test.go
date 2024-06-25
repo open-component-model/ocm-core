@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	_ "github.com/open-component-model/ocm/api/datacontext/config"
+	_ "ocm.software/ocm-core/api/datacontext/config"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
@@ -16,14 +16,14 @@ import (
 	"github.com/mandelsoft/vfs/pkg/osfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/credentials/builtin/github/identity"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/tmpcache"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/vfsattr"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	me "github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/github"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/credentials/builtin/github/identity"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/datacontext/attrs/tmpcache"
+	"ocm.software/ocm-core/api/datacontext/attrs/vfsattr"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	me "ocm.software/ocm-core/api/ocm/extensions/accessmethods/github"
 )
 
 type mockDownloader struct {

@@ -1,7 +1,7 @@
 package builder
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi"
 )
 
 const T_OCMCOMPONENT = "component"

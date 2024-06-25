@@ -8,16 +8,16 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/compdesc/normalizations/rules"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/ociartifact"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/norm/entry"
-	"github.com/open-component-model/ocm/api/tech/signing/norm/jcs"
-	"github.com/open-component-model/ocm/api/utils/mime"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/compdesc/normalizations/rules"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localblob"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/ociartifact"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/norm/entry"
+	"ocm.software/ocm-core/api/tech/signing/norm/jcs"
+	"ocm.software/ocm-core/api/utils/mime"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 var CDExcludes = signing.MapExcludes{

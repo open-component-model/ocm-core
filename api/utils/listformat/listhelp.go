@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 type StringElementDescriptionList []string

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/registrations"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/registrations"
 )
 
 type ImplementationRepositoryType struct {

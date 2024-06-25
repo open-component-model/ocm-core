@@ -5,12 +5,12 @@ import (
 
 	"github.com/mandelsoft/goutils/generics"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	gardenercfgcpi "github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig/cpi"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig/identity"
-	"github.com/open-component-model/ocm/api/credentials/internal"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	gardenercfgcpi "ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig/cpi"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig/identity"
+	"ocm.software/ocm-core/api/credentials/internal"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

@@ -7,10 +7,10 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc/equivalent"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/utils/runtime"
-	"github.com/open-component-model/ocm/api/utils/semverutils"
+	"ocm.software/ocm-core/api/ocm/compdesc/equivalent"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils/semverutils"
 )
 
 const InternalSchemaVersion = "internal"

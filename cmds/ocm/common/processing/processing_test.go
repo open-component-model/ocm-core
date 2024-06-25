@@ -10,8 +10,8 @@ import (
 	"github.com/mandelsoft/goutils/testutils"
 	"github.com/mandelsoft/logging"
 
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
-	"github.com/open-component-model/ocm/cmds/ocm/common/data"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
+	"ocm.software/ocm-core/cmds/ocm/common/data"
 )
 
 var AddOne = func(logger logging.Logger) func(e interface{}) interface{} {

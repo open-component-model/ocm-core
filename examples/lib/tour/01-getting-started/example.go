@@ -9,14 +9,14 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/download"
-	"github.com/open-component-model/ocm/api/ocm/extraid"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ocireg"
-	utils "github.com/open-component-model/ocm/api/ocm/ocmutils"
-	"github.com/open-component-model/ocm/api/utils/semverutils"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/download"
+	"ocm.software/ocm-core/api/ocm/extraid"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ocireg"
+	utils "ocm.software/ocm-core/api/ocm/ocmutils"
+	"ocm.software/ocm-core/api/utils/semverutils"
 )
 
 func GettingStarted() error {

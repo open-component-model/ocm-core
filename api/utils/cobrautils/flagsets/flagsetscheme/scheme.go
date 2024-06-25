@@ -1,11 +1,11 @@
 package flagsetscheme
 
 import (
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
-	"github.com/open-component-model/ocm/api/utils/logging"
-	"github.com/open-component-model/ocm/api/utils/runtime"
-	"github.com/open-component-model/ocm/api/utils/runtime/descriptivetype"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils/runtime/descriptivetype"
 )
 
 // VersionTypedObjectType is the appropriately extended type interface

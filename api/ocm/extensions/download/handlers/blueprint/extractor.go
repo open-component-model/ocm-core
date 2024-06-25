@@ -5,13 +5,13 @@ import (
 	"github.com/mandelsoft/vfs/pkg/projectionfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/artifactset"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/compression"
-	"github.com/open-component-model/ocm/api/utils/tarutils"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/artifactset"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/compression"
+	"ocm.software/ocm-core/api/utils/tarutils"
 )
 
 const (

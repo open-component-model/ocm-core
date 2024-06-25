@@ -41,10 +41,10 @@
 
             ldflags = [
               "-s" "-w"
-              "-X github.com/open-component-model/ocm/api/version.gitVersion=${version}"
-              "-X github.com/open-component-model/ocm/api/version.gitTreeState=${state}"
-              "-X github.com/open-component-model/ocm/api/version.gitCommit=${gitCommit}"
-            # "-X github.com/open-component-model/ocm/api/version.buildDate=1970-01-01T0:00:00+0000"
+              "-X ocm.software/ocm-core/api/version.gitVersion=${version}"
+              "-X ocm.software/ocm-core/api/version.gitTreeState=${state}"
+              "-X ocm.software/ocm-core/api/version.gitCommit=${gitCommit}"
+            # "-X ocm.software/ocm-core/api/version.buildDate=1970-01-01T0:00:00+0000"
             ];
 
             CGO_ENABLED = 0;

@@ -5,11 +5,11 @@ import (
 
 	"github.com/mandelsoft/goutils/optionutils"
 
-	"github.com/open-component-model/ocm/api/oci/annotations"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/artifactset"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/docker"
-	cpi "github.com/open-component-model/ocm/api/oci/types"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/oci/annotations"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/artifactset"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/docker"
+	cpi "ocm.software/ocm-core/api/oci/types"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
 )
 
 func (o *Options) OCIContext() cpi.Context {

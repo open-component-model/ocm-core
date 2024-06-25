@@ -7,8 +7,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/options"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/options"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type decoder runtime.TypedObjectDecoder[runtime.TypedObject]

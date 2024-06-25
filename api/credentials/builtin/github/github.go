@@ -3,9 +3,9 @@ package github
 import (
 	"os"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials/builtin/github/identity"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials/builtin/github/identity"
+	"ocm.software/ocm-core/api/credentials/cpi"
 )
 
 func init() {

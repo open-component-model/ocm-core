@@ -6,10 +6,10 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/utils/mime"
-	"github.com/open-component-model/ocm/api/utils/registrations"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/utils/mime"
+	"ocm.software/ocm-core/api/utils/registrations"
 )
 
 type Config struct {

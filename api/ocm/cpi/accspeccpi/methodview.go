@@ -6,10 +6,10 @@ import (
 	"github.com/modern-go/reflect2"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 type DigestSource interface {

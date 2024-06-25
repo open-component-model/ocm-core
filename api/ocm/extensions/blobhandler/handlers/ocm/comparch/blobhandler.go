@@ -6,13 +6,13 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localfsblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/compatattr"
-	storagecontext "github.com/open-component-model/ocm/api/ocm/extensions/blobhandler/handlers/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/comparch"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localblob"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localfsblob"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/compatattr"
+	storagecontext "ocm.software/ocm-core/api/ocm/extensions/blobhandler/handlers/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/comparch"
 )
 
 func init() {

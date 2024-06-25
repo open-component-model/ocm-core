@@ -15,7 +15,7 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 
-	"github.com/open-component-model/ocm/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessio"
 )
 
 type dockerFetcher struct {

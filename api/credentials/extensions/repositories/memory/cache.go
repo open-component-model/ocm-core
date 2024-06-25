@@ -3,10 +3,10 @@ package memory
 import (
 	"sync"
 
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
-const ATTR_REPOS = "github.com/open-component-model/ocm/api/credentials/extensions/repositories/memory"
+const ATTR_REPOS = "ocm.software/ocm-core/api/credentials/extensions/repositories/memory"
 
 type Repositories struct {
 	lock  sync.Mutex

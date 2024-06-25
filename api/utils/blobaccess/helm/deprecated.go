@@ -1,7 +1,7 @@
 package helm
 
 import (
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
 )
 
 // BlobAccessForHelmChart returns a BlobAccess for the Helm chart with the given path.

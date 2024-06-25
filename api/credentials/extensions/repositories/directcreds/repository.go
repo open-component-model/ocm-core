@@ -3,7 +3,7 @@ package directcreds
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
+	"ocm.software/ocm-core/api/credentials/cpi"
 )
 
 type Repository struct {

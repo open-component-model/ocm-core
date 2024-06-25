@@ -9,8 +9,8 @@ import (
 	"github.com/mandelsoft/vfs/pkg/osfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/compression"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/compression"
 )
 
 // ExtractArchiveToFs wunpacks an archive to a filesystem.

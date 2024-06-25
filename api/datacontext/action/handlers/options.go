@@ -3,7 +3,7 @@ package handlers
 import (
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/datacontext/action/api"
+	"ocm.software/ocm-core/api/datacontext/action/api"
 )
 
 type (

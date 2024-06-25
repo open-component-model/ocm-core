@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"net/url"
 
-	crds "github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/npm"
-	npmLogin "github.com/open-component-model/ocm/api/tech/npm"
-	"github.com/open-component-model/ocm/api/utils/logging"
-	"github.com/open-component-model/ocm/api/utils/mime"
+	crds "ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/npm"
+	npmLogin "ocm.software/ocm-core/api/tech/npm"
+	"ocm.software/ocm-core/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 const BLOB_HANDLER_NAME = "ocm/npmPackage"

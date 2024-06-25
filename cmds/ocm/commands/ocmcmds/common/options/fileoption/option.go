@@ -7,10 +7,10 @@ import (
 	"github.com/mandelsoft/vfs/pkg/vfs"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flag"
-	"github.com/open-component-model/ocm/api/utils/compression"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/cobrautils/flag"
+	"ocm.software/ocm-core/api/utils/compression"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
 )
 
 func From(o options.OptionSetProvider) *Option {

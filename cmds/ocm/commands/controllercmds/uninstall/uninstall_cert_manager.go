@@ -10,8 +10,8 @@ import (
 	"github.com/fluxcd/pkg/ssa"
 	"github.com/mandelsoft/filepath/pkg/filepath"
 
-	"github.com/open-component-model/ocm/api/utils/out"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/controllercmds/common"
+	"ocm.software/ocm-core/api/utils/out"
+	"ocm.software/ocm-core/cmds/ocm/commands/controllercmds/common"
 )
 
 //go:embed issuer/registry_certificate.yaml

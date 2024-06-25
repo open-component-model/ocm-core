@@ -3,8 +3,8 @@ package oci
 import (
 	"context"
 
-	"github.com/open-component-model/ocm/api/oci/internal"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/oci/internal"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 const (

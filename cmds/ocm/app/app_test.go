@@ -9,17 +9,17 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/cmds/ocm/testhelper"
+	. "ocm.software/ocm-core/cmds/ocm/testhelper"
 
 	"github.com/mandelsoft/logging"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 	"github.com/spf13/cobra"
 	"github.com/tonglil/buflogr"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/mapocirepoattr"
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
-	"github.com/open-component-model/ocm/api/utils/logging/testhelper"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/mapocirepoattr"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/logging/testhelper"
 )
 
 var realm = logging.NewRealm("test")

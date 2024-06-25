@@ -6,7 +6,7 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
 )
 
 type GenericData = interface{}

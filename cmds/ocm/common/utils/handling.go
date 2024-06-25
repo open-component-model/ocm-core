@@ -7,7 +7,7 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/cmds/ocm/common/output"
+	"ocm.software/ocm-core/cmds/ocm/common/output"
 )
 
 type ElemSpec interface {

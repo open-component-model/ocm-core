@@ -8,9 +8,9 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/texttheater/golang-levenshtein/levenshtein"
 
-	"github.com/open-component-model/ocm/api/credentials/internal"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/rootcertsattr"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/credentials/internal"
+	"ocm.software/ocm-core/api/datacontext/attrs/rootcertsattr"
+	"ocm.software/ocm-core/api/utils"
 )
 
 func GetProvidedConsumerId(obj interface{}, uctx ...UsageContext) ConsumerIdentity {

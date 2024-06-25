@@ -7,10 +7,10 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	utils "github.com/open-component-model/ocm/api/ocm/ocmutils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	utils "ocm.software/ocm-core/api/ocm/ocmutils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // Definition of inbound substitution requests.

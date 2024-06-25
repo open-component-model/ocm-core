@@ -6,8 +6,8 @@ import (
 
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/wget"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/utils/blobaccess/wget"
 )
 
 type (

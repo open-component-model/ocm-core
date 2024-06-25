@@ -11,13 +11,13 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	local "github.com/open-component-model/ocm/api/credentials/extensions/repositories/dockerconfig"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/utils/runtimefinalizer"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	local "ocm.software/ocm-core/api/credentials/extensions/repositories/dockerconfig"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/utils/runtimefinalizer"
 )
 
 var _ = Describe("docker config", func() {

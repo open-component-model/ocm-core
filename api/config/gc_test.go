@@ -7,8 +7,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	me "github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/utils/runtimefinalizer"
+	me "ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/utils/runtimefinalizer"
 )
 
 var _ = Describe("area test", func() {

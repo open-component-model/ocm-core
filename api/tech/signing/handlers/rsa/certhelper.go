@@ -5,8 +5,8 @@ import (
 	"crypto/x509/pkix"
 	"time"
 
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 func CreateRootCertificate(sub *pkix.Name, validity time.Duration) (*x509.Certificate, *PrivateKey, error) {

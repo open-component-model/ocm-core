@@ -6,7 +6,7 @@
 // The basic provisioning model is layered:
 //
 //   - on layer 1 there is the user facing API defined
-//     in package [github.com/open-component-model/ocm/api/ocm].
+//     in package [ocm.software/ocm-core/api/ocm].
 //
 //   - on layer 2 (this package) there is a backend agnostic
 //     implementation of standard functionality based on layer 3.

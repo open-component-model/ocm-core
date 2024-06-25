@@ -3,13 +3,13 @@ package docker
 import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/docker"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/ociartifact"
-	"github.com/open-component-model/ocm/api/utils/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/dockerdaemon"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
-	ociartifact2 "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/types/ociartifact"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/docker"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/ociartifact"
+	"ocm.software/ocm-core/api/utils/blobaccess"
+	"ocm.software/ocm-core/api/utils/blobaccess/dockerdaemon"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
+	ociartifact2 "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/types/ociartifact"
 )
 
 type Spec struct {

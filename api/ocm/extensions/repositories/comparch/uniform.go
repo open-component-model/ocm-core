@@ -1,10 +1,10 @@
 package comparch
 
 import (
-	"github.com/open-component-model/ocm/api/datacontext/attrs/vfsattr"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
+	"ocm.software/ocm-core/api/datacontext/attrs/vfsattr"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
 )
 
 const AltType = "ca"

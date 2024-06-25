@@ -6,7 +6,7 @@ import (
 	"github.com/mandelsoft/goutils/set"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 type Key[K any] interface {

@@ -1,5 +1,5 @@
 package routingslip
 
 import (
-	_ "github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip/types"
+	_ "ocm.software/ocm-core/api/ocm/extensions/labels/routingslip/types"
 )

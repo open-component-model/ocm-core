@@ -8,13 +8,13 @@ import (
 	"io"
 	"strings"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/oci/artdesc"
-	"github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/compression"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/oci/artdesc"
+	"ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/compression"
 )
 
 func PrintArtifact(pr common.Printer, art cpi.ArtifactAccess, listFiles bool) {

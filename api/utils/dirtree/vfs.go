@@ -8,7 +8,7 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 func NewVFSDirNode(ctx Context, p string, fss ...vfs.FileSystem) (*DirNode, error) {

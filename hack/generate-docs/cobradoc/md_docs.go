@@ -13,8 +13,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/utils/cobrautils"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/groups"
+	"ocm.software/ocm-core/api/utils/cobrautils"
+	"ocm.software/ocm-core/api/utils/cobrautils/groups"
 )
 
 func printOptionGroups(buf *bytes.Buffer, title string, flags *pflag.FlagSet) {

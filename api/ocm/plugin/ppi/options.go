@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flag"
+	"ocm.software/ocm-core/api/utils/cobrautils/flag"
 )
 
 const (

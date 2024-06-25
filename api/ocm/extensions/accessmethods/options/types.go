@@ -3,7 +3,7 @@ package options
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
 )
 
 type OptionType interface {

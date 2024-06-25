@@ -5,10 +5,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/credentials/builtin/npm/identity"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/npm"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/credentials/builtin/npm/identity"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/npm"
 )
 
 var _ = Describe("Config deserialization Test Environment", func() {

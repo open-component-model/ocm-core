@@ -7,7 +7,7 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/logging"
 )
 
 var ReallyCrash = true

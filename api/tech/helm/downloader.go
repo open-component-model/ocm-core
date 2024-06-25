@@ -14,13 +14,13 @@ import (
 	"helm.sh/helm/v3/pkg/registry"
 	"helm.sh/helm/v3/pkg/repo"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/credentials/builtin/helm/identity"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/directcreds"
-	"github.com/open-component-model/ocm/api/oci"
-	ocihelm "github.com/open-component-model/ocm/api/ocm/extensions/download/handlers/helm"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/credentials/builtin/helm/identity"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/directcreds"
+	"ocm.software/ocm-core/api/oci"
+	ocihelm "ocm.software/ocm-core/api/ocm/extensions/download/handlers/helm"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type chartDownloader struct {

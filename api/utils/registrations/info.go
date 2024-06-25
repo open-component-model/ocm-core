@@ -5,7 +5,7 @@ import (
 
 	"github.com/mandelsoft/goutils/general"
 
-	"github.com/open-component-model/ocm/api/utils/listformat"
+	"ocm.software/ocm-core/api/utils/listformat"
 )
 
 type HandlerInfos []HandlerInfo

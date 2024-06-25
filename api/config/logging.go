@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/open-component-model/ocm/api/config/internal"
+	"ocm.software/ocm-core/api/config/internal"
 )
 
 var Realm = internal.Realm

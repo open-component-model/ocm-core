@@ -6,15 +6,15 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
-	. "github.com/open-component-model/ocm/api/ocm/plugin/testutils"
+	. "ocm.software/ocm-core/api/helper/builder"
+	. "ocm.software/ocm-core/api/ocm/plugin/testutils"
 
-	"github.com/open-component-model/ocm/api/datacontext/action/handlers"
-	oci_repository_prepare "github.com/open-component-model/ocm/api/oci/extensions/actions/oci-repository-prepare"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/actionhandler/plugin"
-	"github.com/open-component-model/ocm/api/ocm/plugin/plugins"
-	"github.com/open-component-model/ocm/api/ocm/plugin/registration"
+	"ocm.software/ocm-core/api/datacontext/action/handlers"
+	oci_repository_prepare "ocm.software/ocm-core/api/oci/extensions/actions/oci-repository-prepare"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/actionhandler/plugin"
+	"ocm.software/ocm-core/api/ocm/plugin/plugins"
+	"ocm.software/ocm-core/api/ocm/plugin/registration"
 )
 
 const PLUGIN = "test"

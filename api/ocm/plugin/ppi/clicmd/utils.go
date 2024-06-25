@@ -1,13 +1,13 @@
 package clicmd
 
 import (
-	_ "github.com/open-component-model/ocm/cmds/ocm/clippi/config"
+	_ "ocm.software/ocm-core/cmds/ocm/clippi/config"
 
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/goutils/optionutils"
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

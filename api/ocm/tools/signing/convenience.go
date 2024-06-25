@@ -3,10 +3,10 @@ package signing
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/signingattr"
-	"github.com/open-component-model/ocm/api/tech/signing/handlers/rsa"
+	"ocm.software/ocm-core/api/ocm"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/signingattr"
+	"ocm.software/ocm-core/api/tech/signing/handlers/rsa"
 )
 
 func SignComponentVersion(cv ocm.ComponentVersionAccess, name string, optlist ...Option) (*metav1.DigestSpec, error) {

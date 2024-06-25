@@ -3,9 +3,9 @@ package v3alpha1
 import (
 	"errors"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 var ErrNotFound = errors.New("NotFound")

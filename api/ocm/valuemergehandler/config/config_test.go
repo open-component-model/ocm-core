@@ -7,12 +7,12 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm"
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/config"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/hpi"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/config"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/hpi"
 )
 
 var _ = Describe("merge config", func() {

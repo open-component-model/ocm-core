@@ -3,11 +3,11 @@ package sign
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/misccmds/hash/sign"
-	components "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/components/sign"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/cmds/ocm/commands/misccmds/hash/sign"
+	components "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/components/sign"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 // NewCommand creates a new command.

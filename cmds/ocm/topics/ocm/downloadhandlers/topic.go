@@ -3,8 +3,8 @@ package topicocmaccessmethods
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/downloaderoption"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/downloaderoption"
 )
 
 func New(ctx clictx.Context) *cobra.Command {

@@ -6,8 +6,8 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm/internal"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm/internal"
 )
 
 type DedicatedResolver []ComponentVersionAccess

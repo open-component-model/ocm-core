@@ -5,8 +5,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/blobhandler/handlers/generic/npm"
-	"github.com/open-component-model/ocm/api/utils/registrations"
+	"ocm.software/ocm-core/api/ocm/extensions/blobhandler/handlers/generic/npm"
+	"ocm.software/ocm-core/api/utils/registrations"
 )
 
 var _ = Describe("Config deserialization Test Environment", func() {

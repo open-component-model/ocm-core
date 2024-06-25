@@ -8,11 +8,11 @@ import (
 	"github.com/mandelsoft/goutils/sliceutils"
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/internal"
-	"github.com/open-component-model/ocm/api/utils/registrations"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/internal"
+	"ocm.software/ocm-core/api/utils/registrations"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const CONTEXT_TYPE = internal.CONTEXT_TYPE

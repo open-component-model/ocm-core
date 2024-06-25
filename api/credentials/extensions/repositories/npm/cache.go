@@ -1,8 +1,8 @@
 package npm
 
 import (
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
 type Cache struct {

@@ -7,12 +7,12 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/ocm/tools/signing"
+	. "ocm.software/ocm-core/api/ocm/tools/signing"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/handlers/rsa"
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/handlers/rsa"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
 )
 
 const NAME = "mandelsoft"

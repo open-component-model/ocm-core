@@ -4,7 +4,7 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/utils/subst"
+	"ocm.software/ocm-core/api/utils/subst"
 )
 
 func Substitute(subs Substitutions, fs vfs.FileSystem) error {

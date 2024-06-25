@@ -7,8 +7,8 @@ package jsonv1
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/utils/errkind"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/utils/errkind"
 )
 
 const Algorithm = compdesc.JsonNormalisationV1

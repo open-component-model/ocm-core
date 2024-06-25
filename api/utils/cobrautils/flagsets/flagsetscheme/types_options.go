@@ -3,8 +3,8 @@ package flagsetscheme
 import (
 	"github.com/mandelsoft/goutils/optionutils"
 
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
-	"github.com/open-component-model/ocm/api/utils/runtime/descriptivetype"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/utils/runtime/descriptivetype"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

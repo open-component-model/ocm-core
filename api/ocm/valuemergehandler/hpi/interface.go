@@ -3,12 +3,12 @@
 package hpi
 
 import (
-	"github.com/open-component-model/ocm/api/datacontext"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/internal"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/datacontext"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/internal"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // resolve package cycle among default merge handler and
@@ -68,7 +68,7 @@ func LabelHint(name string, optversion ...string) Hint {
 
 ////////////////////////////////////////////////////////////////////////////////
 
-const ATTR_MERGE_HANDLERS = "github.com/open-component-model/ocm/api/ocm/valuemergehandlers"
+const ATTR_MERGE_HANDLERS = "ocm.software/ocm-core/api/ocm/valuemergehandlers"
 
 func For(ctx cpi.ContextProvider) Registry {
 	if ctx == nil {

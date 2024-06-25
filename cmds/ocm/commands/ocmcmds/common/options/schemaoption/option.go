@@ -4,12 +4,12 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	utils2 "github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/errkind"
-	"github.com/open-component-model/ocm/api/utils/listformat"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	utils2 "ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/errkind"
+	"ocm.software/ocm-core/api/utils/listformat"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
 )
 
 func From(o options.OptionSetProvider) *Option {

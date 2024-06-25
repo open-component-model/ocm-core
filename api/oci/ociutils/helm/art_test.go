@@ -15,13 +15,13 @@ import (
 	"helm.sh/helm/v3/pkg/chart"
 	"helm.sh/helm/v3/pkg/chartutil"
 
-	"github.com/open-component-model/ocm/api/helper/builder"
-	"github.com/open-component-model/ocm/api/helper/env"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/artifactset"
-	"github.com/open-component-model/ocm/api/oci/ociutils/helm"
-	"github.com/open-component-model/ocm/api/tech/helm/loader"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/helper/builder"
+	"ocm.software/ocm-core/api/helper/env"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/artifactset"
+	"ocm.software/ocm-core/api/oci/ociutils/helm"
+	"ocm.software/ocm-core/api/tech/helm/loader"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 type Files []*chart.File

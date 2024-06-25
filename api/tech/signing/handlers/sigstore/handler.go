@@ -25,9 +25,9 @@ import (
 	"github.com/sigstore/sigstore/pkg/signature"
 	signatureoptions "github.com/sigstore/sigstore/pkg/signature/options"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/handlers/sigstore/attr"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/handlers/sigstore/attr"
 )
 
 // Algorithm defines the type for the RSA PKCS #1 v1.5 signature algorithm.

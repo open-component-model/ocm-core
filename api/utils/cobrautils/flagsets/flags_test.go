@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
 )
 
 var _ = Describe("type set", func() {

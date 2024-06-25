@@ -9,8 +9,8 @@ import (
 
 	"github.com/mandelsoft/logging"
 
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 func InOut(log logging.Logger, in runtime.TypedObject, encoding runtime.Encoding) (runtime.TypedObject, string, error) {

@@ -8,9 +8,9 @@ import (
 	"github.com/mandelsoft/goutils/sliceutils"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 func init() {

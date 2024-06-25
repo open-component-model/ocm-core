@@ -3,7 +3,7 @@ package signing
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/utils/encrypt"
+	"ocm.software/ocm-core/api/utils/encrypt"
 )
 
 const DECRYPTION_PREFIX = "decrypt:"

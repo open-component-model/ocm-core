@@ -4,21 +4,21 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
+	. "ocm.software/ocm-core/api/helper/builder"
 
 	"github.com/mandelsoft/vfs/pkg/projectionfs"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	tenv "github.com/open-component-model/ocm/api/helper/env"
-	"github.com/open-component-model/ocm/api/oci/testhelper"
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/ociartifact"
-	"github.com/open-component-model/ocm/api/ocm/extensions/download"
-	"github.com/open-component-model/ocm/api/ocm/extensions/download/handlers/blueprint"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ctf"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/api/utils/tarutils"
+	"ocm.software/ocm-core/api/common/common"
+	tenv "ocm.software/ocm-core/api/helper/env"
+	"ocm.software/ocm-core/api/oci/testhelper"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/ociartifact"
+	"ocm.software/ocm-core/api/ocm/extensions/download"
+	"ocm.software/ocm-core/api/ocm/extensions/download/handlers/blueprint"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ctf"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/api/utils/tarutils"
 )
 
 var _ = Describe("blueprint downloader registration", func() {

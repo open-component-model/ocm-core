@@ -4,13 +4,13 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/oci/extensions/attrs/cacheattr"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/out"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/cachecmds/names"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/oci/extensions/attrs/cacheattr"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/out"
+	"ocm.software/ocm-core/cmds/ocm/commands/cachecmds/names"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 var (

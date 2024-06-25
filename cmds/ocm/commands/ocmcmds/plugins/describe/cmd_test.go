@@ -8,8 +8,8 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/ocm/plugin/testutils"
-	. "github.com/open-component-model/ocm/cmds/ocm/testhelper"
+	. "ocm.software/ocm-core/api/ocm/plugin/testutils"
+	. "ocm.software/ocm-core/cmds/ocm/testhelper"
 )
 
 const PLUGINS = "/testdata"

@@ -20,7 +20,7 @@ func RegisterLoggingConfigHandler(h LoggingHandler) {
 
 // LoggingConfiguration describes logging configuration for a slave executables like
 // plugins.
-// If mandelsoft logging is used please use github.com/open-component-model/ocm/api/utils/cobrautils/logging.LoggingConfiguration,
+// If mandelsoft logging is used please use ocm.software/ocm-core/api/utils/cobrautils/logging.LoggingConfiguration,
 // instead.
 type LoggingConfiguration struct {
 	LogFileName string          `json:"logFileName"`

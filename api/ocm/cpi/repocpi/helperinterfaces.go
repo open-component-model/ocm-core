@@ -3,8 +3,8 @@ package repocpi
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/utils/refmgmt/resource"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/utils/refmgmt/resource"
 )
 
 var (

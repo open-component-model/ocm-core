@@ -5,7 +5,7 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 const (

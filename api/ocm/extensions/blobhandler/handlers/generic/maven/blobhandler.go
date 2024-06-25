@@ -7,16 +7,16 @@ import (
 	"github.com/mandelsoft/goutils/ioutils"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/credentials/builtin/maven/identity"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	access "github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/maven"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/tech/maven"
-	mavenblob "github.com/open-component-model/ocm/api/utils/blobaccess/maven"
-	"github.com/open-component-model/ocm/api/utils/iotools"
-	"github.com/open-component-model/ocm/api/utils/logging"
-	"github.com/open-component-model/ocm/api/utils/mime"
-	"github.com/open-component-model/ocm/api/utils/tarutils"
+	"ocm.software/ocm-core/api/credentials/builtin/maven/identity"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	access "ocm.software/ocm-core/api/ocm/extensions/accessmethods/maven"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/tech/maven"
+	mavenblob "ocm.software/ocm-core/api/utils/blobaccess/maven"
+	"ocm.software/ocm-core/api/utils/iotools"
+	"ocm.software/ocm-core/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/mime"
+	"ocm.software/ocm-core/api/utils/tarutils"
 )
 
 const BlobHandlerName = "ocm/" + resourcetypes.MAVEN_PACKAGE

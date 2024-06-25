@@ -12,7 +12,7 @@ import (
 	"github.com/mandelsoft/logging"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 const (

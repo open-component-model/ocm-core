@@ -3,12 +3,12 @@ package create
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	rsakeypair "github.com/open-component-model/ocm/cmds/ocm/commands/misccmds/rsakeypair"
-	ctf "github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/ctf/create"
-	comparch "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/componentarchive/create"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	rsakeypair "ocm.software/ocm-core/cmds/ocm/commands/misccmds/rsakeypair"
+	ctf "ocm.software/ocm-core/cmds/ocm/commands/ocicmds/ctf/create"
+	comparch "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/componentarchive/create"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 // NewCommand creates a new command.

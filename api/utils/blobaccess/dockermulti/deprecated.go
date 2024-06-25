@@ -1,7 +1,7 @@
 package dockermulti
 
 import (
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
 )
 
 // BlobAccessForMultiImageFromDockerDaemon returns a BlobAccess for the image with the given name.

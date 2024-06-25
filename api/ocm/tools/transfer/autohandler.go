@@ -5,8 +5,8 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler/standard"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler/standard"
 )
 
 func init() {

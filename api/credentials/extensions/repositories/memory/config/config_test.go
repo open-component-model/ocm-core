@@ -3,14 +3,14 @@ package config_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/env"
+	. "ocm.software/ocm-core/api/helper/env"
 
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/memory"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/memory"
 )
 
 var _ = Describe("configure credentials", func() {

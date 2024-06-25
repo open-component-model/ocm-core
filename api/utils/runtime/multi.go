@@ -8,8 +8,8 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/goutils/set"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/errkind"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/errkind"
 )
 
 type multiFormatVersion[T VersionedTypedObject] struct {

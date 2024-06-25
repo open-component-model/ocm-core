@@ -7,14 +7,14 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/cmds/ocm/testhelper"
+	. "ocm.software/ocm-core/cmds/ocm/testhelper"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localblob"
-	mavenacc "github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/maven"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ctf"
-	"github.com/open-component-model/ocm/api/tech/maven"
-	"github.com/open-component-model/ocm/api/tech/maven/maventest"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localblob"
+	mavenacc "ocm.software/ocm-core/api/ocm/extensions/accessmethods/maven"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ctf"
+	"ocm.software/ocm-core/api/tech/maven"
+	"ocm.software/ocm-core/api/tech/maven/maventest"
 )
 
 const (

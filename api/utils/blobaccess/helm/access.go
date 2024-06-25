@@ -7,13 +7,13 @@ import (
 	"github.com/mandelsoft/goutils/optionutils"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials/builtin/helm/identity"
-	ocihelm "github.com/open-component-model/ocm/api/oci/ociutils/helm"
-	"github.com/open-component-model/ocm/api/tech/helm"
-	"github.com/open-component-model/ocm/api/tech/helm/loader"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials/builtin/helm/identity"
+	ocihelm "ocm.software/ocm-core/api/oci/ociutils/helm"
+	"ocm.software/ocm-core/api/tech/helm"
+	"ocm.software/ocm-core/api/tech/helm/loader"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
 )
 
 func BlobAccess(path string, opts ...Option) (blob bpi.BlobAccess, name, version string, err error) {

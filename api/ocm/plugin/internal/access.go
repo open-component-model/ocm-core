@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/open-component-model/ocm/api/credentials"
+	"ocm.software/ocm-core/api/credentials"
 )
 
 type AccessSpecInfo struct {

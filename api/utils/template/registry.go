@@ -8,7 +8,7 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 const KIND_TEMPLATER = "templater"

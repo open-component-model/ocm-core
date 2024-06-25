@@ -12,8 +12,8 @@ import (
 	"github.com/containers/image/v5/types"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/utils/accessio"
+	"ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/utils/accessio"
 )
 
 var dummyContext = context.Background()

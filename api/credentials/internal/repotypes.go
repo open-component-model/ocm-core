@@ -7,9 +7,9 @@ import (
 	"github.com/mandelsoft/goutils/generics"
 	"github.com/modern-go/reflect2"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
-	"github.com/open-component-model/ocm/api/utils/runtime/descriptivetype"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils/runtime/descriptivetype"
 )
 
 type RepositoryType interface {

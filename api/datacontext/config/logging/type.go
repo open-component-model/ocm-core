@@ -4,11 +4,11 @@ import (
 	"github.com/mandelsoft/logging"
 	logcfg "github.com/mandelsoft/logging/config"
 
-	"github.com/open-component-model/ocm/api/config/cpi"
-	"github.com/open-component-model/ocm/api/datacontext"
-	logdata "github.com/open-component-model/ocm/api/utils/cobrautils/logopts/logging"
-	local "github.com/open-component-model/ocm/api/utils/logging"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/config/cpi"
+	"ocm.software/ocm-core/api/datacontext"
+	logdata "ocm.software/ocm-core/api/utils/cobrautils/logopts/logging"
+	local "ocm.software/ocm-core/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

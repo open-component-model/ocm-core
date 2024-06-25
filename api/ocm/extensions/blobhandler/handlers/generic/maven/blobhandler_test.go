@@ -7,18 +7,18 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
+	. "ocm.software/ocm-core/api/helper/builder"
 
 	"github.com/mandelsoft/goutils/sliceutils"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/ocm/elements"
-	me "github.com/open-component-model/ocm/api/ocm/extensions/blobhandler/handlers/generic/maven"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/composition"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/tech/maven"
-	"github.com/open-component-model/ocm/api/tech/maven/maventest"
-	mavenblob "github.com/open-component-model/ocm/api/utils/blobaccess/maven"
+	"ocm.software/ocm-core/api/ocm/elements"
+	me "ocm.software/ocm-core/api/ocm/extensions/blobhandler/handlers/generic/maven"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/composition"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/tech/maven"
+	"ocm.software/ocm-core/api/tech/maven/maventest"
+	mavenblob "ocm.software/ocm-core/api/utils/blobaccess/maven"
 )
 
 const MAVEN_PATH = "/testdata/.m2/repository"

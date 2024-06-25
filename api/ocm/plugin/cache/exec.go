@@ -6,8 +6,8 @@ import (
 	"io"
 	"os/exec"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds"
-	"github.com/open-component-model/ocm/api/utils/accessio"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds"
+	"ocm.software/ocm-core/api/utils/accessio"
 )
 
 func Exec(execpath string, config json.RawMessage, r io.Reader, w io.Writer, args ...string) ([]byte, error) {

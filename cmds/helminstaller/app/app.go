@@ -3,10 +3,10 @@ package app
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/ocm/tools/toi/support"
-	"github.com/open-component-model/ocm/cmds/helminstaller/app/driver"
-	"github.com/open-component-model/ocm/cmds/helminstaller/app/driver/helm"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/ocm/tools/toi/support"
+	"ocm.software/ocm-core/cmds/helminstaller/app/driver"
+	"ocm.software/ocm-core/cmds/helminstaller/app/driver/helm"
 )
 
 func NewCliCommand(ctx clictx.Context, d driver.Driver) *cobra.Command {

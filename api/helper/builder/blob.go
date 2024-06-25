@@ -1,9 +1,9 @@
 package builder
 
 import (
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/dirtree"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/blobaccess"
+	"ocm.software/ocm-core/api/utils/blobaccess/dirtree"
 )
 
 const T_BLOBACCESS = "blob access"

@@ -4,13 +4,13 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/ocm"
-	me "github.com/open-component-model/ocm/api/ocm/extensions/attrs/compositionmodeattr"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/ocm"
+	me "ocm.software/ocm-core/api/ocm/extensions/attrs/compositionmodeattr"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 var _ = Describe("attribute", func() {

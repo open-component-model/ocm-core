@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/cmds/helminstaller/app"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/cmds/helminstaller/app"
 )
 
 func main() {

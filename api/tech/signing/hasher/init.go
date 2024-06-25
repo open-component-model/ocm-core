@@ -1,7 +1,7 @@
 package hasher
 
 import (
-	_ "github.com/open-component-model/ocm/api/tech/signing/hasher/nodigest"
-	_ "github.com/open-component-model/ocm/api/tech/signing/hasher/sha256"
-	_ "github.com/open-component-model/ocm/api/tech/signing/hasher/sha512"
+	_ "ocm.software/ocm-core/api/tech/signing/hasher/nodigest"
+	_ "ocm.software/ocm-core/api/tech/signing/hasher/sha256"
+	_ "ocm.software/ocm-core/api/tech/signing/hasher/sha512"
 )

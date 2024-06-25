@@ -1,8 +1,8 @@
 package transfer
 
 import (
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm"
 )
 
 // //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

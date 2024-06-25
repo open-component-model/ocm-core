@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 // CreateAndVerifyX509CertificateFromFiles creates and verifies a x509 certificate from certificate files.

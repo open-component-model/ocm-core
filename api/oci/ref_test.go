@@ -9,12 +9,12 @@ import (
 
 	godigest "github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ctf"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ocireg"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ctf"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 func Type(t string) string {

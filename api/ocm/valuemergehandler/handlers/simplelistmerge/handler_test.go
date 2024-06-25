@@ -5,8 +5,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	me "github.com/open-component-model/ocm/api/ocm/valuemergehandler/handlers/simplelistmerge"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/hpi"
+	me "ocm.software/ocm-core/api/ocm/valuemergehandler/handlers/simplelistmerge"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/hpi"
 )
 
 type (

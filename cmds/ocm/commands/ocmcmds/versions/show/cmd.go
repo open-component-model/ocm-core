@@ -6,15 +6,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/utils/out"
-	"github.com/open-component-model/ocm/api/utils/semverutils"
-	ocmcommon "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/repooption"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/names"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/utils/out"
+	"ocm.software/ocm-core/api/utils/semverutils"
+	ocmcommon "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/repooption"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/names"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 var (

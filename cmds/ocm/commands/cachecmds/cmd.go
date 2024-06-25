@@ -3,10 +3,10 @@ package cachecmds
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/cachecmds/clean"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/cachecmds/describe"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/cmds/ocm/commands/cachecmds/clean"
+	"ocm.software/ocm-core/cmds/ocm/commands/cachecmds/describe"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 // NewCommand creates a new cache command.

@@ -4,7 +4,7 @@ import (
 	"github.com/mandelsoft/goutils/optionutils"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 type Option = optionutils.Option[*Options]

@@ -5,9 +5,9 @@ import (
 
 	"github.com/mandelsoft/goutils/optionutils"
 
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/artifactset"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/artifactset"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
 )
 
 func BlobAccess(refname string, opts ...Option) (bpi.BlobAccess, string, error) {

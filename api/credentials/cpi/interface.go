@@ -3,9 +3,9 @@ package cpi
 // This is the Context Provider Interface for credential providers
 
 import (
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials/internal"
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials/internal"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
 const (

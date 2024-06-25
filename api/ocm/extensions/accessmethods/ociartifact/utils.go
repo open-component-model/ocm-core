@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/oci/grammar"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/oci/grammar"
+	"ocm.software/ocm-core/api/ocm/cpi"
 )
 
 // OCIArtifactReferenceProvider should be implemented by

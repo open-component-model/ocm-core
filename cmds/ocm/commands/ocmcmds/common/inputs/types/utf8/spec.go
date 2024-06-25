@@ -5,10 +5,10 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/open-component-model/ocm/api/utils/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/runtime"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
+	"ocm.software/ocm-core/api/utils/blobaccess"
+	"ocm.software/ocm-core/api/utils/runtime"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
 )
 
 type Spec struct {

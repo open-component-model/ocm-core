@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localociblob"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localociblob"
 )
 
 var _ = Describe("Method", func() {

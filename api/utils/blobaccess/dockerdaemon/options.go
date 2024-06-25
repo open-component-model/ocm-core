@@ -3,9 +3,9 @@ package dockerdaemon
 import (
 	"github.com/mandelsoft/goutils/optionutils"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	cpi "github.com/open-component-model/ocm/api/oci/types"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/common/common"
+	cpi "ocm.software/ocm-core/api/oci/types"
+	"ocm.software/ocm-core/api/utils"
 )
 
 type Option = optionutils.Option[*Options]

@@ -3,10 +3,10 @@ package utils
 import (
 	"io"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/iotools"
+	"ocm.software/ocm-core/api/ocm"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/iotools"
 )
 
 func GetResourceData(acc ocm.AccessProvider) ([]byte, error) {

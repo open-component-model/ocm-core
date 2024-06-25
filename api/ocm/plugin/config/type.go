@@ -3,9 +3,9 @@ package config
 import (
 	"encoding/json"
 
-	"github.com/open-component-model/ocm/api/config"
-	cfgcpi "github.com/open-component-model/ocm/api/config/cpi"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/config"
+	cfgcpi "ocm.software/ocm-core/api/config/cpi"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

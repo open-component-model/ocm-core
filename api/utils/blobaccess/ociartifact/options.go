@@ -3,9 +3,9 @@ package ociartifact
 import (
 	"github.com/mandelsoft/goutils/optionutils"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/oci/tools/transfer/filters"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/oci/tools/transfer/filters"
 )
 
 type Option = optionutils.Option[*Options]

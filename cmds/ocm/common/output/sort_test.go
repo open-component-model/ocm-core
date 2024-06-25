@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/cmds/ocm/common/data"
+	"ocm.software/ocm-core/cmds/ocm/common/data"
 )
 
 var _ = Describe("sort", func() {

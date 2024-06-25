@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type Action interface {

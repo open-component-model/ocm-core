@@ -9,13 +9,13 @@ import (
 	"github.com/opencontainers/go-digest"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/signingattr"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/hasher/sha256"
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/signingattr"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/hasher/sha256"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
 )
 
 const (

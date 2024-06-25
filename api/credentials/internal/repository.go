@@ -3,7 +3,7 @@ package internal
 import (
 	"github.com/mandelsoft/goutils/set"
 
-	"github.com/open-component-model/ocm/api/common/common"
+	"ocm.software/ocm-core/api/common/common"
 )
 
 type Repository interface {

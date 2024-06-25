@@ -8,11 +8,11 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/oci"
-	ocicpi "github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/oci"
+	ocicpi "ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

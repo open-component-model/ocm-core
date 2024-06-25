@@ -3,9 +3,9 @@ package vault
 import (
 	"strings"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/vault/identity"
-	"github.com/open-component-model/ocm/api/utils/listformat"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/vault/identity"
+	"ocm.software/ocm-core/api/utils/listformat"
 )
 
 func init() {

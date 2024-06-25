@@ -6,11 +6,11 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/datacontext"
-	local "github.com/open-component-model/ocm/api/datacontext/config/attrs"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/datacontext"
+	local "ocm.software/ocm-core/api/datacontext/config/attrs"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const ATTR_KEY = "test"

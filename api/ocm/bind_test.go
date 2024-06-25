@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	me "github.com/open-component-model/ocm/api/ocm"
+	me "ocm.software/ocm-core/api/ocm"
 )
 
 var _ = Describe("area test", func() {

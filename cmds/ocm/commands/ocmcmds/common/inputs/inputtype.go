@@ -10,13 +10,13 @@ import (
 	"github.com/modern-go/reflect2"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/blobaccess"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const KIND_INPUTTYPE = "input type"
@@ -255,7 +255,7 @@ func CreateRepositorySpec(t runtime.TypedObject) (InputSpec, error) {
 
 ////////////////////////////////////////////////////////////////////////////////
 
-const ATTR_INPUT_TYPES = "github.com/open-component-model/ocm/cmds/ocm/common/inputs"
+const ATTR_INPUT_TYPES = "ocm.software/ocm-core/cmds/ocm/common/inputs"
 
 func For(ctx datacontext.Context) InputTypeScheme {
 	if ctx == nil {

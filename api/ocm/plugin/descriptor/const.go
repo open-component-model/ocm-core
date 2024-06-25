@@ -1,9 +1,9 @@
 package descriptor
 
 import (
-	"github.com/open-component-model/ocm/api/datacontext/action"
-	"github.com/open-component-model/ocm/api/utils/errkind"
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/datacontext/action"
+	"ocm.software/ocm-core/api/utils/errkind"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 const (

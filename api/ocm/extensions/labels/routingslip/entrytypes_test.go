@@ -8,12 +8,12 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip/internal"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip/types/comment"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip/internal"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip/types/comment"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const TYPE = "my"

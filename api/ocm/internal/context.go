@@ -9,15 +9,15 @@ import (
 
 	"github.com/modern-go/reflect2"
 
-	"github.com/open-component-model/ocm/api/config"
-	cfgcpi "github.com/open-component-model/ocm/api/config/cpi"
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ctf"
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/config"
+	cfgcpi "ocm.software/ocm-core/api/config/cpi"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ctf"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const CONTEXT_TYPE = "ocm" + datacontext.OCM_CONTEXT_SUFFIX

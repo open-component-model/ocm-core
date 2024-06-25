@@ -7,11 +7,11 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/download"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/listformat"
-	"github.com/open-component-model/ocm/api/utils/registrations"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/download"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/listformat"
+	"ocm.software/ocm-core/api/utils/registrations"
 )
 
 const PATH = "landscaper/blueprint"

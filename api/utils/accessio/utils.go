@@ -6,7 +6,7 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/utils/compression"
+	"ocm.software/ocm-core/api/utils/compression"
 )
 
 type closableReader struct {

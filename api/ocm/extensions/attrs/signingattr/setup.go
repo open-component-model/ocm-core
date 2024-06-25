@@ -1,8 +1,8 @@
 package signingattr
 
 import (
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/tech/signing"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/tech/signing"
 )
 
 func init() {

@@ -4,8 +4,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/oci"
-	oci_repository_prepare "github.com/open-component-model/ocm/api/oci/extensions/actions/oci-repository-prepare"
+	"ocm.software/ocm-core/api/oci"
+	oci_repository_prepare "ocm.software/ocm-core/api/oci/extensions/actions/oci-repository-prepare"
 )
 
 var _ = Describe("action registration", func() {

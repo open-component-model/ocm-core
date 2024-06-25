@@ -3,16 +3,16 @@ package ociartifact_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
-	. "github.com/open-component-model/ocm/api/oci/testhelper"
+	. "ocm.software/ocm-core/api/helper/builder"
+	. "ocm.software/ocm-core/api/oci/testhelper"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/cpi/accspeccpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/ociartifact"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi/accspeccpi"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/ociartifact"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 const (

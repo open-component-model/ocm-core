@@ -1,7 +1,7 @@
 package repositories
 
 import (
-	_ "github.com/open-component-model/ocm/api/ocm/extensions/repositories/comparch"
-	_ "github.com/open-component-model/ocm/api/ocm/extensions/repositories/ctf"
-	_ "github.com/open-component-model/ocm/api/ocm/extensions/repositories/genericocireg"
+	_ "ocm.software/ocm-core/api/ocm/extensions/repositories/comparch"
+	_ "ocm.software/ocm-core/api/ocm/extensions/repositories/ctf"
+	_ "ocm.software/ocm-core/api/ocm/extensions/repositories/genericocireg"
 )

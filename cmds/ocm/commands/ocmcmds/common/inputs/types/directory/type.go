@@ -1,8 +1,8 @@
 package directory
 
 import (
-	"github.com/open-component-model/ocm/api/utils/mime"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs"
+	"ocm.software/ocm-core/api/utils/mime"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs"
 )
 
 const TYPE = "dir"

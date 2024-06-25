@@ -3,7 +3,7 @@ package api
 import (
 	"github.com/mandelsoft/goutils/optionutils"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi"
 )
 
 type (

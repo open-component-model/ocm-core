@@ -3,9 +3,9 @@ package config
 import (
 	"context"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/command"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/command"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 func init() {

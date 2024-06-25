@@ -4,7 +4,7 @@ import (
 	"github.com/mandelsoft/goutils/optionutils"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/tech/maven"
+	"ocm.software/ocm-core/api/tech/maven"
 )
 
 type (

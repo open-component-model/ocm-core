@@ -7,9 +7,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
-	"github.com/open-component-model/ocm/api/utils/refmgmt/finalized"
-	"github.com/open-component-model/ocm/api/utils/runtimefinalizer"
+	"ocm.software/ocm-core/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/utils/refmgmt/finalized"
+	"ocm.software/ocm-core/api/utils/runtimefinalizer"
 )
 
 type Interface interface {

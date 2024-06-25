@@ -1,9 +1,9 @@
 package builder
 
 import (
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ocireg"
 )
 
 const T_OCIREPOSITORY = "oci repository"

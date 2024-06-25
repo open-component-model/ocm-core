@@ -3,11 +3,11 @@ package testutils
 import (
 	"github.com/mandelsoft/goutils/testutils"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/plugincacheattr"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/plugindirattr"
-	"github.com/open-component-model/ocm/api/ocm/plugin/cache"
-	"github.com/open-component-model/ocm/api/ocm/plugin/plugins"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/plugincacheattr"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/plugindirattr"
+	"ocm.software/ocm-core/api/ocm/plugin/cache"
+	"ocm.software/ocm-core/api/ocm/plugin/plugins"
 )
 
 type TempPluginDir = testutils.TempDir

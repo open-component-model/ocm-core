@@ -6,7 +6,7 @@ import (
 
 	"github.com/mandelsoft/goutils/generics"
 
-	me "github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler/standard"
+	me "ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler/standard"
 )
 
 type Target struct {

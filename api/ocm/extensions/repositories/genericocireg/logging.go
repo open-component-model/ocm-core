@@ -3,7 +3,7 @@ package genericocireg
 import (
 	"github.com/mandelsoft/logging"
 
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 var REALM = ocmlog.DefineSubRealm("OCM to OCI Registry Mapping", "oci", "mapping")

@@ -6,16 +6,16 @@ import (
 	"github.com/mandelsoft/vfs/pkg/vfs"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/dirtree"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/dockerdaemon"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/dockermulti"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/file"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/helm"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/maven"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/ociartifact"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/wget"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/blobaccess/dirtree"
+	"ocm.software/ocm-core/api/utils/blobaccess/dockerdaemon"
+	"ocm.software/ocm-core/api/utils/blobaccess/dockermulti"
+	"ocm.software/ocm-core/api/utils/blobaccess/file"
+	"ocm.software/ocm-core/api/utils/blobaccess/helm"
+	"ocm.software/ocm-core/api/utils/blobaccess/maven"
+	"ocm.software/ocm-core/api/utils/blobaccess/ociartifact"
+	"ocm.software/ocm-core/api/utils/blobaccess/wget"
 )
 
 ///////////

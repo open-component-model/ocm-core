@@ -3,8 +3,8 @@ package resource
 import (
 	"io"
 
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 type CloserView interface {

@@ -7,15 +7,15 @@ import (
 
 	"github.com/mandelsoft/goutils/finalizer"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	me "github.com/open-component-model/ocm/api/ocm/extensions/repositories/composition"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	ocmutils "github.com/open-component-model/ocm/api/ocm/ocmutils"
-	"github.com/open-component-model/ocm/api/utils/blobaccess"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
-	"github.com/open-component-model/ocm/api/utils/mime"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/ocm"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	me "ocm.software/ocm-core/api/ocm/extensions/repositories/composition"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	ocmutils "ocm.software/ocm-core/api/ocm/ocmutils"
+	"ocm.software/ocm-core/api/utils/blobaccess"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/mime"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 var _ = Describe("version", func() {

@@ -9,15 +9,15 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/cpi/accspeccpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localfsblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/comparch"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/cpi/accspeccpi"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localblob"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localfsblob"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/comparch"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 var DefaultContext = ocm.New()

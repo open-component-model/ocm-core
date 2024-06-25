@@ -6,10 +6,10 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	mime2 "github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	mime2 "ocm.software/ocm-core/api/utils/mime"
 )
 
 const (

@@ -20,9 +20,9 @@ import (
 	"golang.org/x/exp/maps"
 	"golang.org/x/net/html"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/iotools"
-	"github.com/open-component-model/ocm/api/utils/tarutils"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/iotools"
+	"ocm.software/ocm-core/api/utils/tarutils"
 )
 
 type FileMeta struct {

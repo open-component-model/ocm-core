@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"sync"
 
-	cfgcpi "github.com/open-component-model/ocm/api/config/cpi"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/plugin"
-	"github.com/open-component-model/ocm/api/ocm/plugin/cache"
-	"github.com/open-component-model/ocm/api/ocm/plugin/config"
-	"github.com/open-component-model/ocm/api/ocm/plugin/descriptor"
-	"github.com/open-component-model/ocm/api/utils"
+	cfgcpi "ocm.software/ocm-core/api/config/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/plugin"
+	"ocm.software/ocm-core/api/ocm/plugin/cache"
+	"ocm.software/ocm-core/api/ocm/plugin/config"
+	"ocm.software/ocm-core/api/ocm/plugin/descriptor"
+	"ocm.software/ocm-core/api/utils"
 )
 
 type Set = *pluginsImpl

@@ -3,8 +3,8 @@ package topicocmlabels
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler"
 )
 
 func New(ctx clictx.Context) *cobra.Command {

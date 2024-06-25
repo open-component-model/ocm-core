@@ -5,9 +5,9 @@ import (
 
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi/accspeccpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localblob"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/cpi/accspeccpi"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localblob"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // Type is the access type for a component version local blob in an OCI repository.

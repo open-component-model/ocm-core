@@ -3,8 +3,8 @@ package ocireg
 import (
 	"strings"
 
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ocireg"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/genericocireg"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/genericocireg"
 )
 
 func init() {

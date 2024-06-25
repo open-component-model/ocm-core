@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"io"
 
-	. "github.com/open-component-model/ocm/api/utils/out"
+	. "ocm.software/ocm-core/api/utils/out"
 
 	"github.com/mandelsoft/goutils/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-component-model/ocm/cmds/ocm/common/processing"
+	"ocm.software/ocm-core/cmds/ocm/common/processing"
 )
 
 type Object = interface{}

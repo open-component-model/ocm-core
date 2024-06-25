@@ -4,9 +4,9 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/osfs"
 
-	"github.com/open-component-model/ocm/api/ocm/tools/toi/support"
-	"github.com/open-component-model/ocm/api/utils/runtime"
-	"github.com/open-component-model/ocm/cmds/helminstaller/app/driver"
+	"ocm.software/ocm-core/api/ocm/tools/toi/support"
+	"ocm.software/ocm-core/api/utils/runtime"
+	"ocm.software/ocm-core/cmds/helminstaller/app/driver"
 )
 
 func New(d driver.Driver) func(o *support.ExecutorOptions) error {

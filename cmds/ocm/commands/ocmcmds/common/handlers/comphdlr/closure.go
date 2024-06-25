@@ -3,11 +3,11 @@ package comphdlr
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/utils/out"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/lookupoption"
-	"github.com/open-component-model/ocm/cmds/ocm/common/output"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/utils/out"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/lookupoption"
+	"ocm.software/ocm-core/cmds/ocm/common/output"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

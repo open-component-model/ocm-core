@@ -3,8 +3,8 @@ package common
 import (
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/api/utils"
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/utils"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 type NameVersionInfo[T any] map[NameVersion]T

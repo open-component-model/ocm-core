@@ -3,10 +3,10 @@ package identity
 import (
 	. "net/url"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/credentials/identity/hostpath"
-	"github.com/open-component-model/ocm/api/utils/listformat"
-	"github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/credentials/identity/hostpath"
+	"ocm.software/ocm-core/api/utils/listformat"
+	"ocm.software/ocm-core/api/utils/logging"
 )
 
 const (

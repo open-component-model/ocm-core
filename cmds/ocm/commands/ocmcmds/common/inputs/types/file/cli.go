@@ -1,8 +1,8 @@
 package file
 
 import (
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
 )
 
 func ConfigHandler() flagsets.ConfigOptionTypeSetHandler {

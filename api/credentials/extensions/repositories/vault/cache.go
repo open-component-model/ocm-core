@@ -5,11 +5,11 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
-const ATTR_REPOS = "github.com/open-component-model/ocm/api/credentials/extensions/repositories/vault"
+const ATTR_REPOS = "ocm.software/ocm-core/api/credentials/extensions/repositories/vault"
 
 type Repositories struct {
 	lock  sync.Mutex

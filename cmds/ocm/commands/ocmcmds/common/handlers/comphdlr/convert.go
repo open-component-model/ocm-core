@@ -1,7 +1,7 @@
 package comphdlr
 
 import (
-	"github.com/open-component-model/ocm/cmds/ocm/common/data"
+	"ocm.software/ocm-core/cmds/ocm/common/data"
 )
 
 type Objects []*Object

@@ -6,15 +6,15 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/utils/logging/testhelper"
+	. "ocm.software/ocm-core/api/utils/logging/testhelper"
 
 	"github.com/mandelsoft/logging"
 	"github.com/tonglil/buflogr"
 
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/datacontext"
-	logcfg "github.com/open-component-model/ocm/api/datacontext/config/logging"
-	log "github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/datacontext"
+	logcfg "ocm.software/ocm-core/api/datacontext/config/logging"
+	log "ocm.software/ocm-core/api/utils/logging"
 )
 
 var _ = Describe("logging configuration", func() {

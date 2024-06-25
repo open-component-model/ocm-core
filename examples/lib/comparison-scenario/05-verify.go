@@ -5,9 +5,9 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/examples/lib/helper"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/tools/signing"
+	"ocm.software/ocm-core/examples/lib/helper"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/tools/signing"
 )
 
 func Verify(cfg *helper.Config) error {

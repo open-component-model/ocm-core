@@ -1,9 +1,9 @@
 package plugin
 
 import (
-	"github.com/open-component-model/ocm/api/config/cpi"
-	"github.com/open-component-model/ocm/api/config/internal"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/config/cpi"
+	"ocm.software/ocm-core/api/config/internal"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 var _ cpi.Config = (*Config)(nil)

@@ -8,8 +8,8 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/comppathopt"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/comppathopt"
 )
 
 func TestConfig(t *testing.T) {

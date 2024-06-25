@@ -5,15 +5,15 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	testenv "github.com/open-component-model/ocm/api/helper/env"
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	me "github.com/open-component-model/ocm/api/ocm/elements/artifactblob/dirtreeblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/ociartifact"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ctf"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/api/utils/mime"
-	"github.com/open-component-model/ocm/api/utils/tarutils"
+	testenv "ocm.software/ocm-core/api/helper/env"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	me "ocm.software/ocm-core/api/ocm/elements/artifactblob/dirtreeblob"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/ociartifact"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ctf"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/api/utils/mime"
+	"ocm.software/ocm-core/api/utils/tarutils"
 )
 
 var _ = Describe("dir tree resource access", func() {

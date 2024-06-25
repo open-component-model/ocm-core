@@ -21,8 +21,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/net/context/ctxhttp"
 
-	"github.com/open-component-model/ocm/api/tech/docker/resolve"
-	"github.com/open-component-model/ocm/api/utils/accessio"
+	"ocm.software/ocm-core/api/tech/docker/resolve"
+	"ocm.software/ocm-core/api/utils/accessio"
 )
 
 var (

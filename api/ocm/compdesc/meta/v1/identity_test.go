@@ -3,9 +3,9 @@ package v1_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/ocm/compdesc/equivalent/testhelper"
+	. "ocm.software/ocm-core/api/ocm/compdesc/equivalent/testhelper"
 
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
 )
 
 var _ = Describe("identity", func() {

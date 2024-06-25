@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
+	"ocm.software/ocm-core/api/credentials/cpi"
 )
 
 // IDENTITY_TYPE is the identity of this matcher.

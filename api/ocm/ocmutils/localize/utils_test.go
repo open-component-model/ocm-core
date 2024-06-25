@@ -5,8 +5,8 @@ import (
 
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/ocm/ocmutils/localize"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/ocmutils/localize"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 func UnmarshalLocalizations(data string) []localize.Localization {

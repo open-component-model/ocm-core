@@ -1,7 +1,7 @@
 package builder
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/compdesc"
 )
 
 type ocmReference struct {

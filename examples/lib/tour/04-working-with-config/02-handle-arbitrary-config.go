@@ -6,13 +6,13 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/examples/lib/helper"
-	"github.com/open-component-model/ocm/api/config"
-	configcfg "github.com/open-component-model/ocm/api/config/extensions/config"
-	"github.com/open-component-model/ocm/api/credentials"
-	credcfg "github.com/open-component-model/ocm/api/credentials/config"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/directcreds"
-	"github.com/open-component-model/ocm/api/oci"
+	"ocm.software/ocm-core/examples/lib/helper"
+	"ocm.software/ocm-core/api/config"
+	configcfg "ocm.software/ocm-core/api/config/extensions/config"
+	"ocm.software/ocm-core/api/credentials"
+	credcfg "ocm.software/ocm-core/api/credentials/config"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/directcreds"
+	"ocm.software/ocm-core/api/oci"
 )
 
 func credConfig(cfg *helper.Config) (config.Config, error) {

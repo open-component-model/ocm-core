@@ -3,7 +3,7 @@ package compdesc
 import (
 	"reflect"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc/equivalent"
+	"ocm.software/ocm-core/api/ocm/compdesc/equivalent"
 )
 
 func (cd *ComponentDescriptor) Equal(obj interface{}) bool {

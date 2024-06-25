@@ -3,14 +3,14 @@ package output
 import (
 	"strings"
 
-	. "github.com/open-component-model/ocm/cmds/ocm/common/processing"
+	. "ocm.software/ocm-core/cmds/ocm/common/processing"
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/out"
-	"github.com/open-component-model/ocm/api/utils/semverutils"
-	"github.com/open-component-model/ocm/cmds/ocm/common/data"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/out"
+	"ocm.software/ocm-core/api/utils/semverutils"
+	"ocm.software/ocm-core/cmds/ocm/common/data"
 )
 
 type SortFields interface {

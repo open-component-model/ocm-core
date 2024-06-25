@@ -1,9 +1,9 @@
 package wget
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/options"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
-	"github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/options"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 func ConfigHandler() flagsets.ConfigOptionTypeSetHandler {

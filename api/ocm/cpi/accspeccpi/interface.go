@@ -1,8 +1,8 @@
 package accspeccpi
 
 import (
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/ocm/internal"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/ocm/internal"
 )
 
 type (

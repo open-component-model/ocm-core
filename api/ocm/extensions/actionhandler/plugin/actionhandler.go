@@ -5,10 +5,10 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/datacontext/action"
-	"github.com/open-component-model/ocm/api/datacontext/action/handlers"
-	"github.com/open-component-model/ocm/api/ocm/plugin"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/datacontext/action"
+	"ocm.software/ocm-core/api/datacontext/action/handlers"
+	"ocm.software/ocm-core/api/ocm/plugin"
 )
 
 // pluginHandler delegates action to a plugin based handler.

@@ -1,7 +1,7 @@
 package dockerconfig
 
 import (
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 var REALM = ocmlog.DefineSubRealm("docker config handling as credential repository", "credentials/dockerconfig")

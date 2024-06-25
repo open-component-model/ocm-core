@@ -7,8 +7,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	ocmreg "github.com/open-component-model/ocm/api/ocm/extensions/repositories/ocireg"
-	"github.com/open-component-model/ocm/api/utils"
+	ocmreg "ocm.software/ocm-core/api/ocm/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/utils"
 )
 
 var TEST_KEY = "test"

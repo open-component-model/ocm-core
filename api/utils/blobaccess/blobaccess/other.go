@@ -7,8 +7,8 @@ package blobaccess
 import (
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
-	"github.com/open-component-model/ocm/api/utils/runtimefinalizer"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/runtimefinalizer"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

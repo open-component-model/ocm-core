@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
 )
 
 func adder(opts flagsets.ConfigOptions, data flagsets.Config) error {

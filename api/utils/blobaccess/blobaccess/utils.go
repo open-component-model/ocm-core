@@ -3,8 +3,8 @@ package blobaccess
 import (
 	"io"
 
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
-	"github.com/open-component-model/ocm/api/utils/iotools"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/iotools"
 )
 
 func Cast[I interface{}](acc BlobAccess) I {

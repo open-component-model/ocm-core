@@ -4,15 +4,15 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
-	. "github.com/open-component-model/ocm/api/ocm/testhelper"
+	. "ocm.software/ocm-core/api/helper/builder"
+	. "ocm.software/ocm-core/api/ocm/testhelper"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/compositionmodeattr"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ctf"
-	ocmutils "github.com/open-component-model/ocm/api/ocm/ocmutils"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localblob"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/compositionmodeattr"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ctf"
+	ocmutils "ocm.software/ocm-core/api/ocm/ocmutils"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
 )
 
 const (

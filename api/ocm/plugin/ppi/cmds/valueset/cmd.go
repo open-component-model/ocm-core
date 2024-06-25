@@ -3,9 +3,9 @@ package valueset
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/valueset/compose"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/valueset/validate"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/valueset/compose"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/valueset/validate"
 )
 
 const Name = "valueset"

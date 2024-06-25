@@ -1,10 +1,10 @@
 package cpi
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/hashattr"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/signingattr"
-	"github.com/open-component-model/ocm/api/ocm/internal"
-	"github.com/open-component-model/ocm/api/tech/signing/hasher/sha256"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/hashattr"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/signingattr"
+	"ocm.software/ocm-core/api/ocm/internal"
+	"ocm.software/ocm-core/api/tech/signing/hasher/sha256"
 )
 
 type (

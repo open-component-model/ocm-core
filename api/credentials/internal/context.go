@@ -10,12 +10,12 @@ import (
 	"github.com/mandelsoft/goutils/maputils"
 	"golang.org/x/exp/maps"
 
-	"github.com/open-component-model/ocm/api/config"
-	cfgcpi "github.com/open-component-model/ocm/api/config/cpi"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
-	"github.com/open-component-model/ocm/api/utils/runtimefinalizer"
+	"ocm.software/ocm-core/api/config"
+	cfgcpi "ocm.software/ocm-core/api/config/cpi"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils/runtimefinalizer"
 )
 
 // CONTEXT_TYPE is the global type for a credential context.

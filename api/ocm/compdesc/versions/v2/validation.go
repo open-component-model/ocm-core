@@ -6,8 +6,8 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
 )
 
 // Validate validates a parsed v2 component descriptor.

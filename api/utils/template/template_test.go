@@ -10,7 +10,7 @@ import (
 	"github.com/mandelsoft/vfs/pkg/osfs"
 	"gopkg.in/yaml.v3"
 
-	"github.com/open-component-model/ocm/api/utils/template"
+	"ocm.software/ocm-core/api/utils/template"
 )
 
 func TestConfig(t *testing.T) {

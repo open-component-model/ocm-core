@@ -3,16 +3,16 @@ package testhelper
 import (
 	"github.com/mandelsoft/goutils/testutils"
 
-	"github.com/open-component-model/ocm/api/helper/builder"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/oci/artdesc"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/artifactset"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/ociartifact"
-	"github.com/open-component-model/ocm/api/ocm/extensions/digester/digesters/artifact"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/tech/signing/hasher/sha256"
-	"github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/helper/builder"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/oci/artdesc"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/artifactset"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/ociartifact"
+	"ocm.software/ocm-core/api/ocm/extensions/digester/digesters/artifact"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/tech/signing/hasher/sha256"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

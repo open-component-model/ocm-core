@@ -98,7 +98,7 @@ linters-settings:
       - blank
       - dot
       - default
-      - prefix(github.com/open-component-model/ocm)
+      - prefix(ocm.software/ocm-core)
     custom-order: true
   funlen:
     lines: 110

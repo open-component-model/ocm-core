@@ -3,9 +3,9 @@ package identity_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/credentials/builtin/wget/identity"
+	. "ocm.software/ocm-core/api/credentials/builtin/wget/identity"
 
-	"github.com/open-component-model/ocm/api/credentials"
+	"ocm.software/ocm-core/api/credentials"
 )
 
 var _ = Describe("wget credential management", func() {

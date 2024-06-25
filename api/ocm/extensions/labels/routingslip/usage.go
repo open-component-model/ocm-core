@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 func EntryUsage(scheme EntryTypeScheme, cli bool) string {

@@ -3,9 +3,9 @@ package omitaccesstypeoption
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler/standard"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler/standard"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
 )
 
 func From(o options.OptionSetProvider) *Option {

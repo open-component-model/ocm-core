@@ -3,11 +3,11 @@ package accessmethod
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/accessmethod/compose"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/accessmethod/get"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/accessmethod/identity"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/accessmethod/validate"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/accessmethod/compose"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/accessmethod/get"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/accessmethod/identity"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/accessmethod/validate"
 )
 
 const Name = "accessmethod"

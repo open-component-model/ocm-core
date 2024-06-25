@@ -5,7 +5,7 @@ import (
 
 	"github.com/mandelsoft/goutils/sliceutils"
 
-	"github.com/open-component-model/ocm/api/ocm/ocmutils/registry"
+	"ocm.software/ocm-core/api/ocm/ocmutils/registry"
 )
 
 type Named interface {

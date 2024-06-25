@@ -5,10 +5,10 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
-	"github.com/open-component-model/ocm/api/utils/refmgmt/resource"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/utils/refmgmt/resource"
 )
 
 type ComponentAccessInfo struct {

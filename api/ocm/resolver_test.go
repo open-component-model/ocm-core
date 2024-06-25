@@ -7,14 +7,14 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
+	. "ocm.software/ocm-core/api/helper/builder"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ctf"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ocireg"
-	"github.com/open-component-model/ocm/api/ocm/internal"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ctf"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/ocm/internal"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
 )
 
 const (

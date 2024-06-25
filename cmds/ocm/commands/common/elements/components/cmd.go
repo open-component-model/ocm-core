@@ -3,11 +3,11 @@ package components
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	ocmcomp "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/components"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/names"
-	toicomp "github.com/open-component-model/ocm/cmds/ocm/commands/toicmds/package"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	ocmcomp "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/components"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/names"
+	toicomp "ocm.software/ocm-core/cmds/ocm/commands/toicmds/package"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 var Names = names.Components

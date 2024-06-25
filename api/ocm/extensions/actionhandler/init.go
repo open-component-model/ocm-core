@@ -1,5 +1,5 @@
 package actionhandler
 
 import (
-	_ "github.com/open-component-model/ocm/api/ocm/extensions/actionhandler/plugin"
+	_ "ocm.software/ocm-core/api/ocm/extensions/actionhandler/plugin"
 )

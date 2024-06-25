@@ -3,9 +3,9 @@ package utils
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/ociartifact"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/ociartifact"
 )
 
 func GetOCIArtifactRef(ctxp ocm.ContextProvider, r ocm.ResourceAccess) (string, error) {

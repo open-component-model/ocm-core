@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	gardenercfgcpi "github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig/cpi"
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	gardenercfgcpi "ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig/cpi"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
-const ATTR_REPOS = "github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig"
+const ATTR_REPOS = "ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig"
 
 type Repositories struct {
 	lock  sync.Mutex

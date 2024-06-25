@@ -9,11 +9,11 @@ import (
 	"github.com/mandelsoft/logging"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/listformat"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
-	"github.com/open-component-model/ocm/cmds/ocm/common/processing"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/listformat"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
+	"ocm.software/ocm-core/cmds/ocm/common/processing"
 )
 
 func From(o options.OptionSetProvider) *Options {

@@ -9,7 +9,7 @@ import (
 	"github.com/mandelsoft/vfs/pkg/projectionfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessio"
 )
 
 var FormatDirectory = DirectoryHandler{}

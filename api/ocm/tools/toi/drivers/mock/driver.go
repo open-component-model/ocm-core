@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/tools/toi/install"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/ocm/tools/toi/install"
+	"ocm.software/ocm-core/api/utils"
 )
 
 type Driver struct {

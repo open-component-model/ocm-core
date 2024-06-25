@@ -8,7 +8,7 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc/equivalent"
+	"ocm.software/ocm-core/api/ocm/compdesc/equivalent"
 )
 
 // These constants describe identity attributes predefined by the

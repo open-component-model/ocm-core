@@ -6,7 +6,7 @@ import (
 
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/oci"
+	"ocm.software/ocm-core/api/oci"
 )
 
 func CheckArt(ref string, exp *oci.ArtSpec) {

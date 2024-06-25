@@ -3,8 +3,8 @@ package download
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/utils/registrations"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/utils/registrations"
 )
 
 type Target = cpi.Context

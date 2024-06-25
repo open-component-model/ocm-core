@@ -3,12 +3,12 @@ package internal
 import (
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/hpi"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/hpi"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // PrepareDescriptor provides a descriptor for the transport target based on a

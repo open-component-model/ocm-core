@@ -13,10 +13,10 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/vault/identity"
-	"github.com/open-component-model/ocm/api/credentials/internal"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/vault/identity"
+	"ocm.software/ocm-core/api/credentials/internal"
 )
 
 const PROVIDER = "ocm.software/credentialprovider/" + Type

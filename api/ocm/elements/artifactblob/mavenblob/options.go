@@ -5,12 +5,12 @@ import (
 	"github.com/mandelsoft/logging"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/elements/artifactblob/api"
-	"github.com/open-component-model/ocm/api/tech/maven"
-	base "github.com/open-component-model/ocm/api/utils/blobaccess/maven"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/elements/artifactblob/api"
+	"ocm.software/ocm-core/api/tech/maven"
+	base "ocm.software/ocm-core/api/utils/blobaccess/maven"
 )
 
 type Option = optionutils.Option[*Options]

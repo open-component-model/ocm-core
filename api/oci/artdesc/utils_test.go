@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/oci/artdesc"
+	"ocm.software/ocm-core/api/oci/artdesc"
 )
 
 var _ = Describe("utils", func() {

@@ -3,7 +3,7 @@ package internal
 import (
 	"context"
 
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
 type Builder struct {

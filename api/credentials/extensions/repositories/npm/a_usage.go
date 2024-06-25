@@ -1,7 +1,7 @@
 package npm
 
 import (
-	"github.com/open-component-model/ocm/api/utils/listformat"
+	"ocm.software/ocm-core/api/utils/listformat"
 )
 
 var usage = `

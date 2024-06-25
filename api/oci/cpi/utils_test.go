@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/oci/cpi"
+	"ocm.software/ocm-core/api/oci/cpi"
 )
 
 var _ = Describe("OCI CPI utils", func() {

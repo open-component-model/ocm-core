@@ -8,9 +8,9 @@ import (
 	"github.com/mandelsoft/goutils/testutils"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
-	"github.com/open-component-model/ocm/api/utils/runtime"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/utils/runtime"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs"
 )
 
 type NameProvider interface {

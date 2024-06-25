@@ -11,11 +11,11 @@ import (
 	"github.com/mandelsoft/spiff/yaml"
 	"github.com/sirupsen/logrus"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler/standard"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler/standard"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type Handler struct {

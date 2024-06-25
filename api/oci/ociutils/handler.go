@@ -3,8 +3,8 @@ package ociutils
 import (
 	"sync"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/oci/cpi"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/oci/cpi"
 )
 
 type InfoHandler interface {

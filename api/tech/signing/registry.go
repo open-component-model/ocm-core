@@ -10,7 +10,7 @@ import (
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
 )
 
 const DEFAULT_TSA_URL = "http://timestamp.digicert.com"

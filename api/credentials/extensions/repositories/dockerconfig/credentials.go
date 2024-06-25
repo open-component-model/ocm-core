@@ -6,8 +6,8 @@ import (
 	"github.com/docker/cli/cli/config/types"
 	"github.com/mandelsoft/goutils/set"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials/cpi"
 )
 
 type Credentials struct {

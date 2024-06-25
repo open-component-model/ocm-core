@@ -1,13 +1,13 @@
 package mavenaccess
 
 import (
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/elements/artifactaccess/genericaccess"
-	access "github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/maven"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/tech/maven"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/elements/artifactaccess/genericaccess"
+	access "ocm.software/ocm-core/api/ocm/extensions/accessmethods/maven"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/tech/maven"
 )
 
 const TYPE = resourcetypes.MAVEN_PACKAGE

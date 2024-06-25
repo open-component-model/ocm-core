@@ -6,9 +6,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/oci/config"
-	"github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/oci/config"
+	"ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ocireg"
 )
 
 func normalize(i interface{}) ([]byte, error) {

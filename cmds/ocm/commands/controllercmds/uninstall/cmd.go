@@ -10,12 +10,12 @@ import (
 	"github.com/spf13/pflag"
 	"k8s.io/cli-runtime/pkg/genericclioptions"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/utils/out"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/controllercmds/common"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/controllercmds/names"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/utils/out"
+	"ocm.software/ocm-core/cmds/ocm/commands/controllercmds/common"
+	"ocm.software/ocm-core/cmds/ocm/commands/controllercmds/names"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 var (
@@ -57,7 +57,7 @@ func (o *Command) ForName(name string) *cobra.Command {
 // AddFlags for the known item to delete.
 func (o *Command) AddFlags(set *pflag.FlagSet) {
 	set.StringVarP(&o.Version, "version", "v", "latest", "the version of the controller to install")
-	set.StringVarP(&o.BaseURL, "base-url", "u", "https://github.com/open-component-model/ocm-controller/releases", "the base url to the ocm-controller's release page")
+	set.StringVarP(&o.BaseURL, "base-url", "u", "https://ocm.software/ocm-core-controller/releases", "the base url to the ocm-controller's release page")
 	set.StringVarP(&o.ReleaseAPIURL, "release-api-url", "a", "https://api.github.com/repos/open-component-model/ocm-controller/releases", "the base url to the ocm-controller's API release page")
 	set.StringVar(&o.CertManagerBaseURL, "cert-manager-base-url", "https://github.com/cert-manager/cert-manager/releases", "the base url to the cert-manager's release page")
 	set.StringVar(&o.CertManagerReleaseAPIURL, "cert-manager-release-api-url", "https://api.github.com/repos/cert-manager/cert-manager/releases", "the base url to the cert-manager's API release page")

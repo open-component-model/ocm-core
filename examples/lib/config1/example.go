@@ -5,12 +5,12 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/examples/lib/helper"
-	"github.com/open-component-model/ocm/api/credentials"
-	ociid "github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	ccfg "github.com/open-component-model/ocm/api/credentials/config"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/directcreds"
-	"github.com/open-component-model/ocm/api/ocm"
+	"ocm.software/ocm-core/examples/lib/helper"
+	"ocm.software/ocm-core/api/credentials"
+	ociid "ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	ccfg "ocm.software/ocm-core/api/credentials/config"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/directcreds"
+	"ocm.software/ocm-core/api/ocm"
 )
 
 func UsingConfigs() error {

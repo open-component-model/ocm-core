@@ -12,7 +12,7 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/osfs"
 
-	"github.com/open-component-model/ocm/api/utils/tarutils"
+	"ocm.software/ocm-core/api/utils/tarutils"
 )
 
 var _ = Describe("tar utils mapping", func() {

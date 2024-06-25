@@ -5,12 +5,12 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/examples/lib/helper"
-	"github.com/open-component-model/ocm/api/credentials"
-	ociidentity "github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/dockerconfig"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/ocm"
+	"ocm.software/ocm-core/examples/lib/helper"
+	"ocm.software/ocm-core/api/credentials"
+	ociidentity "ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/dockerconfig"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/ocm"
 )
 
 func UsingCredentialsRepositories(cfg *helper.Config) error {

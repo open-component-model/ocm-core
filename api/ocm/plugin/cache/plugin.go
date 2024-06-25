@@ -3,7 +3,7 @@ package cache
 import (
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/descriptor"
+	"ocm.software/ocm-core/api/ocm/plugin/descriptor"
 )
 
 type Plugin = *pluginImpl

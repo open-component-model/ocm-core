@@ -1,8 +1,8 @@
 package spi
 
 import (
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets/flagsetscheme"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets/flagsetscheme"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type EntryTypeVersionScheme = runtime.TypeVersionScheme[Entry, EntryType]

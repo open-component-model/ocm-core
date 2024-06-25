@@ -3,7 +3,7 @@ package common
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/utils/out"
+	"ocm.software/ocm-core/api/utils/out"
 )
 
 func Outf(ctx out.Context, dryRun bool, msg string, args ...any) (int, error) {

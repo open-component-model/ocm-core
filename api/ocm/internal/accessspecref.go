@@ -6,7 +6,7 @@ import (
 
 	"github.com/modern-go/reflect2"
 
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type AccessSpecRef struct {

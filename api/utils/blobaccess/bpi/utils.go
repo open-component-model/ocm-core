@@ -7,7 +7,7 @@ import (
 
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/utils/iotools"
+	"ocm.software/ocm-core/api/utils/iotools"
 )
 
 type _dataAccess = DataAccess

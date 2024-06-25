@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/ocireg"
-	"github.com/open-component-model/ocm/api/oci/grammar"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/compatattr"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/ocireg"
+	"ocm.software/ocm-core/api/oci/grammar"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/compatattr"
 )
 
 func init() {

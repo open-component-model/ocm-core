@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	me "github.com/open-component-model/ocm/api/datacontext"
+	me "ocm.software/ocm-core/api/datacontext"
 )
 
 var _ = Describe("area test", func() {

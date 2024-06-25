@@ -3,7 +3,7 @@ package iotools
 import (
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 func ListFiles(path string, fss ...vfs.FileSystem) ([]string, error) {

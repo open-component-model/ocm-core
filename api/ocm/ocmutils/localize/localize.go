@@ -1,7 +1,7 @@
 package localize
 
 import (
-	"github.com/open-component-model/ocm/api/ocm"
+	"ocm.software/ocm-core/api/ocm"
 )
 
 // Localize maps a list of filesystem related localization requests to an

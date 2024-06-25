@@ -1,10 +1,10 @@
 package virtual
 
 import (
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/internal"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/internal"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

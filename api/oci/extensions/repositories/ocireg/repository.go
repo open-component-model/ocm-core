@@ -12,16 +12,16 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/rootcertsattr"
-	"github.com/open-component-model/ocm/api/oci/artdesc"
-	"github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/tech/docker"
-	"github.com/open-component-model/ocm/api/tech/docker/resolve"
-	"github.com/open-component-model/ocm/api/utils"
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	"ocm.software/ocm-core/api/datacontext/attrs/rootcertsattr"
+	"ocm.software/ocm-core/api/oci/artdesc"
+	"ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/tech/docker"
+	"ocm.software/ocm-core/api/tech/docker/resolve"
+	"ocm.software/ocm-core/api/utils"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 type RepositoryInfo struct {

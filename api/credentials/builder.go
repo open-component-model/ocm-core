@@ -3,9 +3,9 @@ package credentials
 import (
 	"context"
 
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/credentials/internal"
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/credentials/internal"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
 func WithContext(ctx context.Context) internal.Builder {

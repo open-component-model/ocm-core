@@ -6,12 +6,12 @@ import (
 	"io"
 	"strings"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	gardenercfgcpi "github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig/cpi"
-	"github.com/open-component-model/ocm/api/credentials/identity/hostpath"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	gardenercfgcpi "ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig/cpi"
+	"ocm.software/ocm-core/api/credentials/identity/hostpath"
+	"ocm.software/ocm-core/api/utils"
 )
 
 func init() {

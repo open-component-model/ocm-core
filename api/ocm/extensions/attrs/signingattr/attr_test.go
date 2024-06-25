@@ -6,11 +6,11 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/rootcertsattr"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/signingattr"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/datacontext/attrs/rootcertsattr"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/signingattr"
 )
 
 const NAME = "test"

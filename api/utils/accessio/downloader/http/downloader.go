@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/open-component-model/ocm/api/utils/accessio/downloader"
+	"ocm.software/ocm-core/api/utils/accessio/downloader"
 )
 
 // Downloader simply uses the default HTTP client to download the contents of a URL.

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"io"
 
-	. "github.com/open-component-model/ocm/api/utils/out"
-	. "github.com/open-component-model/ocm/cmds/ocm/common/processing"
+	. "ocm.software/ocm-core/api/utils/out"
+	. "ocm.software/ocm-core/cmds/ocm/common/processing"
 
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/cmds/ocm/common/data"
+	"ocm.software/ocm-core/cmds/ocm/common/data"
 )
 
 type DestinationOutput struct {

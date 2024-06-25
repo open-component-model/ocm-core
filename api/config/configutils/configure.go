@@ -1,12 +1,12 @@
 package configutils
 
 import (
-	_ "github.com/open-component-model/ocm/api/datacontext/config"
+	_ "ocm.software/ocm-core/api/datacontext/config"
 
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/config"
-	utils "github.com/open-component-model/ocm/api/ocm/ocmutils"
+	"ocm.software/ocm-core/api/config"
+	utils "ocm.software/ocm-core/api/ocm/ocmutils"
 )
 
 func Configure(path string, fss ...vfs.FileSystem) error {

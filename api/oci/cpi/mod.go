@@ -3,8 +3,8 @@ package cpi
 import (
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/oci/artdesc"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
+	"ocm.software/ocm-core/api/oci/artdesc"
+	"ocm.software/ocm-core/api/utils/accessobj"
 )
 
 type _Artifact = artdesc.Artifact

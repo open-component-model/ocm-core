@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/tech/signing"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/tech/signing"
 )
 
 const GenericBlobDigestV1 = "genericBlobDigest/v1"

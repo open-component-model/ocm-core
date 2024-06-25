@@ -1,8 +1,8 @@
 package maven
 
 import (
-	"github.com/open-component-model/ocm/api/tech/maven"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/tech/maven"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
 )
 
 // DataAccessForMaven returns a DataAccess for the Maven artifact with the given coordinates.

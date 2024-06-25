@@ -7,7 +7,7 @@ import (
 
 	"github.com/mandelsoft/spiff/spiffing"
 
-	"github.com/open-component-model/ocm/api/utils/spiff"
+	"ocm.software/ocm-core/api/utils/spiff"
 )
 
 var _ = Describe("spiff", func() {

@@ -6,13 +6,13 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/utils/logging/testhelper"
+	. "ocm.software/ocm-core/api/utils/logging/testhelper"
 
 	"github.com/mandelsoft/logging"
 	logcfg "github.com/mandelsoft/logging/config"
 	"github.com/tonglil/buflogr"
 
-	local "github.com/open-component-model/ocm/api/utils/logging"
+	local "ocm.software/ocm-core/api/utils/logging"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

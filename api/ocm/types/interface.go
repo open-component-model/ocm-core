@@ -1,7 +1,7 @@
 package context
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/internal"
+	"ocm.software/ocm-core/api/ocm/internal"
 )
 
 type (

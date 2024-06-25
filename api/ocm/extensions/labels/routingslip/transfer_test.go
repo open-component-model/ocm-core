@@ -9,17 +9,17 @@ import (
 
 	"github.com/mandelsoft/goutils/finalizer"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/helper/builder"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/compositionmodeattr"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip/types/comment"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ctf"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer"
-	"github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler/standard"
-	"github.com/open-component-model/ocm/api/tech/signing/handlers/rsa"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/helper/builder"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/compositionmodeattr"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip/types/comment"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ctf"
+	"ocm.software/ocm-core/api/ocm/tools/transfer"
+	"ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler/standard"
+	"ocm.software/ocm-core/api/tech/signing/handlers/rsa"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

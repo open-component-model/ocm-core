@@ -1,7 +1,7 @@
 package datacontext
 
 import (
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 var Realm = ocmlog.DefineSubRealm("context lifecycle", "context")

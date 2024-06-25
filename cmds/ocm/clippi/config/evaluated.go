@@ -1,9 +1,9 @@
 package config
 
 import (
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/logopts"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/common/options/keyoption"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/utils/cobrautils/logopts"
+	"ocm.software/ocm-core/cmds/ocm/commands/common/options/keyoption"
 )
 
 type EvaluatedOptions struct {

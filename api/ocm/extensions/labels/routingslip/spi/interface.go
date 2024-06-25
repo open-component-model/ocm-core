@@ -1,9 +1,9 @@
 package spi
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip/internal"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip/internal"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type (

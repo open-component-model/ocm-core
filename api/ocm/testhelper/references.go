@@ -6,10 +6,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/compdesc/normalizations/jsonv1"
-	"github.com/open-component-model/ocm/api/tech/signing/hasher/sha256"
+	"ocm.software/ocm-core/api/ocm"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/compdesc/normalizations/jsonv1"
+	"ocm.software/ocm-core/api/tech/signing/hasher/sha256"
 )
 
 func CompDigestSpec(d string) *metav1.DigestSpec {

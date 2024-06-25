@@ -3,8 +3,8 @@ package builder
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/oci/artdesc"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/oci/artdesc"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 const T_OCILAYER = "oci layer"

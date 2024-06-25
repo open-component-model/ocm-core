@@ -5,7 +5,7 @@ import (
 	"github.com/mandelsoft/spiff/spiffing"
 	"github.com/mandelsoft/spiff/yaml"
 
-	"github.com/open-component-model/ocm/api/ocm"
+	"ocm.software/ocm-core/api/ocm"
 )
 
 func NewFunctions(ctx ocm.Context, credvals CredentialValues) spiffing.Functions {

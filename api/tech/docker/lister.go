@@ -10,7 +10,7 @@ import (
 	"github.com/containerd/containerd/log"
 	"github.com/pkg/errors"
 
-	"github.com/open-component-model/ocm/api/tech/docker/resolve"
+	"ocm.software/ocm-core/api/tech/docker/resolve"
 )
 
 var ErrObjectNotRequired = errors.New("object not required")

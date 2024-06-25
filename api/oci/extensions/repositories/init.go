@@ -1,9 +1,9 @@
 package repositories
 
 import (
-	_ "github.com/open-component-model/ocm/api/oci/extensions/repositories/artifactset"
-	_ "github.com/open-component-model/ocm/api/oci/extensions/repositories/ctf"
-	_ "github.com/open-component-model/ocm/api/oci/extensions/repositories/docker"
-	_ "github.com/open-component-model/ocm/api/oci/extensions/repositories/empty"
-	_ "github.com/open-component-model/ocm/api/oci/extensions/repositories/ocireg"
+	_ "ocm.software/ocm-core/api/oci/extensions/repositories/artifactset"
+	_ "ocm.software/ocm-core/api/oci/extensions/repositories/ctf"
+	_ "ocm.software/ocm-core/api/oci/extensions/repositories/docker"
+	_ "ocm.software/ocm-core/api/oci/extensions/repositories/empty"
+	_ "ocm.software/ocm-core/api/oci/extensions/repositories/ocireg"
 )

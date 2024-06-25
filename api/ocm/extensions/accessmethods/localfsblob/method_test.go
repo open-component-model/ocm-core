@@ -7,8 +7,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localfsblob"
-	"github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localfsblob"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 var _ = Describe("Method", func() {

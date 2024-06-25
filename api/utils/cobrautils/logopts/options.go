@@ -5,8 +5,8 @@ import (
 	"github.com/mandelsoft/logging/config"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	logging2 "github.com/open-component-model/ocm/api/utils/cobrautils/logopts/logging"
+	"ocm.software/ocm-core/api/ocm"
+	logging2 "ocm.software/ocm-core/api/utils/cobrautils/logopts/logging"
 )
 
 var Description = `

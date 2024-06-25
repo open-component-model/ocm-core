@@ -5,11 +5,11 @@ import (
 
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/handlers/maplistmerge"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/handlers/simplemapmerge"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/hpi"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/handlers/maplistmerge"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/handlers/simplemapmerge"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/hpi"
+	"ocm.software/ocm-core/api/utils"
 )
 
 const NAME = "routing-slips"

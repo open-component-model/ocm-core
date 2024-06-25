@@ -4,9 +4,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/config"
-	local "github.com/open-component-model/ocm/api/credentials/internal"
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/config"
+	local "ocm.software/ocm-core/api/credentials/internal"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
 var _ = Describe("builder test", func() {

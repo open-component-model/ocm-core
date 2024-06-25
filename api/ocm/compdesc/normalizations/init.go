@@ -1,6 +1,6 @@
 package versions
 
 import (
-	_ "github.com/open-component-model/ocm/api/ocm/compdesc/normalizations/jsonv1"
-	_ "github.com/open-component-model/ocm/api/ocm/compdesc/normalizations/jsonv2"
+	_ "ocm.software/ocm-core/api/ocm/compdesc/normalizations/jsonv1"
+	_ "ocm.software/ocm-core/api/ocm/compdesc/normalizations/jsonv2"
 )

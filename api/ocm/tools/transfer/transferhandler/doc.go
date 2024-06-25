@@ -23,10 +23,10 @@
 //
 // For common use cases two standard handlers are provided, which can be used
 // to formally describe typical transfer scenarios:
-//   - package [github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler/standard]
+//   - package [ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler/standard]
 //     provides a standard behaviour configurable
 //     by some common options, like transport-by-value.
-//   - package [github.com/open-component-model/ocm/api/ocm/tools/transfer/transferhandler/spiff]
+//   - package [ocm.software/ocm-core/api/ocm/tools/transfer/transferhandler/spiff]
 //     provides a handler configurable by a [spiff] script.
 //
 // Transfer handlers may accept transfer options to be configured.

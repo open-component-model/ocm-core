@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/open-component-model/ocm/api/utils/blobaccess/wget"
+	"ocm.software/ocm-core/api/utils/blobaccess/wget"
 )
 
 type (

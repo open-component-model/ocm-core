@@ -14,14 +14,14 @@ import (
 
 	"github.com/mandelsoft/vfs/pkg/memoryfs"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	ociidentity "github.com/open-component-model/ocm/api/credentials/builtin/oci/identity"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	local "github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig"
-	gardenercfgcpi "github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig/cpi"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig/identity"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/vfsattr"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/credentials"
+	ociidentity "ocm.software/ocm-core/api/credentials/builtin/oci/identity"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	local "ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig"
+	gardenercfgcpi "ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig/cpi"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig/identity"
+	"ocm.software/ocm-core/api/datacontext/attrs/vfsattr"
+	"ocm.software/ocm-core/api/utils"
 )
 
 var _ = Describe("gardener config", func() {

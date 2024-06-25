@@ -7,7 +7,7 @@ import (
 	"github.com/mandelsoft/vfs/pkg/osfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	me "github.com/open-component-model/ocm/api/utils/blobaccess"
+	me "ocm.software/ocm-core/api/utils/blobaccess"
 )
 
 var _ = Describe("temp file management", func() {

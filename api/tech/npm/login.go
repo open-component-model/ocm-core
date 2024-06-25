@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/open-component-model/ocm/api/credentials/builtin/npm/identity"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/credentials/builtin/npm/identity"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/utils/logging"
 )
 
 var REALM = identity.REALM

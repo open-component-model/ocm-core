@@ -5,10 +5,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	me "github.com/open-component-model/ocm/api/ocm/elements"
-	"github.com/open-component-model/ocm/api/ocm/extensions/digester/digesters/blob"
-	"github.com/open-component-model/ocm/api/tech/signing/hasher/sha256"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	me "ocm.software/ocm-core/api/ocm/elements"
+	"ocm.software/ocm-core/api/ocm/extensions/digester/digesters/blob"
+	"ocm.software/ocm-core/api/tech/signing/hasher/sha256"
 )
 
 type value struct {

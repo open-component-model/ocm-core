@@ -6,7 +6,7 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/logging"
 )
 
 var ALLOC_REALM = logging.DefineSubRealm("reference counting", "refcnt")

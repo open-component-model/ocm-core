@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type _Object = runtime.ObjectVersionedTypedObject

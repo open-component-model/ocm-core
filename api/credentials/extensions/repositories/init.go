@@ -1,12 +1,12 @@
 package repositories
 
 import (
-	_ "github.com/open-component-model/ocm/api/credentials/extensions/repositories/aliases"
-	_ "github.com/open-component-model/ocm/api/credentials/extensions/repositories/directcreds"
-	_ "github.com/open-component-model/ocm/api/credentials/extensions/repositories/dockerconfig"
-	_ "github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig"
-	_ "github.com/open-component-model/ocm/api/credentials/extensions/repositories/memory"
-	_ "github.com/open-component-model/ocm/api/credentials/extensions/repositories/memory/config"
-	_ "github.com/open-component-model/ocm/api/credentials/extensions/repositories/npm"
-	_ "github.com/open-component-model/ocm/api/credentials/extensions/repositories/vault"
+	_ "ocm.software/ocm-core/api/credentials/extensions/repositories/aliases"
+	_ "ocm.software/ocm-core/api/credentials/extensions/repositories/directcreds"
+	_ "ocm.software/ocm-core/api/credentials/extensions/repositories/dockerconfig"
+	_ "ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig"
+	_ "ocm.software/ocm-core/api/credentials/extensions/repositories/memory"
+	_ "ocm.software/ocm-core/api/credentials/extensions/repositories/memory/config"
+	_ "ocm.software/ocm-core/api/credentials/extensions/repositories/npm"
+	_ "ocm.software/ocm-core/api/credentials/extensions/repositories/vault"
 )

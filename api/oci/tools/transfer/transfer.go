@@ -6,9 +6,9 @@ import (
 	"github.com/mandelsoft/goutils/generics"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/oci/tools/transfer/filters"
-	"github.com/open-component-model/ocm/api/utils/logging"
+	"ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/oci/tools/transfer/filters"
+	"ocm.software/ocm-core/api/utils/logging"
 )
 
 func TransferArtifact(art cpi.ArtifactAccess, set cpi.ArtifactSink, tags ...string) error {

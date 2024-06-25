@@ -10,14 +10,14 @@ import (
 	"github.com/spf13/pflag"
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/common/common"
-	utils2 "github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/addhdlrs"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/templateroption"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/common/common"
+	utils2 "ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/addhdlrs"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/templateroption"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 type ModifiedResourceSpecificationsFile struct {

@@ -9,7 +9,7 @@ import (
 	"github.com/onsi/gomega/format"
 	"github.com/onsi/gomega/types"
 
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // YAMLEqual compares two yaml structures.

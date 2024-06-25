@@ -3,10 +3,10 @@ package v3alpha1
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/ocm/compdesc/normalizations/rules"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/norm/entry"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/compdesc/normalizations/rules"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/norm/entry"
 )
 
 // CDExcludes describes the fields relevant for Signing

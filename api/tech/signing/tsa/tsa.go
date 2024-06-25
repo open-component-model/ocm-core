@@ -12,8 +12,8 @@ import (
 	"github.com/go-test/deep"
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 // NewMessageImprint creates a new MessageImprint using hash and digest.

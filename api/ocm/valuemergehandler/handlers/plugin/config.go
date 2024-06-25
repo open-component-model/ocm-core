@@ -3,7 +3,7 @@ package plugin
 import (
 	"encoding/json"
 
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler"
 )
 
 type Config struct {

@@ -8,17 +8,17 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/oci/extensions/repositories/artifactset/testhelper"
-	. "github.com/open-component-model/ocm/api/oci/extensions/repositories/ctf/testhelper"
+	. "ocm.software/ocm-core/api/oci/extensions/repositories/artifactset/testhelper"
+	. "ocm.software/ocm-core/api/oci/extensions/repositories/ctf/testhelper"
 
 	"github.com/mandelsoft/goutils/finalizer"
 	"github.com/mandelsoft/vfs/pkg/osfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/artifactset"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
-	"github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/artifactset"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessobj"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 func defaultManifestFill(a *artifactset.ArtifactSet) {

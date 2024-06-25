@@ -3,8 +3,8 @@ package builder
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/cpi"
 )
 
 const T_OCMVERSION = "component version"

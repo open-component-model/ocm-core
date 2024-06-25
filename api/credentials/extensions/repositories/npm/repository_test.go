@@ -8,12 +8,12 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials"
-	npmCredentials "github.com/open-component-model/ocm/api/credentials/builtin/npm/identity"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	local "github.com/open-component-model/ocm/api/credentials/extensions/repositories/npm"
-	"github.com/open-component-model/ocm/api/utils/runtimefinalizer"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials"
+	npmCredentials "ocm.software/ocm-core/api/credentials/builtin/npm/identity"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	local "ocm.software/ocm-core/api/credentials/extensions/repositories/npm"
+	"ocm.software/ocm-core/api/utils/runtimefinalizer"
 )
 
 var _ = Describe("NPM config - .npmrc", func() {

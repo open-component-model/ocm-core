@@ -8,18 +8,18 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/accessmethod"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/action"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/command"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/describe"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/download"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/info"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/mergehandler"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/topics/descriptor"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/upload"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds/valueset"
-	"github.com/open-component-model/ocm/api/utils/cobrautils"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/accessmethod"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/action"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/command"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/describe"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/download"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/info"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/mergehandler"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/topics/descriptor"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/upload"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds/valueset"
+	"ocm.software/ocm-core/api/utils/cobrautils"
 )
 
 type PluginCommand struct {

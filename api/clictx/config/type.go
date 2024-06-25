@@ -3,12 +3,12 @@ package config
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/clictx/internal"
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/config/cpi"
-	ocicpi "github.com/open-component-model/ocm/api/oci/cpi"
-	ocmcpi "github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/clictx/internal"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/config/cpi"
+	ocicpi "ocm.software/ocm-core/api/oci/cpi"
+	ocmcpi "ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

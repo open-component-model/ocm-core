@@ -10,15 +10,15 @@ import (
 
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/helper/builder"
-	"github.com/open-component-model/ocm/api/helper/env"
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localfsblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/attrs/compatattr"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/helper/builder"
+	"ocm.software/ocm-core/api/helper/env"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localblob"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localfsblob"
+	"ocm.software/ocm-core/api/ocm/extensions/attrs/compatattr"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/mime"
 )
 
 const ARCHIVE = "archive"

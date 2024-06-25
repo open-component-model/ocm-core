@@ -6,9 +6,9 @@ import (
 
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/clictx/internal"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm"
+	"ocm.software/ocm-core/api/clictx/internal"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm"
 )
 
 func WithContext(ctx context.Context) internal.Builder {

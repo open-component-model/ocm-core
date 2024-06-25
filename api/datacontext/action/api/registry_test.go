@@ -5,11 +5,11 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/datacontext/action/api"
-	"github.com/open-component-model/ocm/api/datacontext/action/handlers"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/datacontext/action/api"
+	"ocm.software/ocm-core/api/datacontext/action/handlers"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type Handler struct {

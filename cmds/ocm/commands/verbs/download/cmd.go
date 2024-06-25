@@ -3,13 +3,13 @@ package download
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	artifacts "github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/artifacts/download"
-	cli "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/cli/download"
-	components "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/components/download"
-	resources "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/resources/download"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	artifacts "ocm.software/ocm-core/cmds/ocm/commands/ocicmds/artifacts/download"
+	cli "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/cli/download"
+	components "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/components/download"
+	resources "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/resources/download"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 // NewCommand creates a new command.

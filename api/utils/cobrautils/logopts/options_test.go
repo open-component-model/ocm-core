@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/gomega"
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-component-model/ocm/api/clictx"
+	"ocm.software/ocm-core/api/clictx"
 )
 
 var _ = Describe("log configuration", func() {

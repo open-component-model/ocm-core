@@ -6,9 +6,9 @@ import (
 	"github.com/opencontainers/go-digest"
 	ociv1 "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/oci/internal"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/oci/internal"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 const CONTEXT_TYPE = internal.CONTEXT_TYPE

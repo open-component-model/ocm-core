@@ -7,11 +7,11 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/opencontainers/go-digest"
 
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip/internal"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/norm/jcs"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/labels/routingslip/internal"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/norm/jcs"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 func AsGenericEntry(u *runtime.UnstructuredTypedObject) *GenericEntry {

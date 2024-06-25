@@ -5,18 +5,18 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/common/options/closureoption"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/common"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/common/handlers/artifacthdlr"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/common/options/repooption"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/names"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
-	"github.com/open-component-model/ocm/cmds/ocm/common/output"
-	"github.com/open-component-model/ocm/cmds/ocm/common/processing"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/cmds/ocm/commands/common/options/closureoption"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocicmds/common"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocicmds/common/handlers/artifacthdlr"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocicmds/common/options/repooption"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocicmds/names"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
+	"ocm.software/ocm-core/cmds/ocm/common/output"
+	"ocm.software/ocm-core/cmds/ocm/common/processing"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 var (

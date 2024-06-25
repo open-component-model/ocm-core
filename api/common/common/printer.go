@@ -9,7 +9,7 @@ import (
 
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 type Flusher interface {

@@ -3,10 +3,10 @@ package internal
 import (
 	"context"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type Builder struct {

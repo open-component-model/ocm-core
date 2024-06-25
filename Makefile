@@ -23,10 +23,10 @@ GOPATH                                         := $(shell go env GOPATH)
 
 NOW         := $(shell date -u +%FT%T%z)
 BUILD_FLAGS := "-s -w \
- -X github.com/open-component-model/ocm/api/version.gitVersion=$(EFFECTIVE_VERSION) \
- -X github.com/open-component-model/ocm/api/version.gitTreeState=$(GIT_TREE_STATE) \
- -X github.com/open-component-model/ocm/api/version.gitCommit=$(COMMIT) \
- -X github.com/open-component-model/ocm/api/version.buildDate=$(NOW)"
+ -X ocm.software/ocm-core/api/version.gitVersion=$(EFFECTIVE_VERSION) \
+ -X ocm.software/ocm-core/api/version.gitTreeState=$(GIT_TREE_STATE) \
+ -X ocm.software/ocm-core/api/version.gitCommit=$(COMMIT) \
+ -X ocm.software/ocm-core/api/version.buildDate=$(NOW)"
 
 COMPONENTS ?= ocmcli helminstaller demoplugin ecrplugin helmdemo subchartsdemo
 

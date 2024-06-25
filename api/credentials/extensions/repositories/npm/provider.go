@@ -1,9 +1,9 @@
 package npm
 
 import (
-	npm "github.com/open-component-model/ocm/api/credentials/builtin/npm/identity"
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/utils/logging"
+	npm "ocm.software/ocm-core/api/credentials/builtin/npm/identity"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/utils/logging"
 )
 
 type ConsumerProvider struct {

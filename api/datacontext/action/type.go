@@ -1,7 +1,7 @@
 package action
 
 import (
-	"github.com/open-component-model/ocm/api/datacontext/action/api"
+	"ocm.software/ocm-core/api/datacontext/action/api"
 )
 
 const KIND_ACTION = api.KIND_ACTION

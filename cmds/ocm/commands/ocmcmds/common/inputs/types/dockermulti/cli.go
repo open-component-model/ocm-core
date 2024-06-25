@@ -1,8 +1,8 @@
 package dockermulti
 
 import (
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/options"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/options"
 )
 
 func ConfigHandler() flagsets.ConfigOptionTypeSetHandler {

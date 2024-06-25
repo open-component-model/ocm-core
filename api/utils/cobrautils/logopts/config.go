@@ -12,11 +12,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/datacontext/attrs/logforward"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/vfsattr"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/utils"
-	logdata "github.com/open-component-model/ocm/api/utils/cobrautils/logopts/logging"
+	"ocm.software/ocm-core/api/datacontext/attrs/logforward"
+	"ocm.software/ocm-core/api/datacontext/attrs/vfsattr"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/utils"
+	logdata "ocm.software/ocm-core/api/utils/cobrautils/logopts/logging"
 )
 
 // ConfigFragment is a serializable log config used

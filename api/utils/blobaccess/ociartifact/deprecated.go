@@ -1,7 +1,7 @@
 package ociartifact
 
 import (
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
 )
 
 // BlobAccessForOCIArtifact returns a BlobAccess for the OCI artifact with the given refname.

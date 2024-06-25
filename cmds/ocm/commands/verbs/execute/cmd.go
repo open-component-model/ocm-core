@@ -3,10 +3,10 @@ package execute
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	action "github.com/open-component-model/ocm/cmds/ocm/commands/misccmds/action/execute"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	action "ocm.software/ocm-core/cmds/ocm/commands/misccmds/action/execute"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 // NewCommand creates a new command.

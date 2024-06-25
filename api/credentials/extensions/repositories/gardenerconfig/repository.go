@@ -14,12 +14,12 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	gardenercfgcpi "github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig/cpi"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/gardenerconfig/identity"
-	"github.com/open-component-model/ocm/api/credentials/internal"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/vfsattr"
-	"github.com/open-component-model/ocm/api/utils/errkind"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	gardenercfgcpi "ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig/cpi"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/gardenerconfig/identity"
+	"ocm.software/ocm-core/api/credentials/internal"
+	"ocm.software/ocm-core/api/datacontext/attrs/vfsattr"
+	"ocm.software/ocm-core/api/utils/errkind"
 )
 
 type Cipher string

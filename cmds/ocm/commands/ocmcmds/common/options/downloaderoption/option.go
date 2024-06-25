@@ -1,13 +1,13 @@
 package downloaderoption
 
 import (
-	_ "github.com/open-component-model/ocm/api/ocm/extensions/download/handlers"
+	_ "ocm.software/ocm-core/api/ocm/extensions/download/handlers"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/extensions/download"
-	"github.com/open-component-model/ocm/api/utils/listformat"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/options/optutils"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/extensions/download"
+	"ocm.software/ocm-core/api/utils/listformat"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/options/optutils"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
 )
 
 type Registration = optutils.Registration

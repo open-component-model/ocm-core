@@ -5,14 +5,14 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/docker"
-	"github.com/open-component-model/ocm/api/oci/grammar"
-	"github.com/open-component-model/ocm/api/oci/tools/transfer/filters"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/ociartifact"
-	"github.com/open-component-model/ocm/api/utils/blobaccess"
-	ociartifactblob "github.com/open-component-model/ocm/api/utils/blobaccess/ociartifact"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/docker"
+	"ocm.software/ocm-core/api/oci/grammar"
+	"ocm.software/ocm-core/api/oci/tools/transfer/filters"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/ociartifact"
+	"ocm.software/ocm-core/api/utils/blobaccess"
+	ociartifactblob "ocm.software/ocm-core/api/utils/blobaccess/ociartifact"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
 )
 
 type Spec struct {

@@ -9,7 +9,7 @@ import (
 	"github.com/mandelsoft/goutils/testutils"
 	"github.com/mandelsoft/logging"
 
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 var _ = Describe("Printer", func() {

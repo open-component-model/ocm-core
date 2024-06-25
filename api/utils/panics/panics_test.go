@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/utils/panics"
+	"ocm.software/ocm-core/api/utils/panics"
 )
 
 func caller(topanic interface{}, outerr error, handlers ...panics.PanicHandler) (err error) {

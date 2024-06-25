@@ -9,10 +9,10 @@
 package jsonv2
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/ocm/compdesc/normalizations/rules"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/norm/jcs"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/compdesc/normalizations/rules"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/norm/jcs"
 )
 
 const Algorithm = compdesc.JsonNormalisationV2

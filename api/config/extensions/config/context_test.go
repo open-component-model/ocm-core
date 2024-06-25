@@ -13,9 +13,9 @@ import (
 	"github.com/mandelsoft/goutils/general"
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-component-model/ocm/api/config"
-	local "github.com/open-component-model/ocm/api/config/extensions/config"
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/config"
+	local "ocm.software/ocm-core/api/config/extensions/config"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
 func CheckRefs(ctx config.Context, n int) {

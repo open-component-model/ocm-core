@@ -1,9 +1,9 @@
 package output
 
 import (
-	"github.com/open-component-model/ocm/cmds/ocm/common/data"
-	"github.com/open-component-model/ocm/cmds/ocm/common/processing"
-	"github.com/open-component-model/ocm/cmds/ocm/common/tree"
+	"ocm.software/ocm-core/cmds/ocm/common/data"
+	"ocm.software/ocm-core/cmds/ocm/common/processing"
+	"ocm.software/ocm-core/cmds/ocm/common/tree"
 )
 
 type TreeOutputOption interface {

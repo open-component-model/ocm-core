@@ -3,11 +3,11 @@ package comphdlr
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/common/options/closureoption"
-	"github.com/open-component-model/ocm/cmds/ocm/common/output"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/cmds/ocm/commands/common/options/closureoption"
+	"ocm.software/ocm-core/cmds/ocm/common/output"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 func Evaluate(octx clictx.OCM, session ocm.Session, repobase ocm.Repository, compspecs []string, oopts *output.Options, opts ...Option) (Objects, error) {

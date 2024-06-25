@@ -3,8 +3,8 @@ package compatattr
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

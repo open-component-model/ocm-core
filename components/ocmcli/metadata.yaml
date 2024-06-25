@@ -27,6 +27,6 @@ spec:
         icon: .sa-icon--sys-help-2
         description: Documentation
       - name: OCM Command Line Client
-        url: https://github.com/open-component-model/ocm/blob/main/docs/reference/ocm.md
+        url: https://ocm.software/ocm-core/blob/main/docs/reference/ocm.md
         icon: .sa-icon--sys-help-2
         description: Open Component Model Command Line Client

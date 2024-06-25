@@ -6,9 +6,9 @@ import (
 
 	. "github.com/mandelsoft/goutils/exception"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi/accspeccpi"
-	"github.com/open-component-model/ocm/api/utils/mime"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/ocm/cpi/accspeccpi"
+	"ocm.software/ocm-core/api/utils/mime"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // Type is the access type of a blob local to a component.

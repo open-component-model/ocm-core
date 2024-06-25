@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/utils"
 )
 
 type Object interface {

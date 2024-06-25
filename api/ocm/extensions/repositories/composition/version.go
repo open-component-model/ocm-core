@@ -1,8 +1,8 @@
 package composition
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 func NewComponentVersion(ctx cpi.ContextProvider, name, vers string) cpi.ComponentVersionAccess {

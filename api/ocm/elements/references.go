@@ -3,7 +3,7 @@ package elements
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/compdesc"
 )
 
 type ReferenceOption interface {

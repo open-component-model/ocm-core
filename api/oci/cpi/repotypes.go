@@ -4,7 +4,7 @@ package cpi
 // ocm.
 
 import (
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type RepositoryTypeVersionScheme = runtime.TypeVersionScheme[RepositorySpec, RepositoryType]

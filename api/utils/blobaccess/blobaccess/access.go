@@ -7,9 +7,9 @@ import (
 	"github.com/mandelsoft/filepath/pkg/filepath"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/utils/blobaccess/bpi"
-	"github.com/open-component-model/ocm/api/utils/iotools"
-	mimetypes "github.com/open-component-model/ocm/api/utils/mime"
+	"ocm.software/ocm-core/api/utils/blobaccess/bpi"
+	"ocm.software/ocm-core/api/utils/iotools"
+	mimetypes "ocm.software/ocm-core/api/utils/mime"
 )
 
 type bytesAccess struct {

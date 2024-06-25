@@ -12,8 +12,8 @@ import (
 	"github.com/mandelsoft/goutils/generics"
 	"github.com/modern-go/reflect2"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/errkind"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/errkind"
 )
 
 var (

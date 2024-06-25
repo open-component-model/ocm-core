@@ -7,7 +7,7 @@ import (
 
 	parse "github.com/mandelsoft/spiff/dynaml/x509"
 
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
 )
 
 // Deprecated: use signutils.GetCertificate.

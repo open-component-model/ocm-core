@@ -3,7 +3,7 @@ package processing
 import (
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/cmds/ocm/common/data"
+	"ocm.software/ocm-core/cmds/ocm/common/data"
 )
 
 type IncrementalProcessingSource interface {

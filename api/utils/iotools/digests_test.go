@@ -8,7 +8,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/utils/iotools"
+	"ocm.software/ocm-core/api/utils/iotools"
 )
 
 var _ = Describe("digests.go tests", func() {

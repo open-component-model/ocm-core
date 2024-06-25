@@ -1,7 +1,7 @@
 package builder
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/composition"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/composition"
 )
 
 const T_OCM_COMPOSITION = "ocm composition repositoryt"

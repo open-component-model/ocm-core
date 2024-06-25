@@ -11,11 +11,11 @@ import (
 	"github.com/mandelsoft/spiff/spiffing"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/config"
-	configcfg "github.com/open-component-model/ocm/api/config/extensions/config"
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/ocm/ocmutils/defaultconfigregistry"
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/config"
+	configcfg "ocm.software/ocm-core/api/config/extensions/config"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/ocm/ocmutils/defaultconfigregistry"
+	"ocm.software/ocm-core/api/utils"
 )
 
 const DEFAULT_OCM_CONFIG = ".ocmconfig"

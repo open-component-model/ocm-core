@@ -25,7 +25,7 @@ import (
 	"golang.org/x/exp/slices"
 	"sigs.k8s.io/yaml"
 
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 // PrintPrettyYaml prints the given objects as yaml if enabled.

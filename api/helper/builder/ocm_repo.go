@@ -1,10 +1,10 @@
 package builder
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/genericocireg"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/ocireg"
-	ocm "github.com/open-component-model/ocm/api/ocm/types"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/genericocireg"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/ocireg"
+	ocm "ocm.software/ocm-core/api/ocm/types"
 )
 
 const T_OCMREPOSITORY = "ocm repository"

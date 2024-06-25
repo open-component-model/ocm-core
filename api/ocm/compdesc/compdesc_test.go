@@ -7,8 +7,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	compdescv3 "github.com/open-component-model/ocm/api/ocm/compdesc/versions/ocm.software/v3alpha1"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	compdescv3 "ocm.software/ocm-core/api/ocm/compdesc/versions/ocm.software/v3alpha1"
 )
 
 func NormalizeYAML(y string) string {

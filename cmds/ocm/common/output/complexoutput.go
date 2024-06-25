@@ -3,13 +3,13 @@ package output
 import (
 	"fmt"
 
-	. "github.com/open-component-model/ocm/api/utils/out"
-	. "github.com/open-component-model/ocm/cmds/ocm/common/processing"
+	. "ocm.software/ocm-core/api/utils/out"
+	. "ocm.software/ocm-core/cmds/ocm/common/processing"
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 type ComplexProcessingOutput struct {

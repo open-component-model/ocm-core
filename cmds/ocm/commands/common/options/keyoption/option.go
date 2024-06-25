@@ -3,11 +3,11 @@ package keyoption
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/ocm"
-	ocmsign "github.com/open-component-model/ocm/api/ocm/tools/signing"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/signutils"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
+	"ocm.software/ocm-core/api/ocm"
+	ocmsign "ocm.software/ocm-core/api/ocm/tools/signing"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/signutils"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
 )
 
 func From(o options.OptionSetProvider) *Option {

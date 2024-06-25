@@ -4,8 +4,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/utils/listformat"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/utils/listformat"
 )
 
 type DefaultConfigHandler func(cfg config.Context) (string, config.Config, error)

@@ -1,7 +1,7 @@
 package blobaccess
 
 import (
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 // DataAccessForBytes wraps a bytes slice into a DataAccess.

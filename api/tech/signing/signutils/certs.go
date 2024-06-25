@@ -15,7 +15,7 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/modern-go/reflect2"
 
-	"github.com/open-component-model/ocm/api/utils"
+	"ocm.software/ocm-core/api/utils"
 )
 
 type Usages []interface{}

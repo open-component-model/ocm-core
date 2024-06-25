@@ -11,7 +11,7 @@ import (
 	"github.com/mandelsoft/goutils/general"
 	"github.com/mandelsoft/goutils/maputils"
 
-	"github.com/open-component-model/ocm/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing"
 )
 
 var Type = normalization{}

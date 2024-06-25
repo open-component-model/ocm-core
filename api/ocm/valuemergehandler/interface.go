@@ -1,13 +1,13 @@
 package valuemergehandler
 
 import (
-	_ "github.com/open-component-model/ocm/api/ocm/valuemergehandler/config"
-	_ "github.com/open-component-model/ocm/api/ocm/valuemergehandler/handlers"
+	_ "ocm.software/ocm-core/api/ocm/valuemergehandler/config"
+	_ "ocm.software/ocm-core/api/ocm/valuemergehandler/handlers"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/hpi"
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/internal"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/hpi"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/internal"
 )
 
 type (

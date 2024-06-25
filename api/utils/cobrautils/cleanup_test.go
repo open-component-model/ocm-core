@@ -5,7 +5,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/utils/cobrautils"
+	"ocm.software/ocm-core/api/utils/cobrautils"
 )
 
 var _ = Describe("processing buffer", func() {

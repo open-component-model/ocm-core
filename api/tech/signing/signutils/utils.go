@@ -19,8 +19,8 @@ import (
 	"github.com/modern-go/reflect2"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 func privateKey(block *pem.Block) (interface{}, error) {

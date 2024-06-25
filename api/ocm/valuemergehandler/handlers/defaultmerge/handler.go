@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	// special case to resolve dependency cycles.
-	hpi "github.com/open-component-model/ocm/api/ocm/valuemergehandler/internal"
+	hpi "ocm.software/ocm-core/api/ocm/valuemergehandler/internal"
 )
 
 const ALGORITHM = "default"

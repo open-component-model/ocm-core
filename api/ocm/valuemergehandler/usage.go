@@ -1,8 +1,8 @@
 package valuemergehandler
 
 import (
-	"github.com/open-component-model/ocm/api/ocm"
-	"github.com/open-component-model/ocm/api/utils/listformat"
+	"ocm.software/ocm-core/api/ocm"
+	"ocm.software/ocm-core/api/utils/listformat"
 )
 
 func Usage(ctx ocm.Context) string {

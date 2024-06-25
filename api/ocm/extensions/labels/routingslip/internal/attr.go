@@ -1,13 +1,13 @@
 package internal
 
 import (
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm/cpi"
 )
 
 ////////////////////////////////////////////////////////////////////////////////
 
-const ATTR_ROUTINGSLIP_ENTRYTYPES = "github.com/open-component-model/ocm/api/ocm/extensions/labels/routingslip"
+const ATTR_ROUTINGSLIP_ENTRYTYPES = "ocm.software/ocm-core/api/ocm/extensions/labels/routingslip"
 
 func For(ctx cpi.ContextProvider) EntryTypeScheme {
 	if ctx == nil {

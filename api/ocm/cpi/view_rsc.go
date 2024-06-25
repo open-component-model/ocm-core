@@ -5,13 +5,13 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/ocm/cpi/accspeccpi"
-	cpi "github.com/open-component-model/ocm/api/ocm/internal"
-	"github.com/open-component-model/ocm/api/ocm/plugin/descriptor"
-	ocm "github.com/open-component-model/ocm/api/ocm/types"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/cpi/accspeccpi"
+	cpi "ocm.software/ocm-core/api/ocm/internal"
+	"ocm.software/ocm-core/api/ocm/plugin/descriptor"
+	ocm "ocm.software/ocm-core/api/ocm/types"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

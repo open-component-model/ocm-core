@@ -8,12 +8,12 @@ import (
 	"github.com/mandelsoft/goutils/set"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/datacontext/action/api"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/options"
-	"github.com/open-component-model/ocm/api/ocm/plugin/descriptor"
-	utils2 "github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/semverutils"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/datacontext/action/api"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/options"
+	"ocm.software/ocm-core/api/ocm/plugin/descriptor"
+	utils2 "ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/semverutils"
 )
 
 func DescribePluginDescriptor(reg api.ActionTypeRegistry, d *descriptor.Descriptor, out common.Printer) {

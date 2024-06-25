@@ -1,7 +1,7 @@
 package ocireg
 
 import (
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
 )
 
 var REALM = ocmlog.DefineSubRealm("OCI repository handling", "oci", "ocireg")

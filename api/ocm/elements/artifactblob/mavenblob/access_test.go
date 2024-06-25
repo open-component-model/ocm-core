@@ -4,14 +4,14 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
+	. "ocm.software/ocm-core/api/helper/builder"
 
-	"github.com/open-component-model/ocm/api/ocm/elements"
-	me "github.com/open-component-model/ocm/api/ocm/elements/artifactblob/mavenblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/composition"
-	"github.com/open-component-model/ocm/api/ocm/extensions/resourcetypes"
-	"github.com/open-component-model/ocm/api/tech/maven"
-	"github.com/open-component-model/ocm/api/tech/maven/maventest"
+	"ocm.software/ocm-core/api/ocm/elements"
+	me "ocm.software/ocm-core/api/ocm/elements/artifactblob/mavenblob"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/composition"
+	"ocm.software/ocm-core/api/ocm/extensions/resourcetypes"
+	"ocm.software/ocm-core/api/tech/maven"
+	"ocm.software/ocm-core/api/tech/maven/maventest"
 )
 
 const (

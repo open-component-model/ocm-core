@@ -6,8 +6,8 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/cmds/ocm/common/tree"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/cmds/ocm/common/tree"
 )
 
 type Elem struct {

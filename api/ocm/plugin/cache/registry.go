@@ -3,8 +3,8 @@ package cache
 import (
 	"github.com/mandelsoft/goutils/set"
 
-	"github.com/open-component-model/ocm/api/ocm/ocmutils/registry"
-	"github.com/open-component-model/ocm/api/ocm/plugin/descriptor"
+	"ocm.software/ocm-core/api/ocm/ocmutils/registry"
+	"ocm.software/ocm-core/api/ocm/plugin/descriptor"
 )
 
 type ConstraintRegistry[T any, K registry.Key[K]] struct {

@@ -8,12 +8,12 @@ import (
 	"github.com/mandelsoft/goutils/general"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/ocmutils/registry"
-	"github.com/open-component-model/ocm/api/utils/registrations"
-	"github.com/open-component-model/ocm/api/utils/runtimefinalizer"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/ocmutils/registry"
+	"ocm.software/ocm-core/api/utils/registrations"
+	"ocm.software/ocm-core/api/utils/runtimefinalizer"
 )
 
 const ALL = "*"
@@ -172,7 +172,7 @@ func Register(hdlr Handler, olist ...HandlerOption) {
 
 ////////////////////////////////////////////////////////////////////////////////
 
-const ATTR_DOWNLOADER_HANDLERS = "github.com/open-component-model/ocm/api/ocm/extensions/download"
+const ATTR_DOWNLOADER_HANDLERS = "ocm.software/ocm-core/api/ocm/extensions/download"
 
 func For(ctx cpi.ContextProvider) Registry {
 	if ctx == nil {

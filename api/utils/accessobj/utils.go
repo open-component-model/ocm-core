@@ -5,7 +5,7 @@ import (
 	"github.com/mandelsoft/vfs/pkg/osfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/accessio"
 )
 
 type FilesystemSetup func(fs vfs.FileSystem, mode vfs.FileMode) error

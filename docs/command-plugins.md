@@ -101,7 +101,7 @@ for an automated configuration:
 ```
 import (
         // enable mandelsoft plugin logging configuration.
-	_ "github.com/open-component-model/ocm/pkg/contexts/ocm/plugin/ppi/config"
+	_ "ocm.software/ocm-core/pkg/contexts/ocm/plugin/ppi/config"
 )
 ```
 
@@ -131,7 +131,7 @@ be implemented directly with an anonymous import of
 ```
 import (
         // enable mandelsoft plugin logging configuration.
-	_ "github.com/open-component-model/ocm/pkg/contexts/ocm/plugin/ppi/logging"
+	_ "ocm.software/ocm-core/pkg/contexts/ocm/plugin/ppi/logging"
 )
 ```
 The plugin code is then configured with the logging configuration of the OCM CLI and the mandelsoft logging frame work

@@ -7,10 +7,10 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/cmds/ocm/testhelper"
+	. "ocm.software/ocm-core/cmds/ocm/testhelper"
 
-	compdescv3 "github.com/open-component-model/ocm/api/ocm/compdesc/versions/ocm.software/v3alpha1"
-	"github.com/open-component-model/ocm/api/utils/accessio"
+	compdescv3 "ocm.software/ocm-core/api/ocm/compdesc/versions/ocm.software/v3alpha1"
+	"ocm.software/ocm-core/api/utils/accessio"
 )
 
 const (

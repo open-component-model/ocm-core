@@ -7,8 +7,8 @@ import (
 	logcfg "github.com/mandelsoft/logging/config"
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

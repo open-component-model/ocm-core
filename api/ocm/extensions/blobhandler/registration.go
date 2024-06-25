@@ -3,7 +3,7 @@ package blobhandler
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi"
 )
 
 func RegisterHandlerByName(ctx cpi.ContextProvider, name string, config HandlerConfig, opts ...HandlerOption) error {

@@ -1,6 +1,6 @@
 package mavenaccess
 
-import "github.com/open-component-model/ocm/api/tech/maven"
+import "ocm.software/ocm-core/api/tech/maven"
 
 type (
 	Options = maven.Coordinates

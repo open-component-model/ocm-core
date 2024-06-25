@@ -4,8 +4,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/utils/testutils"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/utils/testutils"
 )
 
 var _ = Describe("normalization", func() {

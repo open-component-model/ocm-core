@@ -6,8 +6,8 @@ import (
 	"github.com/mandelsoft/goutils/generics"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/utils/out"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/utils/out"
 )
 
 type OptionsProcessor func(Options) error

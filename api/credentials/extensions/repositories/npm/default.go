@@ -8,9 +8,9 @@ import (
 	"github.com/mandelsoft/vfs/pkg/osfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/config"
-	credcfg "github.com/open-component-model/ocm/api/credentials/config"
-	"github.com/open-component-model/ocm/api/ocm/ocmutils/defaultconfigregistry"
+	"ocm.software/ocm-core/api/config"
+	credcfg "ocm.software/ocm-core/api/credentials/config"
+	"ocm.software/ocm-core/api/ocm/ocmutils/defaultconfigregistry"
 )
 
 const (

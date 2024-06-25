@@ -3,7 +3,7 @@ package memory
 import (
 	"sync"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
+	"ocm.software/ocm-core/api/credentials/cpi"
 )
 
 type Repository struct {

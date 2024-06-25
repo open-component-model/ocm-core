@@ -1,7 +1,7 @@
 package hpi
 
 import (
-	"github.com/open-component-model/ocm/api/ocm/valuemergehandler/internal"
+	"ocm.software/ocm-core/api/ocm/valuemergehandler/internal"
 )
 
 type EmptyConfig struct{}

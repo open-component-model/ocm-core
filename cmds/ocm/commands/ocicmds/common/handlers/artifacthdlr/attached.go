@@ -7,9 +7,9 @@ import (
 	"github.com/mandelsoft/logging"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/cmds/ocm/common/output"
-	"github.com/open-component-model/ocm/cmds/ocm/common/processing"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/cmds/ocm/common/output"
+	"ocm.software/ocm-core/cmds/ocm/common/processing"
 )
 
 func Attachment(d digest.Digest, suffix string) string {

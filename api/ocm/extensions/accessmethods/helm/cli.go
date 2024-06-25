@@ -1,9 +1,9 @@
 package helm
 
 import (
-	"github.com/open-component-model/ocm/api/credentials/builtin/helm/identity"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/options"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/flagsets"
+	"ocm.software/ocm-core/api/credentials/builtin/helm/identity"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/options"
+	"ocm.software/ocm-core/api/utils/cobrautils/flagsets"
 )
 
 func ConfigHandler() flagsets.ConfigOptionTypeSetHandler {

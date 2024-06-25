@@ -3,16 +3,16 @@ package virtual
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/cpi/accspeccpi"
-	"github.com/open-component-model/ocm/api/ocm/cpi/repocpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localfsblob"
-	ocmhdlr "github.com/open-component-model/ocm/api/ocm/extensions/blobhandler/handlers/ocm"
-	"github.com/open-component-model/ocm/api/utils/accessio"
-	"github.com/open-component-model/ocm/api/utils/errkind"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi/accspeccpi"
+	"ocm.software/ocm-core/api/ocm/cpi/repocpi"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localblob"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localfsblob"
+	ocmhdlr "ocm.software/ocm-core/api/ocm/extensions/blobhandler/handlers/ocm"
+	"ocm.software/ocm-core/api/utils/accessio"
+	"ocm.software/ocm-core/api/utils/errkind"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 // newComponentVersionAccess creates a component access for the artifact access, if this fails the artifact acess is closed.

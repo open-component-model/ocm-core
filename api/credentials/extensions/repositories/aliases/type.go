@@ -3,8 +3,8 @@ package aliases
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/credentials/cpi"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/credentials/cpi"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

@@ -3,8 +3,8 @@ package testhelper
 import (
 	"github.com/mandelsoft/logging"
 
-	ocmlog "github.com/open-component-model/ocm/api/utils/logging"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	ocmlog "ocm.software/ocm-core/api/utils/logging"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 func EnableRefMgmtLog() {

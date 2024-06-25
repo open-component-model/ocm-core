@@ -1,10 +1,10 @@
 package artifacthdlr
 
 import (
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/oci"
-	"github.com/open-component-model/ocm/api/utils/out"
-	"github.com/open-component-model/ocm/cmds/ocm/common/output"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/oci"
+	"ocm.software/ocm-core/api/utils/out"
+	"ocm.software/ocm-core/cmds/ocm/common/output"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

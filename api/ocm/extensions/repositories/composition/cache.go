@@ -6,12 +6,12 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/goutils/finalizer"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
-const ATTR_REPOS = "github.com/open-component-model/ocm/api/ocm/extensions/repositories/composition"
+const ATTR_REPOS = "ocm.software/ocm-core/api/ocm/extensions/repositories/composition"
 
 type Repositories struct {
 	lock  sync.Mutex

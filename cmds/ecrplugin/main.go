@@ -3,11 +3,11 @@ package main
 import (
 	"os"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds"
-	"github.com/open-component-model/ocm/api/version"
-	"github.com/open-component-model/ocm/cmds/ecrplugin/actions"
-	"github.com/open-component-model/ocm/cmds/ecrplugin/config"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds"
+	"ocm.software/ocm-core/api/version"
+	"ocm.software/ocm-core/cmds/ecrplugin/actions"
+	"ocm.software/ocm-core/cmds/ecrplugin/config"
 )
 
 func main() {

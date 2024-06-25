@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds"
-	"github.com/open-component-model/ocm/api/version"
-	"github.com/open-component-model/ocm/hack/generate-docs/cobradoc"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds"
+	"ocm.software/ocm-core/api/version"
+	"ocm.software/ocm-core/hack/generate-docs/cobradoc"
 )
 
 func main() {

@@ -3,8 +3,8 @@ package logging
 import (
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi/cmds"
-	"github.com/open-component-model/ocm/api/utils/cobrautils/logopts/logging"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi/cmds"
+	"ocm.software/ocm-core/api/utils/cobrautils/logopts/logging"
 )
 
 func init() {

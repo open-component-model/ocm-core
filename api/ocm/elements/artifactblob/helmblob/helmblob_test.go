@@ -3,14 +3,14 @@ package helmblob_test
 import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
-	. "github.com/open-component-model/ocm/api/helper/builder"
+	. "ocm.software/ocm-core/api/helper/builder"
 
-	"github.com/open-component-model/ocm/api/helper/env"
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	me "github.com/open-component-model/ocm/api/ocm/elements/artifactblob/helmblob"
-	ctfocm "github.com/open-component-model/ocm/api/ocm/extensions/repositories/ctf"
-	"github.com/open-component-model/ocm/api/utils/accessobj"
+	"ocm.software/ocm-core/api/helper/env"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	me "ocm.software/ocm-core/api/ocm/elements/artifactblob/helmblob"
+	ctfocm "ocm.software/ocm-core/api/ocm/extensions/repositories/ctf"
+	"ocm.software/ocm-core/api/utils/accessobj"
 )
 
 var _ = Describe("", func() {

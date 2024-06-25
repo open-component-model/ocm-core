@@ -974,7 +974,7 @@ There are several templaters that can be selected by the <code>--templater</code
 ### Examples
 
 ```
-$ ocm add source-config sources.yaml --name sources --type filesystem --access '{ "type": "gitHub", "repoUrl": "github.com/open-component-model/ocm", "commit": "xyz" }'
+$ ocm add source-config sources.yaml --name sources --type filesystem --access '{ "type": "gitHub", "repoUrl": "ocm.software/ocm-core", "commit": "xyz" }'
 ```
 
 ### SEE ALSO

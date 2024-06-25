@@ -3,7 +3,7 @@ package grammar
 import (
 	. "github.com/mandelsoft/goutils/regexutils"
 
-	"github.com/open-component-model/ocm/api/oci/grammar"
+	"ocm.software/ocm-core/api/oci/grammar"
 )
 
 const (

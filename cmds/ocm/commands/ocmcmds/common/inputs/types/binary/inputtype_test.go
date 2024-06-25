@@ -2,11 +2,11 @@ package binary
 
 import (
 	. "github.com/onsi/ginkgo/v2"
-	. "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/testutils"
+	. "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/testutils"
 
-	"github.com/open-component-model/ocm/api/utils/runtime"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/common/inputs/options"
+	"ocm.software/ocm-core/api/utils/runtime"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/cpi"
+	"ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/common/inputs/options"
 )
 
 var _ = Describe("Input Type", func() {

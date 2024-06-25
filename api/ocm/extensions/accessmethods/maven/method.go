@@ -5,13 +5,13 @@ import (
 
 	"github.com/mandelsoft/goutils/optionutils"
 
-	"github.com/open-component-model/ocm/api/credentials/builtin/maven/identity"
-	"github.com/open-component-model/ocm/api/datacontext/attrs/vfsattr"
-	"github.com/open-component-model/ocm/api/ocm/cpi/accspeccpi"
-	"github.com/open-component-model/ocm/api/tech/maven"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
-	mavenblob "github.com/open-component-model/ocm/api/utils/blobaccess/maven"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/credentials/builtin/maven/identity"
+	"ocm.software/ocm-core/api/datacontext/attrs/vfsattr"
+	"ocm.software/ocm-core/api/ocm/cpi/accspeccpi"
+	"ocm.software/ocm-core/api/tech/maven"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
+	mavenblob "ocm.software/ocm-core/api/utils/blobaccess/maven"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 // Type is the access type of Maven repository.

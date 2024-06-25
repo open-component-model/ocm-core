@@ -5,7 +5,7 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 
-	"github.com/open-component-model/ocm/api/oci/extensions/repositories/artifactset"
+	"ocm.software/ocm-core/api/oci/extensions/repositories/artifactset"
 )
 
 func TestForAllFormats(msg string, f func(fmt string)) {

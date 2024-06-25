@@ -7,13 +7,13 @@ import (
 	"time"
 
 	// bind OCM configuration.
-	_ "github.com/open-component-model/ocm/api/ocm/plugin/ppi/config"
+	_ "ocm.software/ocm-core/api/ocm/plugin/ppi/config"
 
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/logging"
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/ocm"
+	"ocm.software/ocm-core/api/ocm"
 )
 
 const Name = "check"

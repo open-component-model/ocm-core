@@ -9,10 +9,10 @@ import (
 	"github.com/mandelsoft/logging"
 	"github.com/modern-go/reflect2"
 
-	"github.com/open-component-model/ocm/api/datacontext/action/handlers"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
-	"github.com/open-component-model/ocm/api/utils/refmgmt/finalized"
-	"github.com/open-component-model/ocm/api/utils/runtimefinalizer"
+	"ocm.software/ocm-core/api/datacontext/action/handlers"
+	"ocm.software/ocm-core/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/utils/refmgmt/finalized"
+	"ocm.software/ocm-core/api/utils/runtimefinalizer"
 )
 
 // NewContextBase creates a context base implementation supporting

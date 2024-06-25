@@ -7,7 +7,7 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/clictx"
+	"ocm.software/ocm-core/api/clictx"
 )
 
 func FileInfo(ctx clictx.Context, path string, inputFilePath string) (os.FileInfo, string, error) {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/mandelsoft/goutils/optionutils"
 
-	me "github.com/open-component-model/ocm/api/tech/maven"
+	me "ocm.software/ocm-core/api/tech/maven"
 )
 
 var _ = Describe("Maven Test Environment", func() {

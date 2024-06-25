@@ -3,8 +3,8 @@ package artifacthdlr
 import (
 	"strings"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/cmds/ocm/common/processing"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/cmds/ocm/common/processing"
 )
 
 func Compare(a, b interface{}) int {

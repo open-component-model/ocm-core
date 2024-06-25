@@ -9,14 +9,14 @@ import (
 
 	"github.com/mandelsoft/goutils/testutils"
 
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/credentials"
-	localconfig "github.com/open-component-model/ocm/api/credentials/config"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/aliases"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/directcreds"
-	"github.com/open-component-model/ocm/api/credentials/extensions/repositories/memory"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/credentials"
+	localconfig "ocm.software/ocm-core/api/credentials/config"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/aliases"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/directcreds"
+	"ocm.software/ocm-core/api/credentials/extensions/repositories/memory"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 var DefaultContext = credentials.New()

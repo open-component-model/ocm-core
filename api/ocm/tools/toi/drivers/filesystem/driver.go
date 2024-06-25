@@ -9,7 +9,7 @@ import (
 	"github.com/mandelsoft/vfs/pkg/vfs"
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-component-model/ocm/api/ocm/tools/toi/install"
+	"ocm.software/ocm-core/api/ocm/tools/toi/install"
 )
 
 const OptionTargetPath = "TARGET_PATH"

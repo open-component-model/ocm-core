@@ -1,9 +1,9 @@
 package rsa_pss_signingservice
 
 import (
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/tech/signing/handlers/rsa-pss"
-	rsa_signingservice "github.com/open-component-model/ocm/api/tech/signing/handlers/rsa-signingservice"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/tech/signing/handlers/rsa-pss"
+	rsa_signingservice "ocm.software/ocm-core/api/tech/signing/handlers/rsa-signingservice"
 )
 
 // Algorithm defines the type for the RSA PKCS #1 v1.5 signature algorithm.

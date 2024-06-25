@@ -5,10 +5,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	common2 "github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/datacontext/action"
-	"github.com/open-component-model/ocm/api/ocm/plugin/common"
-	"github.com/open-component-model/ocm/api/ocm/plugin/ppi"
+	common2 "ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/datacontext/action"
+	"ocm.software/ocm-core/api/ocm/plugin/common"
+	"ocm.software/ocm-core/api/ocm/plugin/ppi"
 )
 
 const NAME = "describe"

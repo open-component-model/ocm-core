@@ -10,13 +10,13 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/mandelsoft/goutils/general"
 
-	"github.com/open-component-model/ocm/api/credentials"
-	"github.com/open-component-model/ocm/api/datacontext"
-	"github.com/open-component-model/ocm/api/oci"
-	ocicpi "github.com/open-component-model/ocm/api/oci/cpi"
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/cpi/repocpi"
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/genericocireg/componentmapping"
+	"ocm.software/ocm-core/api/credentials"
+	"ocm.software/ocm-core/api/datacontext"
+	"ocm.software/ocm-core/api/oci"
+	ocicpi "ocm.software/ocm-core/api/oci/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/cpi/repocpi"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/genericocireg/componentmapping"
 )
 
 type OCIBasedRepository interface {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 func NewBlobAccessForBase(acc BlobAccessBase, closer ...io.Closer) BlobAccess {

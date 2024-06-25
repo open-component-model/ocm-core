@@ -1,7 +1,7 @@
 package clictx
 
 import (
-	"github.com/open-component-model/ocm/api/clictx/internal"
+	"ocm.software/ocm-core/api/clictx/internal"
 )
 
 type (

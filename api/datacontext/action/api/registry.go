@@ -7,8 +7,8 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

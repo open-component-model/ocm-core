@@ -6,7 +6,7 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
 type NamespaceContainer interface {

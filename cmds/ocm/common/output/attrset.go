@@ -3,7 +3,7 @@ package output
 import (
 	"fmt"
 
-	"github.com/open-component-model/ocm/api/utils/out"
+	"ocm.software/ocm-core/api/utils/out"
 )
 
 type AttributeSet struct {

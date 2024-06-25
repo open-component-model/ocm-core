@@ -7,7 +7,7 @@ import (
 
 	"github.com/Masterminds/semver/v3"
 
-	"github.com/open-component-model/ocm/api/ocm/extensions/repositories/genericocireg"
+	"ocm.software/ocm-core/api/ocm/extensions/repositories/genericocireg"
 )
 
 const META_SEPARATOR = genericocireg.META_SEPARATOR

@@ -4,9 +4,9 @@ import (
 	"github.com/mandelsoft/goutils/optionutils"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/ocm/cpi"
-	"github.com/open-component-model/ocm/api/ocm/elements/artifactblob/api"
-	base "github.com/open-component-model/ocm/api/utils/blobaccess/dirtree"
+	"ocm.software/ocm-core/api/ocm/cpi"
+	"ocm.software/ocm-core/api/ocm/elements/artifactblob/api"
+	base "ocm.software/ocm-core/api/utils/blobaccess/dirtree"
 )
 
 type Option = optionutils.Option[*Options]

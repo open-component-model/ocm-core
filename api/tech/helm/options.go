@@ -1,8 +1,8 @@
 package helm
 
 import (
-	"github.com/open-component-model/ocm/api/common/common"
-	"github.com/open-component-model/ocm/api/credentials/builtin/helm/identity"
+	"ocm.software/ocm-core/api/common/common"
+	"ocm.software/ocm-core/api/credentials/builtin/helm/identity"
 )
 
 type Option interface {

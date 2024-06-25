@@ -3,14 +3,14 @@ package compdesc_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/ocm/compdesc/equivalent/testhelper"
+	. "ocm.software/ocm-core/api/ocm/compdesc/equivalent/testhelper"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc"
-	"github.com/open-component-model/ocm/api/ocm/compdesc/equivalent"
-	v1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/localblob"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/none"
-	"github.com/open-component-model/ocm/api/ocm/extensions/accessmethods/ociartifact"
+	"ocm.software/ocm-core/api/ocm/compdesc"
+	"ocm.software/ocm-core/api/ocm/compdesc/equivalent"
+	v1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/localblob"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/none"
+	"ocm.software/ocm-core/api/ocm/extensions/accessmethods/ociartifact"
 )
 
 var _ = Describe("equivalence", func() {

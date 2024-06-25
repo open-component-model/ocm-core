@@ -7,8 +7,8 @@ import (
 	"github.com/containerd/containerd/pkg/atomic"
 	"github.com/mandelsoft/logging"
 
-	"github.com/open-component-model/ocm/api/utils/panics"
-	"github.com/open-component-model/ocm/cmds/ocm/common/data"
+	"ocm.software/ocm-core/api/utils/panics"
+	"ocm.software/ocm-core/cmds/ocm/common/data"
 )
 
 type Index = IndexArray

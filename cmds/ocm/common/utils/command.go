@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	"github.com/open-component-model/ocm/api/utils/cobrautils"
-	"github.com/open-component-model/ocm/cmds/ocm/common/options"
+	"ocm.software/ocm-core/api/clictx"
+	"ocm.software/ocm-core/api/utils/cobrautils"
+	"ocm.software/ocm-core/cmds/ocm/common/options"
 )
 
 // OCMCommand is a command pattern, that can be instantiated for a dediated

@@ -3,13 +3,13 @@ package transfer
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	artifacts "github.com/open-component-model/ocm/cmds/ocm/commands/ocicmds/artifacts/transfer"
-	comparch "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/componentarchive/transfer"
-	components "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/components/transfer"
-	ctf "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/ctf/transfer"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	artifacts "ocm.software/ocm-core/cmds/ocm/commands/ocicmds/artifacts/transfer"
+	comparch "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/componentarchive/transfer"
+	components "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/components/transfer"
+	ctf "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/ctf/transfer"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 // NewCommand creates a new command.

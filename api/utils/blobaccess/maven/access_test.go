@@ -6,12 +6,12 @@ import (
 	. "github.com/mandelsoft/goutils/testutils"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/api/helper/builder"
+	. "ocm.software/ocm-core/api/helper/builder"
 
-	"github.com/open-component-model/ocm/api/tech/maven"
-	"github.com/open-component-model/ocm/api/tech/maven/maventest"
-	me "github.com/open-component-model/ocm/api/utils/blobaccess/maven"
-	"github.com/open-component-model/ocm/api/utils/tarutils"
+	"ocm.software/ocm-core/api/tech/maven"
+	"ocm.software/ocm-core/api/tech/maven/maventest"
+	me "ocm.software/ocm-core/api/utils/blobaccess/maven"
+	"ocm.software/ocm-core/api/utils/tarutils"
 )
 
 const (

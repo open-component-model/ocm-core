@@ -3,8 +3,8 @@ package install
 import (
 	"io"
 
-	"github.com/open-component-model/ocm/api/ocm/tools/toi"
-	"github.com/open-component-model/ocm/api/utils/blobaccess/blobaccess"
+	"ocm.software/ocm-core/api/ocm/tools/toi"
+	"ocm.software/ocm-core/api/utils/blobaccess/blobaccess"
 )
 
 const (

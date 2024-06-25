@@ -9,8 +9,8 @@ import (
 
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/datacontext"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/datacontext"
 )
 
 var _ = Describe("config handling", func() {

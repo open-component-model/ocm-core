@@ -8,7 +8,7 @@ import (
 
 	"github.com/Masterminds/semver/v3"
 
-	"github.com/open-component-model/ocm"
+	"ocm.software/ocm-core"
 )
 
 var (

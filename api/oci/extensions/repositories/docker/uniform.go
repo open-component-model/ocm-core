@@ -1,7 +1,7 @@
 package docker
 
 import (
-	"github.com/open-component-model/ocm/api/oci/cpi"
+	"ocm.software/ocm-core/api/oci/cpi"
 )
 
 func init() {

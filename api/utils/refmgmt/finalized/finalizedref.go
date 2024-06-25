@@ -3,8 +3,8 @@ package finalized
 import (
 	"runtime"
 
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
-	"github.com/open-component-model/ocm/api/utils/runtimefinalizer"
+	"ocm.software/ocm-core/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/utils/runtimefinalizer"
 )
 
 type FinalizedRef struct {

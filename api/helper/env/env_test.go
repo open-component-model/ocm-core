@@ -7,7 +7,7 @@ import (
 	"github.com/mandelsoft/vfs/pkg/osfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/ocm"
+	"ocm.software/ocm-core/api/ocm"
 )
 
 var _ = Describe("Environment", func() {

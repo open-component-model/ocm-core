@@ -3,7 +3,7 @@ package add_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/open-component-model/ocm/cmds/ocm/testhelper"
+	. "ocm.software/ocm-core/cmds/ocm/testhelper"
 
 	"github.com/mandelsoft/goutils/testutils"
 )
@@ -56,7 +56,7 @@ type: PlainText
 		It("defaults artifact type", func() {
 			access := `
 type: gitHub
-repoUrl: github.com/open-component-model/ocm
+repoUrl: ocm.software/ocm-core
 commit: xxx
 `
 			Expect(env.Execute("add", "sourceconfig", SPECFILE, "--name", "sources", "--access", access)).To(Succeed())
@@ -64,7 +64,7 @@ commit: xxx
 ---
 access:
   commit: xxx
-  repoUrl: github.com/open-component-model/ocm
+  repoUrl: ocm.software/ocm-core
   type: gitHub
 name: sources
 type: directoryTree

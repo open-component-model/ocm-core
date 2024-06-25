@@ -12,7 +12,7 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/open-component-model/ocm/api/utils/cobrautils/groups"
+	"ocm.software/ocm-core/api/utils/cobrautils/groups"
 )
 
 var templatefuncs = map[string]interface{}{

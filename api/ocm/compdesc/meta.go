@@ -3,7 +3,7 @@ package compdesc
 import (
 	"time"
 
-	metav1 "github.com/open-component-model/ocm/api/ocm/compdesc/meta/v1"
+	metav1 "ocm.software/ocm-core/api/ocm/compdesc/meta/v1"
 )
 
 type (

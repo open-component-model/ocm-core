@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	. "github.com/open-component-model/ocm/api/utils/out"
+	. "ocm.software/ocm-core/api/utils/out"
 )
 
 func FormatTable(ctx Context, gap string, data [][]string) {

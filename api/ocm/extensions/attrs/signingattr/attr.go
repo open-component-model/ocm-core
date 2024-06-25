@@ -3,10 +3,10 @@ package signingattr
 import (
 	"github.com/mandelsoft/goutils/errors"
 
-	"github.com/open-component-model/ocm/api/datacontext"
-	ocm "github.com/open-component-model/ocm/api/ocm/types"
-	"github.com/open-component-model/ocm/api/tech/signing"
-	"github.com/open-component-model/ocm/api/utils/runtime"
+	"ocm.software/ocm-core/api/datacontext"
+	ocm "ocm.software/ocm-core/api/ocm/types"
+	"ocm.software/ocm-core/api/tech/signing"
+	"ocm.software/ocm-core/api/utils/runtime"
 )
 
 const (

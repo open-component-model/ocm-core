@@ -4,8 +4,8 @@ import (
 	"github.com/mandelsoft/goutils/errors"
 	"github.com/opencontainers/go-digest"
 
-	"github.com/open-component-model/ocm/api/utils"
-	"github.com/open-component-model/ocm/api/utils/refmgmt"
+	"ocm.software/ocm-core/api/utils"
+	"ocm.software/ocm-core/api/utils/refmgmt"
 )
 
 var ErrClosed = refmgmt.ErrClosed

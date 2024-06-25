@@ -4,8 +4,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/config"
-	"github.com/open-component-model/ocm/api/config/internal"
+	"ocm.software/ocm-core/api/config"
+	"ocm.software/ocm-core/api/config/internal"
 )
 
 var _ = Describe("setup", func() {

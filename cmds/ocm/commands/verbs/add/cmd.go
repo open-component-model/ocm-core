@@ -3,16 +3,16 @@ package add
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/open-component-model/ocm/api/clictx"
-	components "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/components/add"
-	references "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/references/add"
-	resourceconfig "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/resourceconfig/add"
-	resources "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/resources/add"
-	routingslips "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/routingslips/add"
-	sourceconfig "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/sourceconfig/add"
-	sources "github.com/open-component-model/ocm/cmds/ocm/commands/ocmcmds/sources/add"
-	"github.com/open-component-model/ocm/cmds/ocm/commands/verbs"
-	"github.com/open-component-model/ocm/cmds/ocm/common/utils"
+	"ocm.software/ocm-core/api/clictx"
+	components "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/components/add"
+	references "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/references/add"
+	resourceconfig "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/resourceconfig/add"
+	resources "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/resources/add"
+	routingslips "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/routingslips/add"
+	sourceconfig "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/sourceconfig/add"
+	sources "ocm.software/ocm-core/cmds/ocm/commands/ocmcmds/sources/add"
+	"ocm.software/ocm-core/cmds/ocm/commands/verbs"
+	"ocm.software/ocm-core/cmds/ocm/common/utils"
 )
 
 // NewCommand creates a new command.

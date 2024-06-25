@@ -3,7 +3,7 @@ package testhelper
 import (
 	. "github.com/onsi/gomega"
 
-	"github.com/open-component-model/ocm/api/ocm/compdesc/equivalent"
+	"ocm.software/ocm-core/api/ocm/compdesc/equivalent"
 )
 
 func CheckEquivalent(eq equivalent.EqualState) {

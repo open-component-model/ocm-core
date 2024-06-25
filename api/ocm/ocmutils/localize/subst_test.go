@@ -7,9 +7,9 @@ import (
 	"github.com/mandelsoft/vfs/pkg/projectionfs"
 	"github.com/mandelsoft/vfs/pkg/vfs"
 
-	"github.com/open-component-model/ocm/api/helper/builder"
-	env2 "github.com/open-component-model/ocm/api/helper/env"
-	"github.com/open-component-model/ocm/api/ocm/ocmutils/localize"
+	"ocm.software/ocm-core/api/helper/builder"
+	env2 "ocm.software/ocm-core/api/helper/env"
+	"ocm.software/ocm-core/api/ocm/ocmutils/localize"
 )
 
 var _ = Describe("value substitution in filesystem", func() {
